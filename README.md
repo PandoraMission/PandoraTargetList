@@ -7,12 +7,12 @@ Repository showing the current ranked list of Pandora targets used by the missio
 
 ``pandora_targets.csv`` contains a list of targets that fall within the parameters for the Pandora mission. Current parameters are:
 
-7.0 < Jmag < 11.5
-Hmag < 11.0
-Orbital period < 36 days
-Host star Teff < 5300 Kelvin
-TSM > 1
-Assuming 5 scale heights (5H) in calculation of expected spectral feature size
+7.0 < Jmag < 11.5<br>
+Hmag < 11.0<br>
+Orbital period < 36 days<br>
+Host star Teff < 5300 Kelvin<br>
+TSM > 1<br>
+Assuming 5 scale heights (5H) in calculation of expected spectral feature size<br>
 Composite Table of the NASA Exoplanet Archive queried
 
 All column headers correspond to those of the NASA Exoplanet Archive. Further descriptions of these columns can be found at the [documentation pages](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html).
