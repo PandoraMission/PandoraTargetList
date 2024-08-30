@@ -9,7 +9,7 @@ Repository showing the current ranked list of Pandora targets used by the missio
 
 7.0 < Jmag < 11.5<br>
 Hmag < 11.0<br>
-Orbital period < 36 days<br>
+Orbital period < 18 days<br>
 Host star Teff < 5300 Kelvin<br>
 TSM > 1<br>
 Assuming 5 scale heights (5H) in calculation of expected spectral feature size<br>
