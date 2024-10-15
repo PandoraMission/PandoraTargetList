@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "name": "Pandora VDA Readout Schemes",
+        "description": "This file contains different readout schemes for Pandora VDA.",
+        "author": "Tom Barclay",
+        "date_created": "2024-10-09"
+    },
+    "data": {
+        "all_frames": {
+            "FramesPerCoadd": 1,
+            "ExposureTime_us": 200000,
+            "IntegrationTime": 0.2
+        },
+        "coadd_5": {
+            "FramesPerCoadd": 5,
+            "ExposureTime_us": 200000,
+            "IntegrationTime": 1.0
+        },
+        "coadd_50": {
+            "FramesPerCoadd": 50,
+            "ExposureTime_us": 200000,
+            "IntegrationTime": 10.0
+        }
+    }
+}
