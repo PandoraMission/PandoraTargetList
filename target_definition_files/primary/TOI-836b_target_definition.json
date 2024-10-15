@@ -1,0 +1,35 @@
+{
+    "Time Created": "2024-10-15 22:28:22",
+    "Version": "0.1.0",
+    "Author": "Ben Hord",
+    "Planet Name": "TOI-836b",
+    "Star Name": "TOI-836",
+    "Number of Transits to Capture": 10,
+    "RA": 225.07931765803684,
+    "DEC": -24.454274421764485,
+    "coord_epoch": "J2016.0",
+    "pm_RA": -199.48620543002298,
+    "pm_DEC": -27.99696729496898,
+    "Jmag": 7.579999923706055,
+    "Gmag": 9.40713882446289,
+    "Teff (K)": 4248.3759765625,
+    "logg": 4.607699871063232,
+    "Planet Letter": "b",
+    "Period (days)": 3.81673,
+    "Period Uncertainty (days)": 1e-05,
+    "Transit Duration (hrs)": 1.805,
+    "Transit Epoch (BJD_TDB-2400000.5)": 2458599.9953,
+    "Transit Epoch Uncertainty (days)": 0.0019,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 8.59545,
+            "Period Uncertainty (days)": 1e-05,
+            "Transit Duration (hrs)": 2.486,
+            "Transit Epoch (BJD_TDB-2400000.5)": 2458599.7623,
+            "Transit Epoch Uncertainty (days)": 0.0008
+        }
+    ],
+    "VDA Setting": "coadd_5",
+    "NIRDA Setting": "fowler_1"
+}

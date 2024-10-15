@@ -1,0 +1,35 @@
+{
+    "Time Created": "2024-10-15 22:21:44",
+    "Version": "0.1.0",
+    "Author": "Ben Hord",
+    "Planet Name": "WASP-107b",
+    "Star Name": "WASP-107",
+    "Number of Transits to Capture": 10,
+    "RA": 188.3861742509359,
+    "DEC": -10.14623830520531,
+    "coord_epoch": "J2016.0",
+    "pm_RA": -96.66467454101745,
+    "pm_DEC": -9.371773496293272,
+    "Jmag": 9.378000259399414,
+    "Gmag": 11.183328628540039,
+    "Teff (K)": 4233.18505859375,
+    "logg": 3.0,
+    "Planet Letter": "b",
+    "Period (days)": 5.7214742,
+    "Period Uncertainty (days)": NaN,
+    "Transit Duration (hrs)": 2.73864,
+    "Transit Epoch (BJD_TDB-2400000.5)": 2457584.329746,
+    "Transit Epoch Uncertainty (days)": 1.1e-05,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 1088.0,
+            "Period Uncertainty (days)": 15.5,
+            "Transit Duration (hrs)": NaN,
+            "Transit Epoch (BJD_TDB-2400000.5)": NaN,
+            "Transit Epoch Uncertainty (days)": NaN
+        }
+    ],
+    "VDA Setting": "coadd_5",
+    "NIRDA Setting": "fowler_3"
+}

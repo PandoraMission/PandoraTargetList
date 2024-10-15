@@ -1,0 +1,43 @@
+{
+    "Time Created": "2024-10-15 22:30:39",
+    "Version": "0.1.0",
+    "Author": "Ben Hord",
+    "Planet Name": "GJ 9827b",
+    "Star Name": "GJ 9827",
+    "Number of Transits to Capture": 10,
+    "RA": 351.77274666584265,
+    "DEC": -1.2847864799975903,
+    "coord_epoch": "J2016.0",
+    "pm_RA": 375.96943885807656,
+    "pm_DEC": 215.86637895645472,
+    "Jmag": 7.984000205993652,
+    "Gmag": 9.840703964233398,
+    "Teff (K)": 4182.046875,
+    "logg": 4.651299953460693,
+    "Planet Letter": "b",
+    "Period (days)": 1.208974,
+    "Period Uncertainty (days)": 1e-06,
+    "Transit Duration (hrs)": 1.25976,
+    "Transit Epoch (BJD_TDB-2400000.5)": 2457738.82586,
+    "Transit Epoch Uncertainty (days)": 0.00026,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 3.648103,
+            "Period Uncertainty (days)": 1.15e-05,
+            "Transit Duration (hrs)": 1.8264,
+            "Transit Epoch (BJD_TDB-2400000.5)": 2457742.19944,
+            "Transit Epoch Uncertainty (days)": 0.000655
+        },
+        {
+            "Planet Letter": "d",
+            "Period (days)": 6.201812,
+            "Period Uncertainty (days)": 9e-06,
+            "Transit Duration (hrs)": 1.2264,
+            "Transit Epoch (BJD_TDB-2400000.5)": 2457740.9611,
+            "Transit Epoch Uncertainty (days)": 0.00044
+        }
+    ],
+    "VDA Setting": "coadd_5",
+    "NIRDA Setting": "fowler_1"
+}

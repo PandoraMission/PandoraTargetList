@@ -1,0 +1,35 @@
+{
+    "Time Created": "2024-10-15 22:30:04",
+    "Version": "0.1.0",
+    "Author": "Ben Hord",
+    "Planet Name": "TOI-776b",
+    "Star Name": "TOI-776",
+    "Number of Transits to Capture": 10,
+    "RA": 178.5788139624844,
+    "DEC": -37.55373082252969,
+    "coord_epoch": "J2016.0",
+    "pm_RA": 250.9892446259009,
+    "pm_DEC": -144.93988549457026,
+    "Jmag": 8.482999801635742,
+    "Gmag": 10.742868423461914,
+    "Teff (K)": 4002.0,
+    "logg": 3.0,
+    "Planet Letter": "b",
+    "Period (days)": 8.24662,
+    "Period Uncertainty (days)": 2.75e-05,
+    "Transit Duration (hrs)": 2.382,
+    "Transit Epoch (BJD_TDB-2400000.5)": 2459288.8713,
+    "Transit Epoch Uncertainty (days)": 0.0010500000000000002,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 15.665323,
+            "Period Uncertainty (days)": 7.25e-05,
+            "Transit Duration (hrs)": 2.932,
+            "Transit Epoch (BJD_TDB-2400000.5)": 2459324.53478,
+            "Transit Epoch Uncertainty (days)": 0.000785
+        }
+    ],
+    "VDA Setting": "coadd_5",
+    "NIRDA Setting": "fowler_1"
+}
