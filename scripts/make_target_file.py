@@ -1,0 +1,1 @@
+# Script to generate a target file from the command line
