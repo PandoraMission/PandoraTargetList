@@ -118,7 +118,7 @@ def fetch_system_dict(target, pl_flag=True, info_out=True):
                     "Period (days)": info[0][i].pl_orbper.value,
                     "Period Uncertainty (days)": info[0][i].pl_orbper.err.value,
                     "Transit Duration (hrs)": info[0][i].pl_trandur.value,
-                    "Transit Epoch (BJD_TDB-2400000.5)": info[0][i].pl_tranmid.value,
+                    "Transit Epoch (BJD_TDB)": info[0][i].pl_tranmid.value,
                     "Transit Epoch Uncertainty (days)": info[0][i].pl_tranmid.err.value,
                 }
                 other_planets.append(tmp_dict)
