@@ -79,7 +79,7 @@ def fetch_system_dict(target, pl_flag=True, info_out=True):
     else:
         query_name = target
 
-    info = xos.System.from_gaia(query_name)
+    info = xos.System.from_gaia(query_name, time=Time("2457389.0", format="jd", scale="tcb"))
 
     out_dict = {
         "RA": info.sky_cat["coords"].ra[0].value,
@@ -140,6 +140,7 @@ def choose_readout_scheme(
     jmag=None,
     gmag=None,
     bmag=None,
+    logg=4.5,
     vda_psf=None,
     nirda_psf=None,
 ):
@@ -155,6 +156,7 @@ def choose_readout_scheme(
         # vmag = info[0].sy_vmag.value
         gmag = info.sky_cat['gmag'][0]
         bmag = info.sky_cat['bmag'][0]
+        logg = info.sky_cat['logg'][0]
 
     # VDA
     if vda_psf is None:
@@ -183,22 +185,22 @@ def choose_readout_scheme(
 
     saturation_counts = 45000
     max_pix = 0
-    instrument_set = 0
-    while max_pix < saturation_counts:
-        integration_time = vda_schemes['data'][vda_keys[instrument_set]]['IntegrationTime'] * u.second
+    instrument_set = vda_keys[0]
+    for key in vda_keys:
+        integration_time = vda_schemes['data'][key]['IntegrationTime'] * u.second
 
         src_flux = ((counts * u.electron / u.second) * integration_time).value.astype(int)
         data = roiscene.model(np.array([src_flux]))
-        data += VDA.background_rate.value * vda_schemes['data'][vda_keys[instrument_set]]['IntegrationTime']
+        data += VDA.background_rate.value * vda_schemes['data'][key]['IntegrationTime']
 
         max_pix = np.max(data[0][0])
 
-        if (instrument_set + 1) == len(vda_keys):
-            break
+        if max_pix < saturation_counts:
+            instrument_set = key
         else:
-            instrument_set += 1
+            break
 
-    out_dict = {'VDA Setting': vda_keys[instrument_set-1]}
+    out_dict = {'VDA Setting': instrument_set}
 
     # NIRDA
     if nirda_psf is None:
@@ -209,6 +211,7 @@ def choose_readout_scheme(
     nirda_keys = list(nirda_schemes['data'].keys())
 
     NIRDA = psat.NIRDetector()
+    integration_time = NIRDA.frame_time()
 
     NIRDA_trace = ppsf.TraceScene(
         np.array([[300, 40]]),
@@ -219,26 +222,25 @@ def choose_readout_scheme(
     )
 
     spectra = np.zeros((1, nirda_psf.trace_wavelength.shape[0]))
-    wav, spec = psat.phoenix.get_phoenix_model(teff=teff, logg=4.5, jmag=jmag)
+    wav, spec = psat.phoenix.get_phoenix_model(teff=teff, logg=logg, jmag=jmag)
     spectra[0, :] = nirda_psf.integrate_spectrum(wav, spec)
     spectra = spectra * u.electron / u.s
 
     saturation_counts = 80000
     max_pix = 0
-    instrument_set = 1  # Skip the first, non-default instrument setting
-    while max_pix < saturation_counts:
-        nreads = nirda_schemes['data'][nirda_keys[instrument_set]]['FramesPerIntegration']
-        integration_time = nirda_schemes['data'][nirda_keys[instrument_set]]['IntegrationTime'] * u.second
+    instrument_set = nirda_keys[0]
+    for key in nirda_keys:
+        nreads = nirda_schemes['data'][key]['FramesPerIntegration']
 
         integration_info = psim.utils.get_integrations(
-            SC_Resets1=nirda_schemes['data'][nirda_keys[instrument_set]]['SC_Resets1'],
-            SC_Resets2=nirda_schemes['data'][nirda_keys[instrument_set]]['SC_Resets2'],
-            SC_DropFrames1=nirda_schemes['data'][nirda_keys[instrument_set]]['SC_DropFrames1'],
-            SC_DropFrames2=nirda_schemes['data'][nirda_keys[instrument_set]]['SC_DropFrames2'],
-            SC_DropFrames3=nirda_schemes['data'][nirda_keys[instrument_set]]['SC_DropFrames3'],
-            SC_ReadFrames=nirda_schemes['data'][nirda_keys[instrument_set]]['SC_ReadFrames'],
-            SC_Groups=nirda_schemes['data'][nirda_keys[instrument_set]]['SC_Groups'],
-            SC_Integrations=nirda_schemes['data'][nirda_keys[instrument_set]]['SC_Integrations'],
+            SC_Resets1=nirda_schemes['data'][key]['SC_Resets1'],
+            SC_Resets2=nirda_schemes['data'][key]['SC_Resets2'],
+            SC_DropFrames1=nirda_schemes['data'][key]['SC_DropFrames1'],
+            SC_DropFrames2=nirda_schemes['data'][key]['SC_DropFrames2'],
+            SC_DropFrames3=nirda_schemes['data'][key]['SC_DropFrames3'],
+            SC_ReadFrames=nirda_schemes['data'][key]['SC_ReadFrames'],
+            SC_Groups=nirda_schemes['data'][key]['SC_Groups'],
+            SC_Integrations=nirda_schemes['data'][key]['SC_Integrations'],
         )
         integration_arrays = [np.hstack(idx) for idx in integration_info]
         resets = np.hstack(integration_arrays) != 1
@@ -255,12 +257,12 @@ def choose_readout_scheme(
 
         max_pix = np.max(np.cumsum(data, axis=0)[-1])
 
-        if (instrument_set + 1) == len(nirda_keys):
-            break
+        if max_pix < saturation_counts:
+            instrument_set = key
         else:
-            instrument_set += 1
+            break
 
-    out_dict.update({'NIRDA Setting': nirda_keys[instrument_set-1]})
+    out_dict.update({'NIRDA Setting': instrument_set})
 
     return out_dict
 
