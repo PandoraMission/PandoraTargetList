@@ -272,7 +272,7 @@ def process_targets(input_targets, delimiter=","):
 
     if input_targets[-4] == ".":
         aux_info = pd.read_csv(input_targets, delimiter=delimiter)
-        targets = input_targets["designation"].tolist()
+        targets = aux_info["designation"].tolist()
     elif type(input_targets) is list:
         targets = [str(i) for i in input_targets]
     else:
