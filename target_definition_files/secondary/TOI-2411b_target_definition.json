@@ -1,5 +1,5 @@
 {
-    "Time Created": "2024-10-16 03:46:33",
+    "Time Created": "2024-10-16 14:02:37",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "TOI-2411b",
@@ -18,7 +18,7 @@
     "Period (days)": 0.7826942,
     "Period Uncertainty (days)": 3.7e-06,
     "Transit Duration (hrs)": 1.2621481,
-    "Transit Epoch (BJD_TDB-2400000.5)": 2459116.0139,
+    "Transit Epoch (BJD_TDB)": 2459116.0139,
     "Transit Epoch Uncertainty (days)": 0.001,
     "VDA Setting": "coadd_5",
     "NIRDA Setting": "fowler_3"

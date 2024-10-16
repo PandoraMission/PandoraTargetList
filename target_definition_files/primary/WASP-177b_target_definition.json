@@ -1,5 +1,5 @@
 {
-    "Time Created": "2024-10-15 22:23:58",
+    "Time Created": "2024-10-16 13:58:28",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "WASP-177b",
@@ -18,7 +18,7 @@
     "Period (days)": 3.071722,
     "Period Uncertainty (days)": 1e-06,
     "Transit Duration (hrs)": 1.6128,
-    "Transit Epoch (BJD_TDB-2400000.5)": 2457994.3714,
+    "Transit Epoch (BJD_TDB)": 2457994.3714,
     "Transit Epoch Uncertainty (days)": 0.00028,
     "VDA Setting": "coadd_5",
     "NIRDA Setting": "samp_4_4"

@@ -1,5 +1,5 @@
 {
-    "Time Created": "2024-10-15 22:23:20",
+    "Time Created": "2024-10-16 13:58:19",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "GJ 1214b",
@@ -18,7 +18,7 @@
     "Period (days)": 1.58040453,
     "Period Uncertainty (days)": 2e-08,
     "Transit Duration (hrs)": 0.86966,
-    "Transit Epoch (BJD_TDB-2400000.5)": 2459639.781262,
+    "Transit Epoch (BJD_TDB)": 2459639.781262,
     "Transit Epoch Uncertainty (days)": 9e-06,
     "VDA Setting": "coadd_5",
     "NIRDA Setting": "samp_4_5"

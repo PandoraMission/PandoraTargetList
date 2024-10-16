@@ -1,5 +1,5 @@
 {
-    "Time Created": "2024-10-15 22:25:07",
+    "Time Created": "2024-10-16 13:58:47",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "WASP-52b",
@@ -18,7 +18,7 @@
     "Period (days)": 1.7497798,
     "Period Uncertainty (days)": 1.2e-06,
     "Transit Duration (hrs)": 1.8096,
-    "Transit Epoch (BJD_TDB-2400000.5)": 2455793.68143,
+    "Transit Epoch (BJD_TDB)": 2455793.68143,
     "Transit Epoch Uncertainty (days)": 9e-05,
     "VDA Setting": "coadd_5",
     "NIRDA Setting": "samp_4_3"

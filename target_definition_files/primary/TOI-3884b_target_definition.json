@@ -1,5 +1,5 @@
 {
-    "Time Created": "2024-10-15 22:22:47",
+    "Time Created": "2024-10-16 13:58:08",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "TOI-3884b",
@@ -18,7 +18,7 @@
     "Period (days)": 4.5445828,
     "Period Uncertainty (days)": 9.8e-06,
     "Transit Duration (hrs)": 1.6,
-    "Transit Epoch (BJD_TDB-2400000.5)": 2459556.51669,
+    "Transit Epoch (BJD_TDB)": 2459556.51669,
     "Transit Epoch Uncertainty (days)": 0.00025,
     "VDA Setting": "coadd_5",
     "NIRDA Setting": "samp_4_4"

@@ -1,5 +1,5 @@
 {
-    "Time Created": "2024-10-16 03:45:49",
+    "Time Created": "2024-10-16 14:02:19",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "HAT-P-26b",
@@ -18,7 +18,7 @@
     "Period (days)": 4.23452,
     "Period Uncertainty (days)": 1.5e-05,
     "Transit Duration (hrs)": 2.4552,
-    "Transit Epoch (BJD_TDB-2400000.5)": 2456901.059458,
+    "Transit Epoch (BJD_TDB)": 2456901.059458,
     "Transit Epoch Uncertainty (days)": 9.4e-05,
     "VDA Setting": "coadd_5",
     "NIRDA Setting": "samp_4_3"

@@ -1,5 +1,5 @@
 {
-    "Time Created": "2024-10-15 22:24:27",
+    "Time Created": "2024-10-16 13:58:38",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "WASP-80b",
@@ -18,7 +18,7 @@
     "Period (days)": 3.06785234,
     "Period Uncertainty (days)": 8.1e-07,
     "Transit Duration (hrs)": 2.131,
-    "Transit Epoch (BJD_TDB-2400000.5)": 2456487.425006,
+    "Transit Epoch (BJD_TDB)": 2456487.425006,
     "Transit Epoch Uncertainty (days)": 2.4e-05,
     "VDA Setting": "coadd_5",
     "NIRDA Setting": "fowler_3"

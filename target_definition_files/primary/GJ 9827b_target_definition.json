@@ -1,5 +1,5 @@
 {
-    "Time Created": "2024-10-15 22:30:39",
+    "Time Created": "2024-10-16 14:00:19",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "GJ 9827b",
@@ -18,7 +18,7 @@
     "Period (days)": 1.208974,
     "Period Uncertainty (days)": 1e-06,
     "Transit Duration (hrs)": 1.25976,
-    "Transit Epoch (BJD_TDB-2400000.5)": 2457738.82586,
+    "Transit Epoch (BJD_TDB)": 2457738.82586,
     "Transit Epoch Uncertainty (days)": 0.00026,
     "Additional Planets": [
         {
@@ -26,7 +26,7 @@
             "Period (days)": 3.648103,
             "Period Uncertainty (days)": 1.15e-05,
             "Transit Duration (hrs)": 1.8264,
-            "Transit Epoch (BJD_TDB-2400000.5)": 2457742.19944,
+            "Transit Epoch (BJD_TDB)": 2457742.19944,
             "Transit Epoch Uncertainty (days)": 0.000655
         },
         {
@@ -34,7 +34,7 @@
             "Period (days)": 6.201812,
             "Period Uncertainty (days)": 9e-06,
             "Transit Duration (hrs)": 1.2264,
-            "Transit Epoch (BJD_TDB-2400000.5)": 2457740.9611,
+            "Transit Epoch (BJD_TDB)": 2457740.9611,
             "Transit Epoch Uncertainty (days)": 0.00044
         }
     ],

@@ -1,5 +1,5 @@
 {
-    "Time Created": "2024-10-16 03:48:06",
+    "Time Created": "2024-10-16 14:03:20",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "L 98-59b",
@@ -18,7 +18,7 @@
     "Period (days)": 2.2531136,
     "Period Uncertainty (days)": 1.35e-06,
     "Transit Duration (hrs)": 0.992,
-    "Transit Epoch (BJD_TDB-2400000.5)": 2458366.17067,
+    "Transit Epoch (BJD_TDB)": 2458366.17067,
     "Transit Epoch Uncertainty (days)": 0.00034500000000000004,
     "Additional Planets": [
         {
@@ -26,7 +26,7 @@
             "Period (days)": 3.6906777,
             "Period Uncertainty (days)": 2.1000000000000002e-06,
             "Transit Duration (hrs)": 1.346,
-            "Transit Epoch (BJD_TDB-2400000.5)": 2458367.27375,
+            "Transit Epoch (BJD_TDB)": 2458367.27375,
             "Transit Epoch Uncertainty (days)": 0.000175
         },
         {
@@ -34,7 +34,7 @@
             "Period (days)": 7.4507245,
             "Period Uncertainty (days)": 6.35e-06,
             "Transit Duration (hrs)": 0.84,
-            "Transit Epoch (BJD_TDB-2400000.5)": 2458362.73974,
+            "Transit Epoch (BJD_TDB)": 2458362.73974,
             "Transit Epoch Uncertainty (days)": 0.000355
         },
         {
@@ -42,7 +42,7 @@
             "Period (days)": 12.796,
             "Period Uncertainty (days)": 0.0195,
             "Transit Duration (hrs)": NaN,
-            "Transit Epoch (BJD_TDB-2400000.5)": NaN,
+            "Transit Epoch (BJD_TDB)": NaN,
             "Transit Epoch Uncertainty (days)": NaN
         }
     ],

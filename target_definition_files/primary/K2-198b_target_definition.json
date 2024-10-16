@@ -1,5 +1,5 @@
 {
-    "Time Created": "2024-10-15 22:26:07",
+    "Time Created": "2024-10-16 13:59:06",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "K2-198b",
@@ -18,7 +18,7 @@
     "Period (days)": 17.0428683,
     "Period Uncertainty (days)": 5.3e-06,
     "Transit Duration (hrs)": 2.9592,
-    "Transit Epoch (BJD_TDB-2400000.5)": 2457204.5687,
+    "Transit Epoch (BJD_TDB)": 2457204.5687,
     "Transit Epoch Uncertainty (days)": 0.00014,
     "Additional Planets": [
         {
@@ -26,7 +26,7 @@
             "Period (days)": 3.3596055,
             "Period Uncertainty (days)": 3.0499999999999996e-06,
             "Transit Duration (hrs)": 1.42008,
-            "Transit Epoch (BJD_TDB-2400000.5)": 2457215.032,
+            "Transit Epoch (BJD_TDB)": 2457215.032,
             "Transit Epoch Uncertainty (days)": 0.0018
         },
         {
@@ -34,7 +34,7 @@
             "Period (days)": 7.4500177,
             "Period Uncertainty (days)": 3.9e-06,
             "Transit Duration (hrs)": 3.0024,
-            "Transit Epoch (BJD_TDB-2400000.5)": 2457213.5759,
+            "Transit Epoch (BJD_TDB)": 2457213.5759,
             "Transit Epoch Uncertainty (days)": 0.001
         }
     ],
