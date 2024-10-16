@@ -1,0 +1,35 @@
+{
+    "Time Created": "2024-10-16 03:44:44",
+    "Version": "0.1.0",
+    "Author": "Ben Hord",
+    "Planet Name": "K2-141c",
+    "Star Name": "K2-141",
+    "Number of Transits to Capture": 10,
+    "RA": 350.9173466425226,
+    "DEC": -1.1891176799272687,
+    "coord_epoch": "J2016.0",
+    "pm_RA": 116.32486365975673,
+    "pm_DEC": 25.213577193500306,
+    "Jmag": 9.086000442504883,
+    "Gmag": 10.718701362609863,
+    "Teff (K)": 4436.61328125,
+    "logg": 4.577400207519531,
+    "Planet Letter": "c",
+    "Period (days)": 7.7485,
+    "Period Uncertainty (days)": 0.00022,
+    "Transit Duration (hrs)": NaN,
+    "Transit Epoch (BJD_TDB-2400000.5)": 2457751.1546,
+    "Transit Epoch Uncertainty (days)": 0.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "b",
+            "Period (days)": 0.2803244,
+            "Period Uncertainty (days)": 1.5e-06,
+            "Transit Duration (hrs)": 0.94,
+            "Transit Epoch (BJD_TDB-2400000.5)": 2457744.0716,
+            "Transit Epoch Uncertainty (days)": 0.00022
+        }
+    ],
+    "VDA Setting": "coadd_5",
+    "NIRDA Setting": "fowler_2"
+}
