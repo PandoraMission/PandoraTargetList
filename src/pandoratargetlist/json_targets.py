@@ -22,13 +22,15 @@ def make_json_file(targets, author="System", transits=10, category='auxiliary', 
     """
     target_list, aux_info, pl_flags = process_targets(targets)
 
+    if verbose:
+        print('Gathering PSFs...', end='\r')
     vda_psf = ppsf.PSF.from_name('VISDA')
     nirda_psf = ppsf.PSF.from_name('NIRDA')
     nirda_psf = nirda_psf.freeze_dimension(row=0 * u.pixel, column=0 * u.pixel)
 
     for i, target in enumerate(target_list):
         if verbose:
-            print('Running ' + str(target) + ' (' + str(i) + '/' + str(len(target_list)) + ')')
+            print('Running ' + str(target) + ' (' + str(i+1) + '/' + str(len(target_list)) + ')')
         out_dict = {
             "Time Created": Time.now().value.strftime("%Y-%m-%d %H:%M:%S"),
             "Version": __version__,
