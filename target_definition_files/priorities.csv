@@ -1,24 +1,24 @@
 target,priority,transits_required,category
-WASP-69b,0.2,10,primary
-WASP-107b,0.2,10,primary
-HIP 65 Ab,0.2,10,primary
-TOI-3884b,0.2,10,primary
-GJ 1214b,0.2,10,primary
-WASP-177b,0.2,10,primary
-WASP-80b,0.2,10,primary
-WASP-52b,0.2,10,primary
-TOI-942b,0.2,10,primary
-K2-198b,0.2,10,primary
-L 98-59d,0.2,10,primary
-TOI-2427b,0.2,10,primary
-TOI-1685b,0.2,10,primary
-TOI-836b,0.2,10,primary
-TOI-1416b,0.2,10,primary
-HD 3167b,0.2,10,primary
-TOI-776b,0.2,10,primary
-GJ 9827b,0.2,10,primary
-TOI-244b,0.2,10,primary
-LTT 1445 Ac,0.2,10,primary
+WASP-69b,0.8,10,primary
+WASP-107b,0.8,10,primary
+HIP 65 Ab,0.8,10,primary
+TOI-3884b,0.8,10,primary
+GJ 1214b,0.8,10,primary
+WASP-177b,0.8,10,primary
+WASP-80b,0.8,10,primary
+WASP-52b,0.8,10,primary
+TOI-942b,0.8,10,primary
+K2-198b,0.8,10,primary
+L 98-59d,0.8,10,primary
+TOI-2427b,0.8,10,primary
+TOI-1685b,0.8,10,primary
+TOI-836b,0.8,10,primary
+TOI-1416b,0.8,10,primary
+HD 3167b,0.8,10,primary
+TOI-776b,0.8,10,primary
+GJ 9827b,0.8,10,primary
+TOI-244b,0.8,10,primary
+LTT 1445 Ac,0.8,10,primary
 HAT-P-18b,0.5,10,secondary
 GJ 3470b,0.5,10,secondary
 HAT-P-12b,0.5,10,secondary
