@@ -1,15 +1,15 @@
 {
-    "Time Created": "2024-10-16 13:59:06",
+    "Time Created": "2024-10-16 20:55:33",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "K2-198b",
     "Star Name": "K2-198",
     "Number of Transits to Capture": 10,
-    "RA": 198.84358645190142,
-    "DEC": -6.465044751895604,
+    "RA": 198.84367656217745,
+    "DEC": -6.464991748973773,
     "coord_epoch": "J2016.0",
-    "pm_RA": -36.67214887605044,
-    "pm_DEC": -21.708626791869815,
+    "pm_RA": -36.67215653532828,
+    "pm_DEC": -21.70864009555902,
     "Jmag": 9.741000175476074,
     "Gmag": 11.012859344482422,
     "Teff (K)": 5192.07373046875,
@@ -38,6 +38,6 @@
             "Transit Epoch Uncertainty (days)": 0.001
         }
     ],
-    "VDA Setting": "coadd_5",
-    "NIRDA Setting": "samp_4_3"
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6"
 }

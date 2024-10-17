@@ -1,15 +1,15 @@
 {
-    "Time Created": "2024-10-16 14:03:12",
+    "Time Created": "2024-10-16 22:08:30",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "TOI-540b",
     "Star Name": "TOI-540",
     "Number of Transits to Capture": 10,
-    "RA": 76.30944107686682,
-    "DEC": -47.93747475989795,
+    "RA": 76.30968124678877,
+    "DEC": -47.937535542918475,
     "coord_epoch": "J2016.0",
-    "pm_RA": -65.89957561086865,
-    "pm_DEC": 24.89498700963601,
+    "pm_RA": -65.90112106131718,
+    "pm_DEC": 24.895336483481316,
     "Jmag": 9.755000114440918,
     "Gmag": 12.873695373535156,
     "Teff (K)": 3063.345947265625,
@@ -20,6 +20,6 @@
     "Transit Duration (hrs)": 0.4887749,
     "Transit Epoch (BJD_TDB)": 2458411.82601,
     "Transit Epoch Uncertainty (days)": 0.00046,
-    "VDA Setting": "coadd_5",
-    "NIRDA Setting": "samp_4_3"
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6"
 }

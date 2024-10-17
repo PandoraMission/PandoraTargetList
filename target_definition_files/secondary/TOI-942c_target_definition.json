@@ -1,15 +1,15 @@
 {
-    "Time Created": "2024-10-16 14:01:46",
+    "Time Created": "2024-10-16 22:06:11",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "TOI-942c",
     "Star Name": "TOI-942",
     "Number of Transits to Capture": 10,
-    "RA": 76.64965970926333,
-    "DEC": -20.245622754869434,
+    "RA": 76.6496195413261,
+    "DEC": -20.24561309525414,
     "coord_epoch": "J2016.0",
-    "pm_RA": 15.43530744692373,
-    "pm_DEC": -3.95632259006617,
+    "pm_RA": 15.43534938724358,
+    "pm_DEC": -3.956337330679885,
     "Jmag": 10.230999946594238,
     "Gmag": 11.630298614501953,
     "Teff (K)": 5267.66552734375,
@@ -30,6 +30,6 @@
             "Transit Epoch Uncertainty (days)": 0.0021
         }
     ],
-    "VDA Setting": "coadd_5",
-    "NIRDA Setting": "samp_4_3"
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6"
 }

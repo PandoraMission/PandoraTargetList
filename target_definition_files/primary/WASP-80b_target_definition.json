@@ -1,15 +1,15 @@
 {
-    "Time Created": "2024-10-16 13:58:38",
+    "Time Created": "2024-10-16 20:54:50",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "WASP-80b",
     "Star Name": "WASP-80",
     "Number of Transits to Capture": 10,
-    "RA": 303.1664563562625,
-    "DEC": -2.1445677364638707,
+    "RA": 303.1667810972023,
+    "DEC": -2.1444439912893576,
     "coord_epoch": "J2016.0",
-    "pm_RA": -132.91214993461836,
-    "pm_DEC": -50.68273561857705,
+    "pm_RA": -132.91261542023565,
+    "pm_DEC": -50.68294540815508,
     "Jmag": 9.218000411987305,
     "Gmag": 11.26854419708252,
     "Teff (K)": 4076.0498046875,
@@ -20,6 +20,6 @@
     "Transit Duration (hrs)": 2.131,
     "Transit Epoch (BJD_TDB)": 2456487.425006,
     "Transit Epoch Uncertainty (days)": 2.4e-05,
-    "VDA Setting": "coadd_5",
-    "NIRDA Setting": "fowler_3"
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6"
 }

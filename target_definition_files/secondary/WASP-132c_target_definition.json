@@ -1,15 +1,15 @@
 {
-    "Time Created": "2024-10-16 14:03:39",
+    "Time Created": "2024-10-16 22:09:11",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "WASP-132c",
     "Star Name": "WASP-132",
     "Number of Transits to Capture": 10,
-    "RA": 217.60924541012895,
-    "DEC": -46.15970477743498,
+    "RA": 217.60920221164744,
+    "DEC": -46.159526130256374,
     "coord_epoch": "J2016.0",
-    "pm_RA": 12.25507029773857,
-    "pm_DEC": -73.16912127665411,
+    "pm_RA": 12.255085642630144,
+    "pm_DEC": -73.16945712544822,
     "Jmag": 10.256999969482422,
     "Gmag": 11.746747970581055,
     "Teff (K)": 4783.0498046875,
@@ -30,6 +30,6 @@
             "Transit Epoch Uncertainty (days)": 0.0002
         }
     ],
-    "VDA Setting": "coadd_5",
-    "NIRDA Setting": "samp_4_3"
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6"
 }

@@ -1,15 +1,15 @@
 {
-    "Time Created": "2024-10-16 14:02:37",
+    "Time Created": "2024-10-16 22:07:34",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "TOI-2411b",
     "Star Name": "TOI-2411",
     "Number of Transits to Capture": 10,
-    "RA": 20.92214890891591,
-    "DEC": -8.702040572902634,
+    "RA": 20.922440174272403,
+    "DEC": -8.701807641539267,
     "coord_epoch": "J2016.0",
-    "pm_RA": -117.92183828665682,
-    "pm_DEC": -95.40283489647867,
+    "pm_RA": -117.9213069421668,
+    "pm_DEC": -95.40255507769224,
     "Jmag": 9.329999923706055,
     "Gmag": 11.215378761291504,
     "Teff (K)": 4108.22314453125,
@@ -20,6 +20,6 @@
     "Transit Duration (hrs)": 1.2621481,
     "Transit Epoch (BJD_TDB)": 2459116.0139,
     "Transit Epoch Uncertainty (days)": 0.001,
-    "VDA Setting": "coadd_5",
-    "NIRDA Setting": "fowler_3"
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6"
 }

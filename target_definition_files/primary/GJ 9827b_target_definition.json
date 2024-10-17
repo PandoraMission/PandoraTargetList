@@ -1,15 +1,15 @@
 {
-    "Time Created": "2024-10-16 14:00:19",
+    "Time Created": "2024-10-16 20:57:27",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "GJ 9827b",
     "Star Name": "GJ 9827",
     "Number of Transits to Capture": 10,
-    "RA": 351.77274666584265,
-    "DEC": -1.2847864799975903,
+    "RA": 351.77182847412627,
+    "DEC": -1.2853135355720275,
     "coord_epoch": "J2016.0",
-    "pm_RA": 375.96943885807656,
-    "pm_DEC": 215.86637895645472,
+    "pm_RA": 375.97681403757707,
+    "pm_DEC": 215.8704338159995,
     "Jmag": 7.984000205993652,
     "Gmag": 9.840703964233398,
     "Teff (K)": 4182.046875,
@@ -39,5 +39,5 @@
         }
     ],
     "VDA Setting": "coadd_5",
-    "NIRDA Setting": "fowler_1"
+    "NIRDA Setting": "samp_4_6"
 }
