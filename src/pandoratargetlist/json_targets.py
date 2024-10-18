@@ -187,11 +187,11 @@ def choose_readout_scheme(
     max_pix = 0
     instrument_set = vda_keys[0]
     for key in vda_keys:
-        integration_time = vda_schemes['data'][key]['IntegrationTime'] * u.second
+        integration_time = VDA.integration_time
 
         src_flux = ((counts * u.electron / u.second) * integration_time).value.astype(int)
         data = roiscene.model(np.array([src_flux]))
-        data += VDA.background_rate.value * vda_schemes['data'][key]['IntegrationTime']
+        data += VDA.background_rate.value
 
         max_pix = np.max(data[0][0])
 
