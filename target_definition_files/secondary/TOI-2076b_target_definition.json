@@ -1,5 +1,5 @@
 {
-    "Time Created": "2024-10-16 22:06:49",
+    "Time Created": "2024-10-18 17:51:40",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "TOI-2076b",
@@ -38,6 +38,6 @@
             "Transit Epoch Uncertainty (days)": 0.0014
         }
     ],
-    "VDA Setting": "coadd_5",
+    "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6"
 }

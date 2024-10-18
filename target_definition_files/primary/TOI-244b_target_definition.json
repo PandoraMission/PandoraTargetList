@@ -1,5 +1,5 @@
 {
-    "Time Created": "2024-10-16 20:57:42",
+    "Time Created": "2024-10-18 18:08:25",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "TOI-244b",
@@ -13,7 +13,7 @@
     "Jmag": 8.82699966430664,
     "Gmag": 11.548954010009766,
     "Teff (K)": 3843.64990234375,
-    "logg": 4.66,
+    "logg": NaN,
     "Planet Letter": "b",
     "Period (days)": 7.397225,
     "Period Uncertainty (days)": 2.45e-05,

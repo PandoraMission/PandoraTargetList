@@ -12,6 +12,6 @@
     "Gmag": 8.642826080322266,
     "Teff (K)": 6544.3095703125,
     "logg": 3.9818999767303467,
-    "VDA Setting": "all_frames",
+    "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6"
 }

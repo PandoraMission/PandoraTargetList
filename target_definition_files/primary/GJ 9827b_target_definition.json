@@ -1,5 +1,5 @@
 {
-    "Time Created": "2024-10-16 20:57:27",
+    "Time Created": "2024-10-18 18:07:57",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "GJ 9827b",
@@ -31,13 +31,13 @@
         },
         {
             "Planet Letter": "d",
-            "Period (days)": 6.201812,
-            "Period Uncertainty (days)": 9e-06,
+            "Period (days)": 6.20183,
+            "Period Uncertainty (days)": 3e-06,
             "Transit Duration (hrs)": 1.2264,
-            "Transit Epoch (BJD_TDB)": 2457740.9611,
-            "Transit Epoch Uncertainty (days)": 0.00044
+            "Transit Epoch (BJD_TDB)": 2460265.10196,
+            "Transit Epoch Uncertainty (days)": 6e-05
         }
     ],
-    "VDA Setting": "coadd_5",
+    "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6"
 }

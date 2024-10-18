@@ -1,5 +1,5 @@
 {
-    "Time Created": "2024-10-16 20:56:48",
+    "Time Created": "2024-10-18 18:06:48",
     "Version": "0.1.0",
     "Author": "Ben Hord",
     "Planet Name": "TOI-1416b",
@@ -20,6 +20,6 @@
     "Transit Duration (hrs)": 1.5,
     "Transit Epoch (BJD_TDB)": 2458739.4621,
     "Transit Epoch Uncertainty (days)": 0.0008,
-    "VDA Setting": "coadd_5",
+    "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6"
 }
