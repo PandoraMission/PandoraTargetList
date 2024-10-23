@@ -162,7 +162,7 @@ def choose_readout_scheme(
     if vda_psf is None:
         vda_psf = ppsf.PSF.from_name('VISDA')
 
-    with open(HOMEDIR + 'docs/vda_readout_schemes.json', 'r') as file:
+    with open(HOMEDIR + 'vda_readout_schemes.json', 'r') as file:
         vda_schemes = json.load(file)
     vda_keys = list(vda_schemes['data'].keys())
 
@@ -206,7 +206,7 @@ def choose_readout_scheme(
     if nirda_psf is None:
         nirda_psf = ppsf.PSF.from_name('NIRDA')
         nirda_psf = nirda_psf.freeze_dimension(row=0 * u.pixel, column=0 * u.pixel)
-    with open(HOMEDIR + 'docs/nirda_readout_schemes.json', 'r') as file:
+    with open(HOMEDIR + 'nirda_readout_schemes.json', 'r') as file:
         nirda_schemes = json.load(file)
     nirda_keys = list(nirda_schemes['data'].keys())
 
