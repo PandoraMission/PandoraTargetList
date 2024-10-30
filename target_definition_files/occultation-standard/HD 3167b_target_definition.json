@@ -33,7 +33,7 @@
             "Planet Letter": "d",
             "Period (days)": 8.4112,
             "Period Uncertainty (days)": 0.0052,
-            "Transit Duration (hrs)": NaN,
+            "Transit Duration (hrs)": 3.456,
             "Transit Epoch (BJD_TDB)": 2457745.37,
             "Transit Epoch Uncertainty (days)": 0.18
         },
@@ -41,7 +41,7 @@
             "Planet Letter": "e",
             "Period (days)": 96.63,
             "Period Uncertainty (days)": 0.292,
-            "Transit Duration (hrs)": NaN,
+            "Transit Duration (hrs)": 7.818,
             "Transit Epoch (BJD_TDB)": 2457738.43,
             "Transit Epoch Uncertainty (days)": 2.67
         }

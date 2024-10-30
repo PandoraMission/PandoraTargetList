@@ -25,7 +25,7 @@
             "Planet Letter": "c",
             "Period (days)": 103.0,
             "Period Uncertainty (days)": 5.15,
-            "Transit Duration (hrs)": NaN,
+            "Transit Duration (hrs)": 7.00,
             "Transit Epoch (BJD_TDB)": 2458905.0,
             "Transit Epoch Uncertainty (days)": 5.15
         }

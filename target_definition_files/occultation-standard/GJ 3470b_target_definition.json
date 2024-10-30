@@ -18,8 +18,8 @@
     "Period (days)": 3.3366496,
     "Period Uncertainty (days)": 3.6000000000000003e-06,
     "Transit Duration (hrs)": 1.8984,
-    "Transit Epoch (BJD_TDB)": 2455983.70421,
-    "Transit Epoch Uncertainty (days)": NaN,
+    "Transit Epoch (BJD_TDB)": 22456974.689880,
+    "Transit Epoch Uncertainty (days)": 5.9e-5,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6"
 }
