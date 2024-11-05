@@ -1,0 +1,35 @@
+{
+    "Time Created": "2024-10-18 18:18:55",
+    "Version": "0.1.0",
+    "Author": "Ben Hord",
+    "Planet Name": "TOI-1130c",
+    "Star Name": "TOI-1130",
+    "Number of Transits to Capture": 2,
+    "RA": 286.3760060046714,
+    "DEC": -41.43764374119737,
+    "coord_epoch": "J2016.0",
+    "pm_RA": 12.579106224381306,
+    "pm_DEC": -27.46876281033459,
+    "Jmag": 9.055000305175781,
+    "Gmag": 10.898941993713379,
+    "Teff (K)": 4341.39990234375,
+    "logg": 3.0,
+    "Planet Letter": "c",
+    "Period (days)": 8.3501898,
+    "Period Uncertainty (days)": 4.74e-05,
+    "Transit Duration (hrs)": 2.02,
+    "Transit Epoch (BJD_TDB)": 2458841.6013,
+    "Transit Epoch Uncertainty (days)": 0.00013,
+    "Additional Planets": [
+        {
+            "Planet Letter": "b",
+            "Period (days)": 4.074554,
+            "Period Uncertainty (days)": 0.000221,
+            "Transit Duration (hrs)": 1.8373729,
+            "Transit Epoch (BJD_TDB)": 2458658.74627,
+            "Transit Epoch Uncertainty (days)": 0.0007000000000000001
+        }
+    ],
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6"
+}
