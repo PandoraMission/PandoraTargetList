@@ -11,7 +11,7 @@
         "IncludedMnemonics": ["all_frames_24", "fowler_1", "fowler_2",
         "fowler_3", "fowler_4", "samp_4_3", "samp_4_4", "samp_4_5",
         "samp_4_6"
-    ],
+        ],
         "FixedParameters": {
             "AverageGroups": 1,
             "IncludeFieldSolnsInResp": 1,
