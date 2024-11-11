@@ -12,14 +12,14 @@
         "fowler_3", "fowler_4", "samp_4_3", "samp_4_4", "samp_4_5",
         "samp_4_6"
     ],
-    "FixedParameters": {
-        "AverageGroups": 1,
-        "IncludeFieldSolnsInResp": 1,
-        "ROI_StartX": 0,
-        "ROI_StartY": 824,
-        "ROI_SizeX": 80,
-        "ROI_SizeY": 400
-    },
+        "FixedParameters": {
+            "AverageGroups": 1,
+            "IncludeFieldSolnsInResp": 1,
+            "ROI_StartX": 0,
+            "ROI_StartY": 824,
+            "ROI_SizeX": 80,
+            "ROI_SizeY": 400
+        },
         "all_frames_24": {
             "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
             "SC_Resets1": 1,
