@@ -16,21 +16,31 @@ import pandorapsf as ppsf
 from pandoratargetlist import __version__, HOMEDIR, TARGDEFDIR
 
 
-def make_json_file(targets, author="System", transits=10, category='auxiliary', verbose=True):
+def make_json_file(
+    targets, author="System", transits=10, category="auxiliary", verbose=True
+):
     """Top-level function responsible for making the JSON file for a target or
     list of targets.
     """
     target_list, aux_info, pl_flags = process_targets(targets)
 
     if verbose:
-        print('Gathering PSFs...', end='\r')
-    vda_psf = ppsf.PSF.from_name('VISDA')
-    nirda_psf = ppsf.PSF.from_name('NIRDA')
+        print("Gathering PSFs...", end="\r")
+    vda_psf = ppsf.PSF.from_name("VISDA")
+    nirda_psf = ppsf.PSF.from_name("NIRDA")
     nirda_psf = nirda_psf.freeze_dimension(row=0 * u.pixel, column=0 * u.pixel)
 
     for i, target in enumerate(target_list):
         if verbose:
-            print('Running ' + str(target) + ' (' + str(i+1) + '/' + str(len(target_list)) + ')')
+            print(
+                "Running "
+                + str(target)
+                + " ("
+                + str(i + 1)
+                + "/"
+                + str(len(target_list))
+                + ")"
+            )
         out_dict = {
             "Time Created": Time.now().value.strftime("%Y-%m-%d %H:%M:%S"),
             "Version": __version__,
@@ -51,23 +61,31 @@ def make_json_file(targets, author="System", transits=10, category='auxiliary', 
             out_dict.update({"Star Name": target})
 
         if verbose:
-            print('Fetching system parameters...', end='\r')
+            print("Fetching system parameters...", end="\r")
         sys_dict, info = fetch_system_dict(target, bool(pl_flags[i]), info_out=True)
         out_dict.update(sys_dict)
 
         if verbose:
-            print('Determining best instrument parameters...', end='\r')
-        instrument_dict = choose_readout_scheme(info, vda_psf=vda_psf, nirda_psf=nirda_psf)
+            print("Determining best instrument parameters...", end="\r")
+        instrument_dict = choose_readout_scheme(
+            info, vda_psf=vda_psf, nirda_psf=nirda_psf
+        )
         out_dict.update(instrument_dict)
 
         if verbose:
-            print('Saving JSON file...', end='\r')
+            print("Saving JSON file...", end="\r")
         # Save dictionary as JSON file
-        json_file_path = TARGDEFDIR + str(category) + '/' + str(target) + '_target_definition.json'
+        json_file_path = (
+            TARGDEFDIR
+            + str(category)
+            + "/"
+            + str(target.replace(" ", "_"))
+            + "_target_definition.json"
+        )
         with open(json_file_path, "w") as outfile:
             json.dump(out_dict, outfile, indent=4)
 
-        print('Saved JSON file for ' + str(target))
+        print("Saved JSON file for " + str(target))
 
 
 def fetch_system_dict(target, pl_flag=True, info_out=True):
@@ -79,7 +97,9 @@ def fetch_system_dict(target, pl_flag=True, info_out=True):
     else:
         query_name = target
 
-    info = xos.System.from_gaia(query_name, time=Time("2457389.0", format="jd", scale="tcb"))
+    info = xos.System.from_gaia(
+        query_name, time=Time("2457389.0", format="jd", scale="tcb")
+    )
 
     out_dict = {
         "RA": info.sky_cat["coords"].ra[0].value,
@@ -89,8 +109,8 @@ def fetch_system_dict(target, pl_flag=True, info_out=True):
         "pm_DEC": info.sky_cat["coords"].pm_dec[0].value,
         "Jmag": float(info.sky_cat["jmag"][0]),
         "Gmag": float(info.sky_cat["gmag"][0]),
-        "Teff (K)": float(info.sky_cat['teff'][0].value),
-        "logg": float(info.sky_cat['logg'][0]),
+        "Teff (K)": float(info.sky_cat["teff"][0].value),
+        "logg": float(info.sky_cat["logg"][0]),
     }
 
     if pl_flag:
@@ -151,20 +171,20 @@ def choose_readout_scheme(
         raise ValueError("Stellar information must be provided!")
 
     if info is not None:
-        teff = info.sky_cat['teff'][0].value
-        jmag = info.sky_cat['jmag'][0]
+        teff = info.sky_cat["teff"][0].value
+        jmag = info.sky_cat["jmag"][0]
         # vmag = info[0].sy_vmag.value
-        gmag = info.sky_cat['gmag'][0]
-        bmag = info.sky_cat['bmag'][0]
-        logg = info.sky_cat['logg'][0]
+        gmag = info.sky_cat["gmag"][0]
+        bmag = info.sky_cat["bmag"][0]
+        logg = info.sky_cat["logg"][0]
 
     # VDA
     if vda_psf is None:
-        vda_psf = ppsf.PSF.from_name('VISDA')
+        vda_psf = ppsf.PSF.from_name("VISDA")
 
-    with open(HOMEDIR + 'vda_readout_schemes.json', 'r') as file:
+    with open(TARGDEFDIR + "vda_readout_schemes.json", "r") as file:
         vda_schemes = json.load(file)
-    vda_keys = list(vda_schemes['data'].keys())
+    vda_keys = vda_schemes["data"]["IncludedMnemonics"]
 
     VDA = psat.VisibleDetector()
 
@@ -189,7 +209,9 @@ def choose_readout_scheme(
     for key in vda_keys:
         integration_time = VDA.integration_time
 
-        src_flux = ((counts * u.electron / u.second) * integration_time).value.astype(int)
+        src_flux = ((counts * u.electron / u.second) * integration_time).value.astype(
+            int
+        )
         data = roiscene.model(np.array([src_flux]))
         data += VDA.background_rate.value
 
@@ -200,15 +222,15 @@ def choose_readout_scheme(
         else:
             break
 
-    out_dict = {'VDA Setting': instrument_set}
+    out_dict = {"VDA Setting": instrument_set}
 
     # NIRDA
     if nirda_psf is None:
-        nirda_psf = ppsf.PSF.from_name('NIRDA')
+        nirda_psf = ppsf.PSF.from_name("NIRDA")
         nirda_psf = nirda_psf.freeze_dimension(row=0 * u.pixel, column=0 * u.pixel)
-    with open(HOMEDIR + 'nirda_readout_schemes.json', 'r') as file:
+    with open(TARGDEFDIR + "nirda_readout_schemes.json", "r") as file:
         nirda_schemes = json.load(file)
-    nirda_keys = list(nirda_schemes['data'].keys())
+    nirda_keys = nirda_schemes["data"]["IncludedMnemonics"]
 
     NIRDA = psat.NIRDetector()
     integration_time = NIRDA.frame_time()
@@ -230,17 +252,17 @@ def choose_readout_scheme(
     max_pix = 0
     instrument_set = nirda_keys[0]
     for key in nirda_keys:
-        nreads = nirda_schemes['data'][key]['FramesPerIntegration']
+        nreads = nirda_schemes["data"][key]["FramesPerIntegration"]
 
         integration_info = psim.utils.get_integrations(
-            SC_Resets1=nirda_schemes['data'][key]['SC_Resets1'],
-            SC_Resets2=nirda_schemes['data'][key]['SC_Resets2'],
-            SC_DropFrames1=nirda_schemes['data'][key]['SC_DropFrames1'],
-            SC_DropFrames2=nirda_schemes['data'][key]['SC_DropFrames2'],
-            SC_DropFrames3=nirda_schemes['data'][key]['SC_DropFrames3'],
-            SC_ReadFrames=nirda_schemes['data'][key]['SC_ReadFrames'],
-            SC_Groups=nirda_schemes['data'][key]['SC_Groups'],
-            SC_Integrations=nirda_schemes['data'][key]['SC_Integrations'],
+            SC_Resets1=nirda_schemes["data"][key]["SC_Resets1"],
+            SC_Resets2=nirda_schemes["data"][key]["SC_Resets2"],
+            SC_DropFrames1=nirda_schemes["data"][key]["SC_DropFrames1"],
+            SC_DropFrames2=nirda_schemes["data"][key]["SC_DropFrames2"],
+            SC_DropFrames3=nirda_schemes["data"][key]["SC_DropFrames3"],
+            SC_ReadFrames=nirda_schemes["data"][key]["SC_ReadFrames"],
+            SC_Groups=nirda_schemes["data"][key]["SC_Groups"],
+            SC_Integrations=1,
         )
         integration_arrays = [np.hstack(idx) for idx in integration_info]
         resets = np.hstack(integration_arrays) != 1
@@ -262,7 +284,7 @@ def choose_readout_scheme(
         else:
             break
 
-    out_dict.update({'NIRDA Setting': instrument_set})
+    out_dict.update({"NIRDA Setting": instrument_set})
 
     return out_dict
 
