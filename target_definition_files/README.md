@@ -60,6 +60,23 @@ There are two files that specify the readout schemes for the two channels
 
 Within these files translate between the mnemonics listed in the target definition files and the specific parameters required in the science calendar.
 
+The readout scheme files are json files that are broken up into a few section:
+
+### metadata
+
+This section contains information on things like version number, last updated date, etc.
+
+
+### data
+
+This section contain all readout scheme data. Within this section is
+- CommandName: this is the name of the Pandora flight software command that these readout schemes are defined to interact with. This parameter should also be used in the science calendar. Potential values are AcquireInfCamImages or AcquireVisCamScienceData.
+- IncludedMnemonics: these are the mnemonics names that are defined within the file. 
+- FixedParameters: these are parameters that should be used with every readout scheme. They don't depend on readout scheme.
+- Mnemonics name: for each value in the list of IncludedMnemonics there is an entry.
+
+these data are used to within the scheduler to generate the payload parameters sections.
+
 ## Priority files
 
 These files any prioritization and scheduling information required by the scheduler to add targets to a schedule. So for exoplanet targets, they list the number of remaining transits required.
