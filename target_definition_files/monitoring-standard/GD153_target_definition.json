@@ -1,17 +1,19 @@
 {
     "Time Created": "2024-10-30 12:45:00",
-    "Version": "0.1.0",
+    "Version": "0.1.1",
     "Author": "Tom Barclay",
     "Star Name": "GD 153",
     "RA": 194.2594008688623,
     "DEC": 22.0299341755253,
     "coord_epoch": "J2024.0",
     "pm_RA": -38.402,
-    "pm_DEC": -202.990,
+    "pm_DEC": -202.99,
     "Jmag": 14.0,
     "Gmag": 13.3,
     "Teff (K)": 40320,
     "logg": 7.93,
     "VDA Setting": "coadd_50",
-    "NIRDA Setting": "samp_4_6"
+    "NIRDA Setting": "samp_4_6",
+    "Time Updated": "2024-11-13 21:39:28",
+    "StarRoiDetMethod": 1
 }

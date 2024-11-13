@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 17:53:23",
-    "Version": "0.1.0",
+    "Version": "0.1.1",
     "Author": "Ben Hord",
     "Planet Name": "TOI-1634b",
     "Star Name": "TOI-1634",
@@ -25,11 +25,13 @@
             "Planet Letter": "c",
             "Period (days)": 103.0,
             "Period Uncertainty (days)": 5.15,
-            "Transit Duration (hrs)": 7.00,
+            "Transit Duration (hrs)": 7.0,
             "Transit Epoch (BJD_TDB)": 2458905.0,
             "Transit Epoch Uncertainty (days)": 5.15
         }
     ],
     "VDA Setting": "coadd_50",
-    "NIRDA Setting": "samp_4_6"
+    "NIRDA Setting": "samp_4_6",
+    "Time Updated": "2024-11-13 21:39:28",
+    "StarRoiDetMethod": 1
 }
