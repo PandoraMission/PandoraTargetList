@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 18:05:25",
-    "Version": "0.1.0",
+    "Version": "0.1.1",
     "Author": "Ben Hord",
     "Planet Name": "L 98-59d",
     "Star Name": "L 98-59",
@@ -47,5 +47,7 @@
         }
     ],
     "VDA Setting": "coadd_50",
-    "NIRDA Setting": "samp_4_6"
+    "NIRDA Setting": "samp_4_6",
+    "Time Updated": "2024-11-13 21:39:28",
+    "StarRoiDetMethod": 1
 }

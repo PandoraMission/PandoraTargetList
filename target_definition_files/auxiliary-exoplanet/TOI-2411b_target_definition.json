@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 17:52:52",
-    "Version": "0.1.0",
+    "Version": "0.1.1",
     "Author": "Ben Hord",
     "Planet Name": "TOI-2411b",
     "Star Name": "TOI-2411",
@@ -21,5 +21,7 @@
     "Transit Epoch (BJD_TDB)": 2459116.0139,
     "Transit Epoch Uncertainty (days)": 0.001,
     "VDA Setting": "coadd_50",
-    "NIRDA Setting": "samp_4_6"
+    "NIRDA Setting": "samp_4_6",
+    "Time Updated": "2024-11-13 21:39:28",
+    "StarRoiDetMethod": 1
 }

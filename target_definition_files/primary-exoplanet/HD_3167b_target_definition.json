@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 18:07:09",
-    "Version": "0.1.0",
+    "Version": "0.1.1",
     "Author": "Ben Hord",
     "Planet Name": "HD 3167b",
     "Star Name": "HD 3167",
@@ -47,5 +47,31 @@
         }
     ],
     "VDA Setting": "coadd_50",
-    "NIRDA Setting": "samp_4_6"
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 0,
+    "ROI_coord_epoch": "J2016.0",
+    "ROI_coord": [
+        [
+            8.717431792154468,
+            4.428709289968932
+        ],
+        [
+            8.563495532799662,
+            4.290837077786493
+        ],
+        [
+            8.595428348819741,
+            4.3711886063635195
+        ],
+        [
+            8.840193796949457,
+            4.535476460791092
+        ],
+        [
+            8.703493137361468,
+            4.558928035869491
+        ]
+    ],
+    "numPredefinedStarRois": 5,
+    "Time Updated": "2024-11-13 21:38:17"
 }

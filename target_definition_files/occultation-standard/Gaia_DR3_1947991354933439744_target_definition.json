@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-17 02:42:40",
-    "Version": "0.1.0",
+    "Version": "0.1.1",
     "Author": "Ben Hord",
     "Star Name": "Gaia DR3 1947991354933439744",
     "RA": 330.07872917355013,
@@ -13,5 +13,7 @@
     "Teff (K)": 5228.59765625,
     "logg": 2.821199893951416,
     "VDA Setting": "coadd_50",
-    "NIRDA Setting": "samp_4_5"
+    "NIRDA Setting": "samp_4_5",
+    "Time Updated": "2024-11-13 21:39:30",
+    "StarRoiDetMethod": 1
 }

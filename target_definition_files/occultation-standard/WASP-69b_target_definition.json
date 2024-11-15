@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 18:01:20",
-    "Version": "0.1.0",
+    "Version": "0.1.1",
     "Author": "Ben Hord",
     "Planet Name": "WASP-69b",
     "Star Name": "WASP-69",
@@ -21,5 +21,7 @@
     "Transit Epoch (BJD_TDB)": 2459798.775459,
     "Transit Epoch Uncertainty (days)": 0.000132,
     "VDA Setting": "coadd_50",
-    "NIRDA Setting": "samp_4_6"
+    "NIRDA Setting": "samp_4_6",
+    "Time Updated": "2024-11-13 21:39:30",
+    "StarRoiDetMethod": 1
 }
