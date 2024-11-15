@@ -76,7 +76,11 @@ def make_json_file(
             print("Saving JSON file...", end="\r")
         # Save dictionary as JSON file
         json_file_path = (
-            TARGDEFDIR + str(category) + "/" + str(target) + "_target_definition.json"
+            TARGDEFDIR
+            + str(category)
+            + "/"
+            + str(target.replace(" ", "_"))
+            + "_target_definition.json"
         )
         with open(json_file_path, "w") as outfile:
             json.dump(out_dict, outfile, indent=4)
@@ -178,9 +182,9 @@ def choose_readout_scheme(
     if vda_psf is None:
         vda_psf = ppsf.PSF.from_name("VISDA")
 
-    with open(HOMEDIR + "vda_readout_schemes.json", "r") as file:
+    with open(TARGDEFDIR + "vda_readout_schemes.json", "r") as file:
         vda_schemes = json.load(file)
-    vda_keys = list(vda_schemes["data"].keys())
+    vda_keys = vda_schemes["data"]["IncludedMnemonics"]
 
     VDA = psat.VisibleDetector()
 
@@ -224,9 +228,9 @@ def choose_readout_scheme(
     if nirda_psf is None:
         nirda_psf = ppsf.PSF.from_name("NIRDA")
         nirda_psf = nirda_psf.freeze_dimension(row=0 * u.pixel, column=0 * u.pixel)
-    with open(HOMEDIR + "nirda_readout_schemes.json", "r") as file:
+    with open(TARGDEFDIR + "nirda_readout_schemes.json", "r") as file:
         nirda_schemes = json.load(file)
-    nirda_keys = list(nirda_schemes["data"].keys())
+    nirda_keys = nirda_schemes["data"]["IncludedMnemonics"]
 
     NIRDA = psat.NIRDetector()
     integration_time = NIRDA.frame_time()
@@ -258,7 +262,7 @@ def choose_readout_scheme(
             SC_DropFrames3=nirda_schemes["data"][key]["SC_DropFrames3"],
             SC_ReadFrames=nirda_schemes["data"][key]["SC_ReadFrames"],
             SC_Groups=nirda_schemes["data"][key]["SC_Groups"],
-            SC_Integrations=nirda_schemes["data"][key]["SC_Integrations"],
+            SC_Integrations=1,
         )
         integration_arrays = [np.hstack(idx) for idx in integration_info]
         resets = np.hstack(integration_arrays) != 1

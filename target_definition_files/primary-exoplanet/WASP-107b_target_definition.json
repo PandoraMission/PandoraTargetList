@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 18:01:46",
-    "Version": "0.1.0",
+    "Version": "0.1.1",
     "Author": "Ben Hord",
     "Planet Name": "WASP-107b",
     "Star Name": "WASP-107",
@@ -16,7 +16,7 @@
     "logg": 3.0,
     "Planet Letter": "b",
     "Period (days)": 5.72148926,
-    "Period Uncertainty (days)": 8.5e-7,
+    "Period Uncertainty (days)": 8.5e-07,
     "Transit Duration (hrs)": 2.73864,
     "Transit Epoch (BJD_TDB)": 2457584.329746,
     "Transit Epoch Uncertainty (days)": 1.1e-05,
@@ -31,5 +31,35 @@
         }
     ],
     "VDA Setting": "coadd_50",
-    "NIRDA Setting": "samp_4_6"
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 0,
+    "ROI_coord_epoch": "J2016.0",
+    "ROI_coord": [
+        [
+            188.3526397322403,
+            -10.16916611837675
+        ],
+        [
+            188.4057426432406,
+            -10.274297411627131
+        ],
+        [
+            188.52142091762823,
+            -10.06595734962337
+        ],
+        [
+            188.4852089004089,
+            -10.192784416224907
+        ],
+        [
+            188.596846399913,
+            -10.149780831697475
+        ],
+        [
+            188.58653687289274,
+            -10.209355236513542
+        ]
+    ],
+    "numPredefinedStarRois": 6,
+    "Time Updated": "2024-11-13 21:38:08"
 }

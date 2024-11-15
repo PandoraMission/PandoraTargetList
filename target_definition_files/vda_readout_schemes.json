@@ -1,26 +1,62 @@
 {
     "metadata": {
-        "version": "1.0",
+        "version": "1.1",
         "name": "Pandora VDA Readout Schemes",
         "description": "This file contains different readout schemes for Pandora VDA.",
         "author": "Tom Barclay",
-        "date_created": "2024-10-09"
+        "date_created": "2024-11-11"
     },
     "data": {
+        "CommandName": "AcquireVisCamScienceData",
+        "IncludedMnemonics": ["all_frames", "coadd_5","coadd_50"],
+        "FixedParameters": {
+            "NumExposuresMax": 1,
+            "IncludeFieldSolnsInResp": 1
+        },
         "all_frames": {
+            "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
+            "TargetRA": "SET_BY_TARGET_DEFINITION_FILE",
+            "TargetDEC": "SET_BY_TARGET_DEFINITION_FILE",
+            "StarRoiDetMethod": "SET_BY_TARGET_DEFINITION_FILE",
+            "numPredefinedStarRois": "SET_BY_TARGET_DEFINITION_FILE",
+            "PredefinedStarRoiRa": "SET_BY_TARGET_DEFINITION_FILE",
+            "PredefinedStarRoiDec": "SET_BY_TARGET_DEFINITION_FILE",
             "FramesPerCoadd": 1,
             "ExposureTime_us": 200000,
-            "IntegrationTime": 0.2
+            "MaxNumStarRois": 0,
+            "StarRoiDimension": 50,
+            "NumTotalFramesRequested": "SET_BY_SCHEDULER",
+            "IntegrationTime_s": 0.2
         },
         "coadd_5": {
+            "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
+            "TargetRA": "SET_BY_TARGET_DEFINITION_FILE",
+            "TargetDEC": "SET_BY_TARGET_DEFINITION_FILE",
+            "StarRoiDetMethod": "SET_BY_TARGET_DEFINITION_FILE",
+            "numPredefinedStarRois": "SET_BY_TARGET_DEFINITION_FILE",
+            "PredefinedStarRoiRa": "SET_BY_TARGET_DEFINITION_FILE",
+            "PredefinedStarRoiDec": "SET_BY_TARGET_DEFINITION_FILE",
             "FramesPerCoadd": 5,
             "ExposureTime_us": 200000,
-            "IntegrationTime": 1.0
+            "MaxNumStarRois": 0,
+            "StarRoiDimension": 50,
+            "NumTotalFramesRequested": "SET_BY_SCHEDULER",
+            "IntegrationTime_s": 1.0
         },
         "coadd_50": {
+            "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
+            "TargetRA": "SET_BY_TARGET_DEFINITION_FILE",
+            "TargetDEC": "SET_BY_TARGET_DEFINITION_FILE",
+            "StarRoiDetMethod": "SET_BY_TARGET_DEFINITION_FILE",
+            "numPredefinedStarRois": "SET_BY_TARGET_DEFINITION_FILE",
+            "PredefinedStarRoiRa": "SET_BY_TARGET_DEFINITION_FILE",
+            "PredefinedStarRoiDec": "SET_BY_TARGET_DEFINITION_FILE",
             "FramesPerCoadd": 50,
             "ExposureTime_us": 200000,
-            "IntegrationTime": 10.0
+            "MaxNumStarRois": 0,
+            "StarRoiDimension": 50,
+            "NumTotalFramesRequested": "SET_BY_SCHEDULER",
+            "IntegrationTime_s": 10.0
         }
     }
 }

@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 17:52:06",
-    "Version": "0.1.0",
+    "Version": "0.1.1",
     "Author": "Ben Hord",
     "Planet Name": "HAT-P-26b",
     "Star Name": "HAT-P-26",
@@ -21,5 +21,7 @@
     "Transit Epoch (BJD_TDB)": 2456901.059458,
     "Transit Epoch Uncertainty (days)": 9.4e-05,
     "VDA Setting": "coadd_50",
-    "NIRDA Setting": "samp_4_6"
+    "NIRDA Setting": "samp_4_6",
+    "Time Updated": "2024-11-13 21:39:28",
+    "StarRoiDetMethod": 1
 }

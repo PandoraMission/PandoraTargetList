@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 17:49:06",
-    "Version": "0.1.0",
+    "Version": "0.1.1",
     "Author": "Ben Hord",
     "Planet Name": "GJ 3470b",
     "Star Name": "GJ 3470",
@@ -18,8 +18,10 @@
     "Period (days)": 3.3366496,
     "Period Uncertainty (days)": 3.6000000000000003e-06,
     "Transit Duration (hrs)": 1.8984,
-    "Transit Epoch (BJD_TDB)": 2456974.689880,
-    "Transit Epoch Uncertainty (days)": 5.9e-5,
+    "Transit Epoch (BJD_TDB)": 2456974.68988,
+    "Transit Epoch Uncertainty (days)": 5.9e-05,
     "VDA Setting": "coadd_50",
-    "NIRDA Setting": "samp_4_6"
+    "NIRDA Setting": "samp_4_6",
+    "Time Updated": "2024-11-13 21:39:28",
+    "StarRoiDetMethod": 1
 }

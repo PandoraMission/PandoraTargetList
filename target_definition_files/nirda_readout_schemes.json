@@ -1,13 +1,27 @@
 {
     "metadata": {
-        "version": "1.0",
+        "version": "1.1",
         "name": "Pandora NIRDA Readout Schemes",
         "description": "This file contains different readout schemes for Pandora NIRDA.",
         "author": "Tom Barclay",
-        "date_created": "2024-10-04"
+        "date_created": "2024-11-11"
     },
     "data": {
+        "CommandName": "AcquireInfCamImages",
+        "IncludedMnemonics": ["all_frames_24", "fowler_1", "fowler_2",
+        "fowler_3", "fowler_4", "samp_4_3", "samp_4_4", "samp_4_5",
+        "samp_4_6"
+        ],
+        "FixedParameters": {
+            "AverageGroups": 1,
+            "IncludeFieldSolnsInResp": 1,
+            "ROI_StartX": 0,
+            "ROI_StartY": 824,
+            "ROI_SizeX": 80,
+            "ROI_SizeY": 400
+        },
         "all_frames_24": {
+            "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
             "SC_Resets1": 1,
             "SC_Resets2": 1,
             "SC_DropFrames1": 0,
@@ -15,11 +29,12 @@
             "SC_DropFrames3": 0,
             "SC_ReadFrames": 24,
             "SC_Groups": 1,
-            "SC_Integrations": 1,
+            "SC_Integrations": "SET_BY_SCHEDULER",
             "FramesPerIntegration": 25,
-            "IntegrationTime": 8.0
+            "IntegrationTime_s": 8.0
         },
         "fowler_1": {
+            "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
             "SC_Resets1": 1,
             "SC_Resets2": 1,
             "SC_DropFrames1": 0,
@@ -27,11 +42,12 @@
             "SC_DropFrames3": 0,
             "SC_ReadFrames": 1,
             "SC_Groups": 2,
-            "SC_Integrations": 1,
+            "SC_Integrations": "SET_BY_SCHEDULER",
             "FramesPerIntegration": 19,
-            "IntegrationTime": 6.08
+            "IntegrationTime_s": 6.08
         },
         "fowler_2": {
+            "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
             "SC_Resets1": 1,
             "SC_Resets2": 1,
             "SC_DropFrames1": 0,
@@ -39,11 +55,12 @@
             "SC_DropFrames3": 0,
             "SC_ReadFrames": 2,
             "SC_Groups": 2,
-            "SC_Integrations": 1,
+            "SC_Integrations": "SET_BY_SCHEDULER",
             "FramesPerIntegration": 21,
-            "IntegrationTime": 6.72
+            "IntegrationTime_s": 6.72
         },
         "fowler_3": {
+            "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
             "SC_Resets1": 1,
             "SC_Resets2": 1,
             "SC_DropFrames1": 0,
@@ -51,11 +68,12 @@
             "SC_DropFrames3": 0,
             "SC_ReadFrames": 3,
             "SC_Groups": 2,
-            "SC_Integrations": 1,
+            "SC_Integrations": "SET_BY_SCHEDULER",
             "FramesPerIntegration": 23,
-            "IntegrationTime": 7.36
+            "IntegrationTime_s": 7.36
         },
         "fowler_4": {
+            "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
             "SC_Resets1": 1,
             "SC_Resets2": 1,
             "SC_DropFrames1": 0,
@@ -63,11 +81,12 @@
             "SC_DropFrames3": 0,
             "SC_ReadFrames": 4,
             "SC_Groups": 2,
-            "SC_Integrations": 1,
+            "SC_Integrations": "SET_BY_SCHEDULER",
             "FramesPerIntegration": 25,
-            "IntegrationTime": 8.0
+            "IntegrationTime_s": 8.0
         },
         "samp_4_3": {
+            "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
             "SC_Resets1": 1,
             "SC_Resets2": 1,
             "SC_DropFrames1": 0,
@@ -75,11 +94,12 @@
             "SC_DropFrames3": 0,
             "SC_ReadFrames": 4,
             "SC_Groups": 3,
-            "SC_Integrations": 1,
+            "SC_Integrations": "SET_BY_SCHEDULER",
             "FramesPerIntegration": 45,
-            "IntegrationTime": 14.4
+            "IntegrationTime_s": 14.4
         },
         "samp_4_4": {
+            "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
             "SC_Resets1": 1,
             "SC_Resets2": 1,
             "SC_DropFrames1": 0,
@@ -87,11 +107,12 @@
             "SC_DropFrames3": 0,
             "SC_ReadFrames": 4,
             "SC_Groups": 4,
-            "SC_Integrations": 1,
+            "SC_Integrations": "SET_BY_SCHEDULER",
             "FramesPerIntegration": 65,
-            "IntegrationTime": 20.8
+            "IntegrationTime_s": 20.8
         },
         "samp_4_5": {
+            "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
             "SC_Resets1": 1,
             "SC_Resets2": 1,
             "SC_DropFrames1": 0,
@@ -99,11 +120,12 @@
             "SC_DropFrames3": 0,
             "SC_ReadFrames": 4,
             "SC_Groups": 5,
-            "SC_Integrations": 1,
+            "SC_Integrations": "SET_BY_SCHEDULER",
             "FramesPerIntegration": 85,
-            "IntegrationTime": 27.2
+            "IntegrationTime_s": 27.2
         },
         "samp_4_6": {
+            "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
             "SC_Resets1": 1,
             "SC_Resets2": 1,
             "SC_DropFrames1": 0,
@@ -111,9 +133,9 @@
             "SC_DropFrames3": 0,
             "SC_ReadFrames": 4,
             "SC_Groups": 6,
-            "SC_Integrations": 1,
+            "SC_Integrations": "SET_BY_SCHEDULER",
             "FramesPerIntegration": 105,
-            "IntegrationTime": 33.6
+            "IntegrationTime_s": 33.6
         }
     }
 }
