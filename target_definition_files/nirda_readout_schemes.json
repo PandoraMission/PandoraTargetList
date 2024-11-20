@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "version": "1.1",
+        "version": "1.1.1",
         "name": "Pandora NIRDA Readout Schemes",
         "description": "This file contains different readout schemes for Pandora NIRDA.",
         "author": "Tom Barclay",
