@@ -14,14 +14,8 @@
     "Gmag": 11.360213279724121,
     "Teff (K)": 3775.5,
     "logg": 3.0,
-    "Planet Letter": "b",
-    "Period (days)": 3.3366496,
-    "Period Uncertainty (days)": 3.6000000000000003e-06,
-    "Transit Duration (hrs)": 1.8984,
-    "Transit Epoch (BJD_TDB)": 2456974.68988,
-    "Transit Epoch Uncertainty (days)": 5.9e-05,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "Time Updated": "2024-11-13 21:39:28",
+    "Time Updated": "2024-12-02 15:56:00",
     "StarRoiDetMethod": 1
 }

@@ -14,24 +14,8 @@
     "Gmag": 12.186321258544922,
     "Teff (K)": 3185.78173828125,
     "logg": 4.09499979019165,
-    "Planet Letter": "b",
-    "Period (days)": 0.9893455,
-    "Period Uncertainty (days)": 6e-06,
-    "Transit Duration (hrs)": 1.027,
-    "Transit Epoch (BJD_TDB)": 2458791.5146,
-    "Transit Epoch Uncertainty (days)": 0.0021,
-    "Additional Planets": [
-        {
-            "Planet Letter": "c",
-            "Period (days)": 103.0,
-            "Period Uncertainty (days)": 5.15,
-            "Transit Duration (hrs)": NaN,
-            "Transit Epoch (BJD_TDB)": 2458905.0,
-            "Transit Epoch Uncertainty (days)": 5.15
-        }
-    ],
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "Time Updated": "2024-11-13 21:39:28",
+    "Time Updated": "2024-12-02 15:56:00",
     "StarRoiDetMethod": 1
 }
