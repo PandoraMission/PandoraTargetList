@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "version": "1.1",
+        "version": "1.1.1",
         "name": "Pandora NIRDA Readout Schemes",
         "description": "This file contains different readout schemes for Pandora NIRDA.",
         "author": "Tom Barclay",
@@ -15,7 +15,7 @@
         "FixedParameters": {
             "AverageGroups": 1,
             "IncludeFieldSolnsInResp": 1,
-            "ROI_StartX": 0,
+            "ROI_StartX": 1968,
             "ROI_StartY": 824,
             "ROI_SizeX": 80,
             "ROI_SizeY": 400
