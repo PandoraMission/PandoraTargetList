@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "version": "1.1",
+        "version": "1.1.1",
         "name": "Pandora VDA Readout Schemes",
         "description": "This file contains different readout schemes for Pandora VDA.",
         "author": "Tom Barclay",
@@ -11,7 +11,11 @@
         "IncludedMnemonics": ["all_frames", "coadd_5","coadd_50"],
         "FixedParameters": {
             "NumExposuresMax": 1,
-            "IncludeFieldSolnsInResp": 1
+            "IncludeFieldSolnsInResp": 1,
+            "ROI_StartX": 512,
+            "ROI_StartY": 512,
+            "ROI_SizeX": 1024,
+            "ROI_SizeY": 1024
         },
         "all_frames": {
             "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
