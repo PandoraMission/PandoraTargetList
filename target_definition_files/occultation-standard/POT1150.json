@@ -1,0 +1,20 @@
+{
+    "Time Created": "2024-10-17 17:34:14",
+    "Version": "0.1.1",
+    "Author": "Ben Hord",
+    "Star Name": "Gaia DR3 2694158943840374400",
+    "RA": 327.5126015054138,
+    "DEC": 2.6918735322959253,
+    "coord_epoch": "J2016.0",
+    "pm_RA": 34.18743122847392,
+    "pm_DEC": -14.887835201250764,
+    "Jmag": 8.24899959564209,
+    "Gmag": 9.014229774475098,
+    "Teff (K)": 6518.6865234375,
+    "logg": 4.162799835205078,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "Time Updated": "2024-12-04 20:30:57",
+    "StarRoiDetMethod": 1,
+    "Alt Name": "POT1150"
+}
