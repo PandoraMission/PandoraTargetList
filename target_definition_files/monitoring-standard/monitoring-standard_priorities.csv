@@ -1,11 +1,11 @@
 # Priority file for monitoring-standard
-# Version 0.1.1
-# Updated on: 2024-12-05 18:25:04
+# Version 0.1.2
+# Updated on: 2024-12-05 21:59:14
 # Updated by: Ben Hord
 #
 # Column 1: Target Name
 # Column 2: Priority
-# Column 3: Number of Transits Requested
-# Column 4: Number of Transits Remaining
+# Column 3: Number of Transits Requested (Optional)
+# Column 4: Number of Transits Remaining (Optional)
 ,target,priority,trans_req,trans_rem
 0,GD153,0.9,,
