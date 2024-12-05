@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 18:07:57",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
     "Planet Name": "GJ 9827b",
     "Star Name": "GJ 9827",
@@ -44,6 +44,10 @@
     "ROI_coord_epoch": "J2016.0",
     "ROI_coord": [
         [
+            351.77182847412627,
+            -1.2853135355720275
+        ],
+        [
             351.8866806135306,
             -1.3330876270798264
         ],
@@ -68,6 +72,6 @@
             -1.1777966353594451
         ]
     ],
-    "numPredefinedStarRois": 6,
-    "Time Updated": "2024-11-13 21:38:28"
+    "numPredefinedStarRois": 7,
+    "Time Updated": "2024-12-05 17:03:13"
 }

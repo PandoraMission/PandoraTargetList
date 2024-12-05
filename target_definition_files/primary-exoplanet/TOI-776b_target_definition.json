@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 18:07:35",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
     "Planet Name": "TOI-776b",
     "Star Name": "TOI-776",
@@ -36,6 +36,10 @@
     "ROI_coord_epoch": "J2016.0",
     "ROI_coord": [
         [
+            178.57804097288624,
+            -37.553376934847535
+        ],
+        [
             178.55758942212543,
             -37.600168614970954
         ],
@@ -68,6 +72,6 @@
             -37.67168301068167
         ]
     ],
-    "numPredefinedStarRois": 8,
-    "Time Updated": "2024-11-13 21:38:34"
+    "numPredefinedStarRois": 9,
+    "Time Updated": "2024-12-05 17:03:13"
 }

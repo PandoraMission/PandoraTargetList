@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 18:05:57",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
     "Planet Name": "TOI-1685b",
     "Star Name": "TOI-1685",
@@ -25,6 +25,10 @@
     "StarRoiDetMethod": 0,
     "ROI_coord_epoch": "J2016.0",
     "ROI_coord": [
+        [
+            68.5939600520581,
+            43.03702752862701
+        ],
         [
             68.80928153795115,
             43.09797948369046
@@ -58,6 +62,6 @@
             42.97864982117978
         ]
     ],
-    "numPredefinedStarRois": 8,
-    "Time Updated": "2024-11-13 21:38:09"
+    "numPredefinedStarRois": 9,
+    "Time Updated": "2024-12-05 17:03:13"
 }

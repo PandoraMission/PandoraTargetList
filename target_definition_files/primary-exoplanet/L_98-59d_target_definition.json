@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 18:05:25",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
     "Planet Name": "L 98-59d",
     "Star Name": "L 98-59",
@@ -52,6 +52,10 @@
     "ROI_coord_epoch": "J2016.0",
     "ROI_coord": [
         [
+            124.53289609935439,
+            -68.31451297878304
+        ],
+        [
             124.85777760627948,
             -68.33696277489302
         ],
@@ -84,6 +88,6 @@
             -68.20390912620903
         ]
     ],
-    "numPredefinedStarRois": 8,
-    "Time Updated": "2024-11-13 21:38:37"
+    "numPredefinedStarRois": 9,
+    "Time Updated": "2024-12-05 17:03:13"
 }

@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 18:07:09",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
     "Planet Name": "HD 3167b",
     "Star Name": "HD 3167",
@@ -52,6 +52,10 @@
     "ROI_coord_epoch": "J2016.0",
     "ROI_coord": [
         [
+            8.7401637112606,
+            4.380697426610551
+        ],
+        [
             8.717431792154468,
             4.428709289968932
         ],
@@ -72,6 +76,6 @@
             4.558928035869491
         ]
     ],
-    "numPredefinedStarRois": 5,
-    "Time Updated": "2024-11-13 21:38:17"
+    "numPredefinedStarRois": 6,
+    "Time Updated": "2024-12-05 17:03:13"
 }

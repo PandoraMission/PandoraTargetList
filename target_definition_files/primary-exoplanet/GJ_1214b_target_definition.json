@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 18:03:02",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
     "Planet Name": "GJ 1214b",
     "Star Name": "GJ 1214",
@@ -25,6 +25,10 @@
     "StarRoiDetMethod": 0,
     "ROI_coord_epoch": "J2016.0",
     "ROI_coord": [
+        [
+            258.8314799887317,
+            4.960575338342744
+        ],
         [
             258.9530959441002,
             4.79509024288006
@@ -58,6 +62,6 @@
             4.990639646070017
         ]
     ],
-    "numPredefinedStarRois": 8,
-    "Time Updated": "2024-11-13 21:38:28"
+    "numPredefinedStarRois": 9,
+    "Time Updated": "2024-12-05 17:03:13"
 }

@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 18:03:35",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
     "Planet Name": "WASP-177b",
     "Star Name": "WASP-177",
@@ -25,6 +25,10 @@
     "StarRoiDetMethod": 0,
     "ROI_coord_epoch": "J2016.0",
     "ROI_coord": [
+        [
+            334.79698050471217,
+            -1.8344379766870453
+        ],
         [
             334.75066849550296,
             -1.923003667955157
@@ -58,6 +62,6 @@
             -1.8980972667174176
         ]
     ],
-    "numPredefinedStarRois": 8,
-    "Time Updated": "2024-11-13 21:38:24"
+    "numPredefinedStarRois": 9,
+    "Time Updated": "2024-12-05 17:03:13"
 }

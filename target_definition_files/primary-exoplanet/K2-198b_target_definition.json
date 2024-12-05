@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 18:05:00",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
     "Planet Name": "K2-198b",
     "Star Name": "K2-198",
@@ -44,6 +44,10 @@
     "ROI_coord_epoch": "J2016.0",
     "ROI_coord": [
         [
+            198.84367656217745,
+            -6.464991748973773
+        ],
+        [
             198.87982666814244,
             -6.404730169400181
         ],
@@ -76,6 +80,6 @@
             -6.592469728942375
         ]
     ],
-    "numPredefinedStarRois": 8,
-    "Time Updated": "2024-11-13 21:38:17"
+    "numPredefinedStarRois": 9,
+    "Time Updated": "2024-12-05 17:03:13"
 }
