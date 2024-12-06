@@ -13,8 +13,5 @@
     "Teff (K)": 5687.76904296875,
     "logg": 1.5527000427246094,
     "VDA Setting": "coadd_50",
-    "NIRDA Setting": "samp_4_3",
-    "Time Updated": "2024-12-04 20:30:56",
-    "StarRoiDetMethod": 1,
-    "Alt Name": "POT0861"
+    "NIRDA Setting": "samp_4_3"
 }
