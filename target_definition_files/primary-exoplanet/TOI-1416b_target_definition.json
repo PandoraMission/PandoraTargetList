@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 18:06:48",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
     "Planet Name": "TOI-1416b",
     "Star Name": "TOI-1416",
@@ -25,6 +25,10 @@
     "StarRoiDetMethod": 0,
     "ROI_coord_epoch": "J2016.0",
     "ROI_coord": [
+        [
+            216.92347200037935,
+            41.95297214257123
+        ],
         [
             216.78057974764985,
             41.981731415013755
@@ -54,6 +58,6 @@
             41.95004426900851
         ]
     ],
-    "numPredefinedStarRois": 7,
-    "Time Updated": "2024-11-13 21:38:15"
+    "numPredefinedStarRois": 8,
+    "Time Updated": "2024-12-06 23:28:50"
 }

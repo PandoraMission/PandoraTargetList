@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 18:04:51",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
     "Planet Name": "TOI-942b",
     "Star Name": "TOI-942",
@@ -36,6 +36,10 @@
     "ROI_coord_epoch": "J2016.0",
     "ROI_coord": [
         [
+            76.6496195413261,
+            -20.24561309525414
+        ],
+        [
             76.7501382380034,
             -20.11522185984782
         ],
@@ -68,6 +72,6 @@
             -20.306118477327225
         ]
     ],
-    "numPredefinedStarRois": 8,
-    "Time Updated": "2024-11-13 21:38:27"
+    "numPredefinedStarRois": 9,
+    "Time Updated": "2024-12-06 23:28:50"
 }

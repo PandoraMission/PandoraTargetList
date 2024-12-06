@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 17:50:26",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
     "Planet Name": "TOI-942c",
     "Star Name": "TOI-942",
@@ -16,6 +16,6 @@
     "logg": 4.485499858856201,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "Time Updated": "2024-12-02 15:56:00",
+    "Time Updated": "2024-12-06 23:28:53",
     "StarRoiDetMethod": 1
 }

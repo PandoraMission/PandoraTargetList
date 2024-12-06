@@ -1,9 +1,9 @@
 {
     "Time Created": "2024-10-18 18:02:12",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
-    "Planet Name": "HIP 65 Ab",
-    "Star Name": "HIP 65 A",
+    "Planet Name": "HIP_65_Ab",
+    "Star Name": "HIP_65_A",
     "Number of Transits to Capture": 10,
     "RA": 0.18555746500007905,
     "DEC": -54.83083281791827,
@@ -25,6 +25,10 @@
     "StarRoiDetMethod": 0,
     "ROI_coord_epoch": "J2016.0",
     "ROI_coord": [
+        [
+            0.18555746500007905,
+            -54.83083281791827
+        ],
         [
             0.15631677616497716,
             -54.86145770196463
@@ -58,6 +62,6 @@
             -54.95627938232243
         ]
     ],
-    "numPredefinedStarRois": 8,
-    "Time Updated": "2024-11-13 21:38:16"
+    "numPredefinedStarRois": 9,
+    "Time Updated": "2024-12-06 23:28:50"
 }

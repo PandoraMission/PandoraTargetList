@@ -1,9 +1,9 @@
 {
     "Time Created": "2024-10-18 17:56:10",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
-    "Planet Name": "GJ 806b",
-    "Star Name": "GJ 806",
+    "Planet Name": "GJ_806b",
+    "Star Name": "GJ_806",
     "Number of Transits to Capture": 10,
     "RA": 311.2697846821949,
     "DEC": 44.5002726683959,
@@ -32,6 +32,6 @@
     ],
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_4",
-    "Time Updated": "2024-11-13 21:39:28",
+    "Time Updated": "2024-12-06 23:28:53",
     "StarRoiDetMethod": 1
 }
