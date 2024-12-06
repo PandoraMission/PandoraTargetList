@@ -2,8 +2,8 @@
     "Time Created": "2024-10-18 18:08:47",
     "Version": "0.1.2",
     "Author": "Ben Hord",
-    "Planet Name": "LTT 1445 Ac",
-    "Star Name": "LTT 1445 A",
+    "Planet Name": "LTT_1445_Ac",
+    "Star Name": "LTT_1445_A",
     "Number of Transits to Capture": 10,
     "RA": 45.46242451175699,
     "DEC": -16.59453280551054,
@@ -69,5 +69,5 @@
         ]
     ],
     "numPredefinedStarRois": 8,
-    "Time Updated": "2024-12-05 17:03:13"
+    "Time Updated": "2024-12-06 23:28:50"
 }

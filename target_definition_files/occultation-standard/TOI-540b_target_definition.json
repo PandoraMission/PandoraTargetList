@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 17:54:10",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
     "Planet Name": "TOI-540b",
     "Star Name": "TOI-540",
@@ -22,6 +22,6 @@
     "Transit Epoch Uncertainty (days)": 0.00046,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "Time Updated": "2024-11-13 21:39:31",
+    "Time Updated": "2024-12-06 23:28:53",
     "StarRoiDetMethod": 1
 }

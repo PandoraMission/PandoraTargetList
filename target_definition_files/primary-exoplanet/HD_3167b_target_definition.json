@@ -2,8 +2,8 @@
     "Time Created": "2024-10-18 18:07:09",
     "Version": "0.1.2",
     "Author": "Ben Hord",
-    "Planet Name": "HD 3167b",
-    "Star Name": "HD 3167",
+    "Planet Name": "HD_3167b",
+    "Star Name": "HD_3167",
     "Number of Transits to Capture": 10,
     "RA": 8.7401637112606,
     "DEC": 4.380697426610551,
@@ -77,5 +77,5 @@
         ]
     ],
     "numPredefinedStarRois": 6,
-    "Time Updated": "2024-12-05 17:03:13"
+    "Time Updated": "2024-12-06 23:28:50"
 }

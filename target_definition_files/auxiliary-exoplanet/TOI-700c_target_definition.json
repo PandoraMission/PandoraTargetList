@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 18:17:44",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
     "Planet Name": "TOI-700c",
     "Star Name": "TOI-700",
@@ -48,6 +48,6 @@
     ],
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "Time Updated": "2024-11-13 21:39:28",
+    "Time Updated": "2024-12-06 23:28:53",
     "StarRoiDetMethod": 1
 }

@@ -1,9 +1,9 @@
 {
     "Time Created": "2024-10-18 17:56:43",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
-    "Planet Name": "LTT 1445 Ab",
-    "Star Name": "LTT 1445 A",
+    "Planet Name": "LTT_1445_Ab",
+    "Star Name": "LTT_1445_A",
     "Number of Transits to Capture": 10,
     "RA": 45.46242451175699,
     "DEC": -16.59453280551054,
@@ -32,6 +32,6 @@
     ],
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_4",
-    "Time Updated": "2024-11-13 21:39:30",
+    "Time Updated": "2024-12-06 23:28:52",
     "StarRoiDetMethod": 1
 }
