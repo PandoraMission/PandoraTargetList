@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 18:04:30",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
     "Planet Name": "WASP-52b",
     "Star Name": "WASP-52",
@@ -22,6 +22,6 @@
     "Transit Epoch Uncertainty (days)": 9e-05,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "Time Updated": "2024-11-13 21:39:28",
+    "Time Updated": "2024-12-06 23:28:50",
     "StarRoiDetMethod": 1
 }

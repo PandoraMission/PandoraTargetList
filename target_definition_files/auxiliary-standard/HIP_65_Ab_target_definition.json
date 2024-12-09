@@ -1,9 +1,9 @@
 {
     "Time Created": "2024-10-18 18:02:12",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
-    "Planet Name": "HIP 65 Ab",
-    "Star Name": "HIP 65 A",
+    "Planet Name": "HIP_65_Ab",
+    "Star Name": "HIP_65_A",
     "Number of Transits to Capture": 10,
     "RA": 0.18555746500007905,
     "DEC": -54.83083281791827,
@@ -16,6 +16,6 @@
     "logg": 4.592800140380859,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "Time Updated": "2024-12-02 15:56:00",
+    "Time Updated": "2024-12-06 23:28:53",
     "StarRoiDetMethod": 1
 }

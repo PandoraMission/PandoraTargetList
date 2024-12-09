@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 18:06:26",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
     "Planet Name": "TOI-836b",
     "Star Name": "TOI-836",
@@ -36,6 +36,10 @@
     "ROI_coord_epoch": "J2016.0",
     "ROI_coord": [
         [
+            225.07985270942572,
+            -24.454206065152906
+        ],
+        [
             225.05818272516538,
             -24.35055113326917
         ],
@@ -68,6 +72,6 @@
             -24.534203282385512
         ]
     ],
-    "numPredefinedStarRois": 8,
-    "Time Updated": "2024-11-13 21:38:31"
+    "numPredefinedStarRois": 9,
+    "Time Updated": "2024-12-06 23:28:50"
 }

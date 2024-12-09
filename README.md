@@ -1,7 +1,7 @@
 # PandoraTargetList
 
-version 0.1.1
-July 17, 2023
+version 0.1.2
+December 5, 2024
 
 Repository showing the current ranked list of Pandora targets used by the mission.
 
