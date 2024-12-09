@@ -5,6 +5,7 @@
 - Assigned Pandora occultation targets POT IDs with lookup table
 - Fixed bug where target coords weren't included in ROI list
 - Keyword formatting changes for readout scheme intake
+- Added tests to check that planet/star names don't have spaces and are shorter then 24 characters
 
 # 0.1.1
 
