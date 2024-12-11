@@ -1,9 +1,9 @@
 {
     "Time Created": "2024-10-18 17:51:14",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
-    "Planet Name": "GJ 3090b",
-    "Star Name": "GJ 3090",
+    "Planet Name": "GJ_3090b",
+    "Star Name": "GJ_3090",
     "Number of Transits to Capture": 10,
     "RA": 20.43840559561582,
     "DEC": -46.71473451693094,
@@ -22,6 +22,6 @@
     "Transit Epoch Uncertainty (days)": 0.0003,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "Time Updated": "2024-11-13 21:39:29",
+    "Time Updated": "2024-12-06 23:28:51",
     "StarRoiDetMethod": 1
 }

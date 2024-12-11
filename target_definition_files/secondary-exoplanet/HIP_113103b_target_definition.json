@@ -1,9 +1,9 @@
 {
     "Time Created": "2024-10-18 17:53:48",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
-    "Planet Name": "HIP 113103b",
-    "Star Name": "HIP 113103",
+    "Planet Name": "HIP_113103b",
+    "Star Name": "HIP_113103",
     "Number of Transits to Capture": 10,
     "RA": 343.57237979136073,
     "DEC": -43.01022537484738,
@@ -32,6 +32,6 @@
     ],
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "Time Updated": "2024-11-13 21:39:28",
+    "Time Updated": "2024-12-06 23:28:53",
     "StarRoiDetMethod": 1
 }

@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 18:01:20",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
     "Planet Name": "WASP-69b",
     "Star Name": "WASP-69",
@@ -25,6 +25,10 @@
     "StarRoiDetMethod": 0,
     "ROI_coord_epoch": "J2016.0",
     "ROI_coord": [
+        [
+            315.0259708078886,
+            -5.094870064224303
+        ],
         [
             315.15520228097154,
             -5.00559251052369
@@ -58,6 +62,6 @@
             -5.0159719613981295
         ]
     ],
-    "numPredefinedStarRois": 8,
-    "Time Updated": "2024-11-13 21:38:25"
+    "numPredefinedStarRois": 9,
+    "Time Updated": "2024-12-06 23:28:50"
 }

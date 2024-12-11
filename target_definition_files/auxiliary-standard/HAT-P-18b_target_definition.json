@@ -1,6 +1,6 @@
 {
     "Time Created": "2024-10-18 17:48:40",
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Author": "Ben Hord",
     "Planet Name": "HAT-P-18b",
     "Star Name": "HAT-P-18",
@@ -16,6 +16,6 @@
     "logg": 4.565000057220459,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "Time Updated": "2024-12-02 15:56:00",
+    "Time Updated": "2024-12-06 23:28:53",
     "StarRoiDetMethod": 1
 }
