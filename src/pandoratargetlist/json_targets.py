@@ -13,7 +13,7 @@ import pandorasim as psim
 import pandorasat as psat
 import pandorapsf as ppsf
 
-from pandoratargetlist import __version__, HOMEDIR, TARGDEFDIR
+from pandoratargetlist import __version__, TARGDEFDIR
 
 
 def make_json_file(
@@ -59,15 +59,7 @@ def make_json_file(
 
     for i, target in enumerate(target_list):
         if verbose:
-            print(
-                "Running "
-                + str(target)
-                + " ("
-                + str(i + 1)
-                + "/"
-                + str(len(target_list))
-                + ")"
-            )
+            print(f"Running {target} ({i + 1}/{len(target_list)})")
         out_dict = {
             "Time Created": Time.now().value.strftime("%Y-%m-%d %H:%M:%S"),
             "Version": __version__,
@@ -113,6 +105,55 @@ def make_json_file(
             json.dump(out_dict, outfile, indent=4)
 
         print("Saved JSON file for " + str(target))
+
+
+def process_targets(input_targets, delimiter=","):
+    """
+    Function to process input target(s) for make_json_file.
+
+    Parameters
+    ----------
+    input_targets : str or list
+        Name, filename, or list denoting the name(s) of the targets to make
+        files for.
+    delimiter : str
+        Delimiter for file if input_targets is a filename. Default is ','.
+
+    Returns
+    -------
+    targets : list
+        List of target names extracted from input_targets.
+    aux_info : pd.DataFrame
+        Collection of other auxiliary information collected from CSV file if
+        input_targets is a filename.
+    pl_flags : list
+        List of booleans corresponding to the list of targets that denotes
+        whether each target is a planet or not.
+    """
+    if type(input_targets) is not str and type(input_targets) is not list:
+        raise ValueError("Please make sure target input is a string!")
+
+    aux_info = None
+
+    if input_targets[-4] == ".":
+        aux_info = pd.read_csv(input_targets, delimiter=delimiter)
+        targets = aux_info["designation"].tolist()
+    elif type(input_targets) is list:
+        targets = [str(i) for i in input_targets]
+    else:
+        targets = [input_targets]
+
+    pl_flags = np.zeros(len(targets))
+    for i in range(len(targets)):
+        if targets[i][:3] == "TOI":
+            pl_flags[i] += 1
+        else:
+            try:
+                int(targets[i][-1])
+            except ValueError:
+                pl_flags[i] += 1
+
+    return targets, aux_info, pl_flags
 
 
 def fetch_system_dict(target, pl_flag=True, info_out=True):
@@ -365,52 +406,3 @@ def choose_readout_scheme(
     out_dict.update({"NIRDA Setting": instrument_set})
 
     return out_dict
-
-
-def process_targets(input_targets, delimiter=","):
-    """
-    Function to process input target(s) for make_json_file.
-
-    Parameters
-    ----------
-    input_targets : str or list
-        Name, filename, or list denoting the name(s) of the targets to make
-        files for.
-    delimiter : str
-        Delimiter for file if input_targets is a filename. Default is ','.
-    
-    Returns
-    -------
-    targets : list
-        List of target names extracted from input_targets.
-    aux_info : pd.DataFrame
-        Collection of other auxiliary information collected from CSV file if
-        input_targets is a filename.
-    pl_flags : list
-        List of booleans corresponding to the list of targets that denotes
-        whether each target is a planet or not.
-    """
-    if type(input_targets) is not str and type(input_targets) is not list:
-        raise ValueError("Please make sure target input is a string!")
-
-    aux_info = None
-
-    if input_targets[-4] == ".":
-        aux_info = pd.read_csv(input_targets, delimiter=delimiter)
-        targets = aux_info["designation"].tolist()
-    elif type(input_targets) is list:
-        targets = [str(i) for i in input_targets]
-    else:
-        targets = [input_targets]
-
-    pl_flags = np.zeros(len(targets))
-    for i in range(len(targets)):
-        if targets[i][:3] == "TOI":
-            pl_flags[i] += 1
-        else:
-            try:
-                int(targets[i][-1])
-            except:
-                pl_flags[i] += 1
-
-    return targets, aux_info, pl_flags
