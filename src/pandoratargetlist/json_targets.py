@@ -17,11 +17,38 @@ from pandoratargetlist import __version__, HOMEDIR, TARGDEFDIR
 
 
 def make_json_file(
-    targets, author="System", transits=10, category="auxiliary", verbose=True
+    targets, author="System", transits=10, category="auxiliary-standard", verbose=True
 ):
-    """Top-level function responsible for making the JSON file for a target or
-    list of targets.
     """
+    Top-level function responsible for making the JSON file for a target or
+    list of targets.
+
+    Parameters
+    ----------
+    targets : str or list
+        Target(s) to generate target definition files for. This can be a the
+        name of a single target, the name of a CSV file containing the target
+        names, or a list of strings containing the target names. When inputting
+        a CSV file, the column with the target names must be labeled
+        'designation'.
+    author : str
+        Name of the author generating these files. Default is System.
+    transits : int
+        Number of transits required for this target. Default is 10. If set to
+        0, the 'Number of Transits to Capture' field will not be included in
+        the file.
+    category : str
+        Specifies which category the target falls under. Category must be
+        'auxiliary-exoplanet', 'auxiliary-standard', 'monitoring-standard',
+        'time-critical', 'primary-exoplanet', or 'secondary-exoplanet'.
+    verbose : bool
+        Flag determining how much printed feedback will be given while
+        generating the files.
+    """
+    # To-do: make a csv with transits and categories for each target parseable
+    # To-do: check that passing exoplanet host star rather than planet just
+    #        gathers stellar params and not planet params.
+    # To-do: change how planet status is processed. Make it dependent on category
     target_list, aux_info, pl_flags = process_targets(targets)
 
     if verbose:
@@ -89,8 +116,29 @@ def make_json_file(
 
 
 def fetch_system_dict(target, pl_flag=True, info_out=True):
-    """Function to fetch information about a target and return relevant
+    """
+    Function to fetch information about a target and return relevant
     keywords. This will help filter between stars with and without planets.
+
+    Parameters
+    ----------
+    target : str
+        Target to fetch information for.
+    pl_flag : bool
+        Flag indicating whether the target is a planet or not. This helps
+        parse the name to properly query the requisite catalogs.
+    info_out : bool
+        Flag indicating whether the full results from the catalog query in
+        addition to the output dictionary with the necessary parameters. If
+        True, 2 outputs will be returned.
+
+    Returns
+    -------
+    out_dict : dict
+        The output dictionary containing the relevant parameters that will
+        go into the target definition file.
+    info : xos.System
+        `exoscraper.System` object containing information on the requested target.s
     """
     if pl_flag:
         query_name = target[:-1]
@@ -164,8 +212,38 @@ def choose_readout_scheme(
     vda_psf=None,
     nirda_psf=None,
 ):
-    """Function to determine the brightness in NIRDA of a target and choose a
-    readout scheme.
+    """
+    Function to determine the brightness in NIRDA of a target and choose a
+    readout scheme. Some form of stellar information must be given and an
+    error will be thrown if none is provided. This should be either the info
+    parameter or teff and all of the magnitude keywords.
+
+    Parameters
+    ----------
+    info : xos.System or None
+        `exoscraper.System` object containing information on the target system.
+        Default is None.
+    teff : float or None
+        Effective temperature of the target star. Default is None.
+    vmag : float or None
+        V magnitude of the target star. Default is None.
+    jmag : float or None
+        J magnitude of the target star. Default is None.
+    gmag : float or None
+        Gaia (G) magnitude of the target star. Default is None.
+    bmag : float or None
+        B (Gaia B) magnitude of the target star. Default is None.
+    logg : float
+        log(g) of the host star. Default is 4.5.
+    vda_psf : ppsf.PSF or None
+        PSF of the VDA. If None, the PSF will be gathered from `pandorapsf`.
+        Default is None.
+    nirda_psf : ppsf.PSF or None
+        PSF of the NIRDA. If None, the PSF will be gathered from `pandorapsf`.
+        Default is None.
+
+    Returns
+    -------
     """
     if all(x is None for x in [info, teff, vmag, jmag, gmag, bmag]):
         raise ValueError("Stellar information must be provided!")
@@ -290,7 +368,28 @@ def choose_readout_scheme(
 
 
 def process_targets(input_targets, delimiter=","):
-    """Function to process input target(s) for make_json_file."""
+    """
+    Function to process input target(s) for make_json_file.
+
+    Parameters
+    ----------
+    input_targets : str or list
+        Name, filename, or list denoting the name(s) of the targets to make
+        files for.
+    delimiter : str
+        Delimiter for file if input_targets is a filename. Default is ','.
+    
+    Returns
+    -------
+    targets : list
+        List of target names extracted from input_targets.
+    aux_info : pd.DataFrame
+        Collection of other auxiliary information collected from CSV file if
+        input_targets is a filename.
+    pl_flags : list
+        List of booleans corresponding to the list of targets that denotes
+        whether each target is a planet or not.
+    """
     if type(input_targets) is not str and type(input_targets) is not list:
         raise ValueError("Please make sure target input is a string!")
 
