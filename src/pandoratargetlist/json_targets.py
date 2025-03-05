@@ -50,6 +50,19 @@ def make_json_file(
     #        gathers stellar params and not planet params.
     # To-do: change how planet status is processed. Make it dependent on category
     target_list, aux_info, pl_flags = process_targets(targets)
+    target_list, aux_info = process_targets(targets)
+    print(aux_info)
+    if aux_info is not None:# and 'category' in aux_info.columns():
+        if 'category' in aux_info.columns():
+            categories = aux_info['category']
+        else:
+            categories = [category] * len(target_list)
+
+        if 'transits' in aux_info.columns():
+            transits = aux_info['transits']
+        else:
+            transits = [transits] * len(target_list)
+    blah
 
     if verbose:
         print("Gathering PSFs...", end="\r")
@@ -143,17 +156,17 @@ def process_targets(input_targets, delimiter=","):
     else:
         targets = [input_targets]
 
-    pl_flags = np.zeros(len(targets))
-    for i in range(len(targets)):
-        if targets[i][:3] == "TOI":
-            pl_flags[i] += 1
-        else:
-            try:
-                int(targets[i][-1])
-            except ValueError:
-                pl_flags[i] += 1
+    # pl_flags = np.zeros(len(targets))
+    # for i in range(len(targets)):
+    #     if targets[i][:3] == "TOI":
+    #         pl_flags[i] += 1
+    #     else:
+    #         try:
+    #             int(targets[i][-1])
+    #         except ValueError:
+    #             pl_flags[i] += 1
 
-    return targets, aux_info, pl_flags
+    return targets, aux_info#, pl_flags
 
 
 def fetch_system_dict(target, pl_flag=True, info_out=True):
