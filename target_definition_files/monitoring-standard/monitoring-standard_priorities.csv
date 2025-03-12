@@ -1,12 +1,13 @@
 # Priority file for monitoring-standard
-# Version 0.1.2
-# Updated on: 2024-12-09 18:32:13
+# Version 0.1.3
+# Updated on: 2025-03-12 21:22:24
 # Updated by: Ben Hord
 #
 # Column 1: Rank
 # Column 2: Target Name
 # Column 3: Priority
-# Column 4: Number of Transits Requested (Optional)
-# Column 5: Number of Transits Remaining (Optional)
-rank,target,priority,trans_req,trans_rem
-0,GD153,0.9,,
+# Column 4: Number of Hours Requested
+# Column 5: Number of Hours Observed
+# Column 6: Number of Hours Remaining
+rank,target,priority,hours_req,hours_obs,hours_rem
+0,GD153,0.9,10.0,0.0,10.0
