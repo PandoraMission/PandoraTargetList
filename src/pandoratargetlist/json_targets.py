@@ -109,6 +109,8 @@ def make_target_file(
         else:
             out_dict.update({"StarRoiDetMethod": 1})
 
+        print(out_dict)
+
         # Save dictionary as JSON file
         if overwrite:
             if verbose:
@@ -160,7 +162,6 @@ def fetch_system_dict(target, pl_flag=True, info_out=True):
         "Jmag": float(info.sky_cat["jmag"][0]),
         "Gmag": float(info.sky_cat["gmag"][0]),
         "Bmag": float(info.sky_cat["bmag"][0]),
-        "Vmag": float(info.sky_cat["vmag"][0]),
         "Teff (K)": float(info.sky_cat["teff"][0].value),
         "logg": float(info.sky_cat["logg"][0]),
     }
@@ -250,10 +251,12 @@ def choose_readout_scheme(
 
     VDA = psat.VisibleDetector()
 
-    wav = np.arange(100, 1000) * u.nm
-    s = np.trapz(VDA.sensitivity(wav), wav)
-    f = VDA.flux_from_mag(bmag)
-    counts = (f * s).to(u.electron / u.second).value
+    # wav = np.arange(100, 1000) * u.nm
+    # s = np.trapz(VDA.sensitivity(wav), wav)
+    # f = VDA.flux_from_mag(bmag)
+    # counts = (f * s).to(u.electron / u.second).value
+    f = VDA.mag_to_flux(bmag)
+    counts = (f).to(u.electron / u.second).value
 
     roiscene = ppsf.ROIScene(
         locations=np.array([[0, 0]]),
@@ -297,17 +300,23 @@ def choose_readout_scheme(
     NIRDA = psat.NIRDetector()
     integration_time = NIRDA.frame_time()
 
+    k = nirda_psf.trace_sensitivity.value > (
+        nirda_psf.trace_sensitivity.max().value * 1e-6
+    )
+    nirda_wavelengths = nirda_psf.trace_wavelength[k]
+
     NIRDA_trace = ppsf.TraceScene(
         np.array([[300, 40]]),
         psf=nirda_psf,
         shape=NIRDA.subarray_size,
         corner=(0, 0),
-        wav_bin=1,
+        wavelength=nirda_wavelengths,
+        # wav_bin=1,
     )
 
-    spectra = np.zeros((1, nirda_psf.trace_wavelength.shape[0]))
+    spectra = np.zeros((1, nirda_wavelengths.shape[0]))
     wav, spec = psat.phoenix.get_phoenix_model(teff=teff, logg=logg, jmag=jmag)
-    spectra[0, :] = nirda_psf.integrate_spectrum(wav, spec)
+    spectra[0, :] = nirda_psf.integrate_spectrum(wav, spec, nirda_wavelengths)
     spectra = spectra * u.electron / u.s
 
     saturation_counts = 80000
@@ -336,12 +345,20 @@ def choose_readout_scheme(
             * resets.astype(float)
         )
 
+        # print(source_flux)
+        # print(len(source_flux))
+        # print(source_flux.shape[0])
+        # print(source_flux.shape[1])
         data = NIRDA_trace.model(source_flux)
-        data += 8
+        # print(data.unit)
+        data += 8 * u.electron
 
         max_pix = np.max(np.cumsum(data, axis=0)[-1])
 
-        if max_pix < saturation_counts:
+        # print(saturation_counts)
+        # print(max_pix)
+        # print(max_pix.value)
+        if max_pix.value < saturation_counts:
             instrument_set = key
         else:
             break
