@@ -1,6 +1,6 @@
 # Functions to make target definition JSON files
 
-import os
+# import os
 import json
 
 import numpy as np
@@ -13,23 +13,47 @@ import pandorasim as psim
 import pandorasat as psat
 import pandorapsf as ppsf
 
-from pandoratargetlist import __version__, HOMEDIR, TARGDEFDIR
+from pandoratargetlist import __version__, TARGDEFDIR, VDA_PSF, NIRDA_PSF
 
 
-def make_json_file(
-    targets, author="System", transits=10, category="auxiliary", verbose=True
+# class Target(name, category):
+#     """
+#     Class to create and manipulate target definition files
+#     """
+
+
+# Add method
+def make_target_file(
+    targets,
+    author="System",
+    category="auxiliary-standard",
+    overwrite=False,
+    verbose=True,
 ):
-    """Top-level function responsible for making the JSON file for a target or
-    list of targets.
     """
-    target_list, aux_info, pl_flags = process_targets(targets)
+    Top-level function responsible for making the target definition file for a target or
+    list of targets.
 
+    Parameters
+    ----------
+
+    Returns
+    -------
+    """
+    # Process the input target to determine if it's a list, file, or string
+    target_list, aux_info, pl_flags = process_targets(targets)
+    if "exoplanet" not in category:
+        pl_flags = np.zeros(len(pl_flags))
+
+    # Gather the PSFs for the VDA and NIRDA
     if verbose:
         print("Gathering PSFs...", end="\r")
-    vda_psf = ppsf.PSF.from_name("VISDA")
-    nirda_psf = ppsf.PSF.from_name("NIRDA")
-    nirda_psf = nirda_psf.freeze_dimension(row=0 * u.pixel, column=0 * u.pixel)
+    # vda_psf = ppsf.PSF.from_name("VISDA")
+    # nirda_psf = ppsf.PSF.from_name("NIRDA")
+    vda_psf = VDA_PSF
+    nirda_psf = NIRDA_PSF.freeze_dimension(row=0 * u.pixel, column=0 * u.pixel)
 
+    # Cycle through each target in the input target list
     for i, target in enumerate(target_list):
         if verbose:
             print(
@@ -41,30 +65,36 @@ def make_json_file(
                 + str(len(target_list))
                 + ")"
             )
+        # Initialize the output dictionary with housekeeping items
         out_dict = {
             "Time Created": Time.now().value.strftime("%Y-%m-%d %H:%M:%S"),
             "Version": __version__,
+            "Time Updated": Time.now().value.strftime("%Y-%m-%d %H:%M:%S"),
             "Author": str(author),
         }
 
+        # Put star and planet name info in dictionary
         if pl_flags[i] > 0:
-            if aux_info is not None and "transits" in aux_info.columns:
-                transits = aux_info.transits[i]
+            # Deprecated below. Transit num now goes in priority files.
+            # if aux_info is not None and "transits" in aux_info.columns:
+            #     transits = aux_info.transits[i]
             out_dict.update(
                 {
-                    "Planet Name": target,
                     "Star Name": target[:-1],
-                    "Number of Transits to Capture": transits,
+                    "Planet Name": target,
+                    # "Number of Transits to Capture": transits,
                 }
             )
         else:
             out_dict.update({"Star Name": target})
 
+        # Fetch system parameters for inclusion in target definition files
         if verbose:
             print("Fetching system parameters...", end="\r")
         sys_dict, info = fetch_system_dict(target, bool(pl_flags[i]), info_out=True)
         out_dict.update(sys_dict)
 
+        # Determine the best instrument parameters for each target
         if verbose:
             print("Determining best instrument parameters...", end="\r")
         instrument_dict = choose_readout_scheme(
@@ -72,51 +102,75 @@ def make_json_file(
         )
         out_dict.update(instrument_dict)
 
-        if verbose:
-            print("Saving JSON file...", end="\r")
-        # Save dictionary as JSON file
-        json_file_path = (
-            TARGDEFDIR
-            + str(category)
-            + "/"
-            + str(target.replace(" ", "_"))
-            + "_target_definition.json"
-        )
-        with open(json_file_path, "w") as outfile:
-            json.dump(out_dict, outfile, indent=4)
+        # Determine ROIs
+        if category == "primary-exoplanet":
+            out_dict.update({"StarRoiDetMethod": 0})
+            # WIP: Actual ROI determination method
+        else:
+            out_dict.update({"StarRoiDetMethod": 1})
 
-        print("Saved JSON file for " + str(target))
+        # Save dictionary as JSON file
+        if overwrite:
+            if verbose:
+                print("Making JSON file...", end="\r")
+            json_file_path = (
+                TARGDEFDIR
+                + str(category)
+                + "/"
+                + str(target.replace(" ", "_"))
+                + "_target_definition.json"
+            )
+            with open(json_file_path, "w") as outfile:
+                json.dump(out_dict, outfile, indent=4)
+
+            print("Saved JSON file for " + str(target))
+        else:
+            fix_parameters()
 
 
 def fetch_system_dict(target, pl_flag=True, info_out=True):
-    """Function to fetch information about a target and return relevant
-    keywords. This will help filter between stars with and without planets.
     """
+    Function to fetch information about a target and return relevant
+    keywords. This will help filter between stars with and without planets.
+
+    Parameters
+    ----------
+
+    Returns
+    -------
+    """
+    # Determine if the system is a planetary system or not
     if pl_flag:
         query_name = target[:-1]
     else:
         query_name = target
 
+    # Fetch system information from Gaia DR3 using exoscraper
     info = xos.System.from_gaia(
         query_name, time=Time("2457389.0", format="jd", scale="tcb")
     )
 
+    # Make output dictionary with desired system values
     out_dict = {
         "RA": info.sky_cat["coords"].ra[0].value,
         "DEC": info.sky_cat["coords"].dec[0].value,
-        "coord_epoch": "J2016.0",
+        "Coordinate Epoch": "J2016.0",
         "pm_RA": info.sky_cat["coords"].pm_ra_cosdec[0].value,
         "pm_DEC": info.sky_cat["coords"].pm_dec[0].value,
         "Jmag": float(info.sky_cat["jmag"][0]),
         "Gmag": float(info.sky_cat["gmag"][0]),
+        "Bmag": float(info.sky_cat["bmag"][0]),
+        "Vmag": float(info.sky_cat["vmag"][0]),
         "Teff (K)": float(info.sky_cat["teff"][0].value),
         "logg": float(info.sky_cat["logg"][0]),
     }
 
+    # Fetch planet parameters if target is a planetary system
     if pl_flag:
         targ_ind = [info[0][n].name for n in range(len(info[0].planets))].index(target)
         planet = info[0][targ_ind]
 
+        # Update output dictionary with planet parameters
         out_dict.update(
             {
                 "Planet Letter": target[-1:],
@@ -128,6 +182,7 @@ def fetch_system_dict(target, pl_flag=True, info_out=True):
             }
         )
 
+        # Obtain parameters for any other planets in the system
         if len(info[0][:]) > 1:
             other_planets = []
 
@@ -164,8 +219,15 @@ def choose_readout_scheme(
     vda_psf=None,
     nirda_psf=None,
 ):
-    """Function to determine the brightness in NIRDA of a target and choose a
+    """
+    Function to determine the brightness in NIRDA of a target and choose a
     readout scheme.
+
+    Parameters
+    ----------
+
+    Returns
+    -------
     """
     if all(x is None for x in [info, teff, vmag, jmag, gmag, bmag]):
         raise ValueError("Stellar information must be provided!")
@@ -290,7 +352,15 @@ def choose_readout_scheme(
 
 
 def process_targets(input_targets, delimiter=","):
-    """Function to process input target(s) for make_json_file."""
+    """
+    Function to process input target(s) for make_target_file.
+
+    Parameters
+    ----------
+
+    Returns
+    -------
+    """
     if type(input_targets) is not str and type(input_targets) is not list:
         raise ValueError("Please make sure target input is a string!")
 
@@ -311,7 +381,25 @@ def process_targets(input_targets, delimiter=","):
         else:
             try:
                 int(targets[i][-1])
-            except:
+            except ValueError:
                 pl_flags[i] += 1
 
     return targets, aux_info, pl_flags
+
+
+def fix_parameters():
+    """Function to fix any blanks or NaNs in the system parameters."""
+    print("Work in progress!")
+    return []
+
+
+def update_file(target, category):
+    """Function to update the structure and values of a target definition file."""
+    # Read in existing JSON file
+    # input_file = os.path.join(TARGDEFDIR + category + '/' + target + '_target_definition.json')
+
+    # with open(input_file, 'r') as f:
+    #     input_data = json.load(f)
+
+    print("Work in progress!")
+    return []
