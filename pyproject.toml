@@ -10,7 +10,7 @@ readme = "README.md"
 python = ">=3.9,<3.13"
 pandorasim = ">=1.0.10"
 pandorasat = ">=0.5.23"
-pandorapsf = ">0.6.1"
+pandorapsf = ">=0.6.1"
 
 [tool.poetry.group.dev]
 optional = true
