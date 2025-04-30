@@ -11,4 +11,4 @@ TARGDEFDIR = "/".join(PACKAGEDIR.split("/")[:-2]) + "/target_definition_files/"
 VDA_PSF = ppsf.PSF.from_name("VISDA")
 NIRDA_PSF = ppsf.PSF.from_name("NIRDA")
 
-from .json_targets import make_target_file  # noqa
+from .targets import make_target_file  # noqa
