@@ -1,0 +1,20 @@
+{
+    "Time Created": "2025-04-30 16:54:09",
+    "Version": "0.1.3",
+    "Time Updated": "2025-04-30 16:54:09",
+    "Author": "Ben Hord",
+    "Star Name": "TOI-4551",
+    "RA": 184.97875260730532,
+    "DEC": -25.827855295776253,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -33.94954107229135,
+    "pm_DEC": -15.998926410417209,
+    "Jmag": 8.133000373840332,
+    "Gmag": 9.647211074829102,
+    "Bmag": 10.165060997009277,
+    "Teff (K)": 4818.28076171875,
+    "logg": 3.3334999084472656,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1
+}

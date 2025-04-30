@@ -1,0 +1,20 @@
+{
+    "Time Created": "2025-04-30 16:53:42",
+    "Version": "0.1.3",
+    "Time Updated": "2025-04-30 16:53:42",
+    "Author": "Ben Hord",
+    "Star Name": "K2-192",
+    "RA": 206.5823137482177,
+    "DEC": -11.556355773688972,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 10.419352019290615,
+    "pm_DEC": -22.36250631047624,
+    "Jmag": 11.121000289916992,
+    "Gmag": 12.445491790771484,
+    "Bmag": 12.8944091796875,
+    "Teff (K)": 5117.54443359375,
+    "logg": 4.512700080871582,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1
+}

@@ -1,0 +1,20 @@
+{
+    "Time Created": "2025-04-30 16:04:10",
+    "Version": "0.1.3",
+    "Time Updated": "2025-04-30 16:04:10",
+    "Author": "Ben Hord",
+    "Star Name": "Wolf_503",
+    "RA": 206.8461499892822,
+    "DEC": -6.139416445747912,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -342.8616578762623,
+    "pm_DEC": -573.1119108741811,
+    "Jmag": 8.324000358581543,
+    "Gmag": 9.901058197021484,
+    "Bmag": 10.46744441986084,
+    "Teff (K)": 4855.14697265625,
+    "logg": 4.5,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1
+}

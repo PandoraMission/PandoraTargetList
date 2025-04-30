@@ -1,0 +1,20 @@
+{
+    "Time Created": "2025-04-30 16:10:22",
+    "Version": "0.1.3",
+    "Time Updated": "2025-04-30 16:10:22",
+    "Author": "Ben Hord",
+    "Star Name": "K2-240",
+    "RA": 227.8493631523154,
+    "DEC": -17.87545373647547,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -53.55758844533986,
+    "pm_DEC": -52.3910295445651,
+    "Jmag": 10.394000053405762,
+    "Gmag": 12.604315757751465,
+    "Bmag": 13.56412124633789,
+    "Teff (K)": 3849.515380859375,
+    "logg": 4.55049991607666,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1
+}
