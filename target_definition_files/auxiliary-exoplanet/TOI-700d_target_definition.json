@@ -1,0 +1,53 @@
+{
+    "Time Created": "2025-04-30 14:13:08",
+    "Version": "0.1.3",
+    "Time Updated": "2025-04-30 14:13:08",
+    "Author": "Ben Hord",
+    "Star Name": "TOI-700",
+    "Planet Name": "TOI-700d",
+    "RA": 97.09568215455467,
+    "DEC": -65.57859235953504,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -102.64102042240687,
+    "pm_DEC": 161.74799808232677,
+    "Jmag": 9.468999862670898,
+    "Gmag": 12.063116073608398,
+    "Bmag": 13.325263977050781,
+    "Teff (K)": 3219.275390625,
+    "logg": 4.177700042724609,
+    "Planet Letter": "d",
+    "Period (days)": 37.42396,
+    "Period Uncertainty (days)": 0.00037,
+    "Transit Duration (hrs)": 3.314,
+    "Transit Epoch (BJD_TDB)": 2458816.9952,
+    "Transit Epoch Uncertainty (days)": 0.0012000000000000001,
+    "Additional Planets": [
+        {
+            "Planet Letter": "b",
+            "Period (days)": 9.977219,
+            "Period Uncertainty (days)": 3.95e-05,
+            "Transit Duration (hrs)": 2.17,
+            "Transit Epoch (BJD_TDB)": 2458880.0993,
+            "Transit Epoch Uncertainty (days)": 0.0015500000000000002
+        },
+        {
+            "Planet Letter": "c",
+            "Period (days)": 16.051137,
+            "Period Uncertainty (days)": 2e-05,
+            "Transit Duration (hrs)": 1.42,
+            "Transit Epoch (BJD_TDB)": 2458821.62181,
+            "Transit Epoch Uncertainty (days)": 0.000415
+        },
+        {
+            "Planet Letter": "e",
+            "Period (days)": 27.80978,
+            "Period Uncertainty (days)": 0.00043000000000000004,
+            "Transit Duration (hrs)": 2.777,
+            "Transit Epoch (BJD_TDB)": 2458964.8112,
+            "Transit Epoch Uncertainty (days)": 0.00515
+        }
+    ],
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1
+}

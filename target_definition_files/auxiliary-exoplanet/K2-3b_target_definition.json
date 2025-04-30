@@ -1,0 +1,45 @@
+{
+    "Time Created": "2025-04-30 14:09:04",
+    "Version": "0.1.3",
+    "Time Updated": "2025-04-30 14:09:04",
+    "Author": "Ben Hord",
+    "Star Name": "K2-3",
+    "Planet Name": "K2-3b",
+    "RA": 172.3353838821948,
+    "DEC": -1.4551471562439684,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 94.1160815404357,
+    "pm_DEC": -78.0031359022738,
+    "Jmag": 9.420999526977539,
+    "Gmag": 11.474142074584961,
+    "Bmag": 12.377142906188965,
+    "Teff (K)": 4126.68994140625,
+    "logg": 3.0,
+    "Planet Letter": "b",
+    "Period (days)": 10.0546535,
+    "Period Uncertainty (days)": 8.95e-06,
+    "Transit Duration (hrs)": 2.563,
+    "Transit Epoch (BJD_TDB)": 2457165.32947,
+    "Transit Epoch Uncertainty (days)": 0.00025,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 24.646729,
+            "Period Uncertainty (days)": 4.3e-05,
+            "Transit Duration (hrs)": 3.428,
+            "Transit Epoch (BJD_TDB)": 2457329.85688,
+            "Transit Epoch Uncertainty (days)": 0.0005549999999999999
+        },
+        {
+            "Planet Letter": "d",
+            "Period (days)": 44.55603,
+            "Period Uncertainty (days)": 0.000125,
+            "Transit Duration (hrs)": 4.17,
+            "Transit Epoch (BJD_TDB)": 2457271.78796,
+            "Transit Epoch Uncertainty (days)": 0.00076
+        }
+    ],
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1
+}

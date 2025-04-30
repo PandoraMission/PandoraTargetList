@@ -1,0 +1,45 @@
+{
+    "Time Created": "2025-04-30 14:08:44",
+    "Version": "0.1.3",
+    "Time Updated": "2025-04-30 14:08:44",
+    "Author": "Ben Hord",
+    "Star Name": "K2-198",
+    "Planet Name": "K2-198d",
+    "RA": 198.84367656217745,
+    "DEC": -6.464991748973773,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -36.67215653532828,
+    "pm_DEC": -21.70864009555902,
+    "Jmag": 9.741000175476074,
+    "Gmag": 11.012859344482422,
+    "Bmag": 11.444300651550293,
+    "Teff (K)": 5192.07373046875,
+    "logg": 4.56689977645874,
+    "Planet Letter": "d",
+    "Period (days)": 7.4500177,
+    "Period Uncertainty (days)": 3.9e-06,
+    "Transit Duration (hrs)": 3.0024,
+    "Transit Epoch (BJD_TDB)": 2457213.5759,
+    "Transit Epoch Uncertainty (days)": 0.001,
+    "Additional Planets": [
+        {
+            "Planet Letter": "b",
+            "Period (days)": 17.0428683,
+            "Period Uncertainty (days)": 5.3e-06,
+            "Transit Duration (hrs)": 2.9592,
+            "Transit Epoch (BJD_TDB)": 2457204.5687,
+            "Transit Epoch Uncertainty (days)": 0.00014
+        },
+        {
+            "Planet Letter": "c",
+            "Period (days)": 3.3596055,
+            "Period Uncertainty (days)": 3.0499999999999996e-06,
+            "Transit Duration (hrs)": 1.42008,
+            "Transit Epoch (BJD_TDB)": 2457215.032,
+            "Transit Epoch Uncertainty (days)": 0.0018
+        }
+    ],
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1
+}

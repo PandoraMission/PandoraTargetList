@@ -1,0 +1,77 @@
+{
+    "Time Created": "2025-04-30 14:11:41",
+    "Version": "0.1.3",
+    "Time Updated": "2025-04-30 14:11:41",
+    "Author": "Ben Hord",
+    "Star Name": "TRAPPIST-1",
+    "Planet Name": "TRAPPIST-1b",
+    "RA": 346.62652162764437,
+    "DEC": -5.043528319429531,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 930.787522581778,
+    "pm_DEC": -479.03754095288554,
+    "Jmag": 11.354000091552734,
+    "Gmag": 15.622553825378418,
+    "Bmag": 19.005802154541016,
+    "Teff (K)": 3352.333251953125,
+    "logg": NaN,
+    "Planet Letter": "b",
+    "Period (days)": 1.510826,
+    "Period Uncertainty (days)": 6e-06,
+    "Transit Duration (hrs)": 0.601,
+    "Transit Epoch (BJD_TDB)": 2457322.514193,
+    "Transit Epoch Uncertainty (days)": 3e-06,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 2.421937,
+            "Period Uncertainty (days)": 1.8e-05,
+            "Transit Duration (hrs)": 0.7005,
+            "Transit Epoch (BJD_TDB)": 2457282.8113871,
+            "Transit Epoch Uncertainty (days)": 3.8e-06
+        },
+        {
+            "Planet Letter": "d",
+            "Period (days)": 4.049219,
+            "Period Uncertainty (days)": 2.6e-05,
+            "Transit Duration (hrs)": 0.8145,
+            "Transit Epoch (BJD_TDB)": 2457670.1463014,
+            "Transit Epoch Uncertainty (days)": 1.84e-05
+        },
+        {
+            "Planet Letter": "e",
+            "Period (days)": 6.101013,
+            "Period Uncertainty (days)": 3.5e-05,
+            "Transit Duration (hrs)": 0.9293,
+            "Transit Epoch (BJD_TDB)": 2457660.3676621,
+            "Transit Epoch Uncertainty (days)": 1.43e-05
+        },
+        {
+            "Planet Letter": "f",
+            "Period (days)": 9.20754,
+            "Period Uncertainty (days)": 3.2e-05,
+            "Transit Duration (hrs)": 1.048,
+            "Transit Epoch (BJD_TDB)": 2457671.3737299,
+            "Transit Epoch Uncertainty (days)": 1.57e-05
+        },
+        {
+            "Planet Letter": "g",
+            "Period (days)": 12.352446,
+            "Period Uncertainty (days)": 5.4e-05,
+            "Transit Duration (hrs)": 1.137,
+            "Transit Epoch (BJD_TDB)": 2457665.3628439,
+            "Transit Epoch Uncertainty (days)": 2.06e-05
+        },
+        {
+            "Planet Letter": "h",
+            "Period (days)": 18.772866,
+            "Period Uncertainty (days)": 0.000214,
+            "Transit Duration (hrs)": 1.269,
+            "Transit Epoch (BJD_TDB)": 2457662.5741486,
+            "Transit Epoch Uncertainty (days)": 9.13e-05
+        }
+    ],
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1
+}
