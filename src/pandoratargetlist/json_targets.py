@@ -383,11 +383,11 @@ def process_targets(input_targets, delimiter=","):
 
     aux_info = None
 
-    if input_targets[-4] == ".":
+    if type(input_targets) is list:
+        targets = [str(i) for i in input_targets]
+    elif input_targets[-4] == ".":
         aux_info = pd.read_csv(input_targets, delimiter=delimiter)
         targets = aux_info["designation"].tolist()
-    elif type(input_targets) is list:
-        targets = [str(i) for i in input_targets]
     else:
         targets = [input_targets]
 
