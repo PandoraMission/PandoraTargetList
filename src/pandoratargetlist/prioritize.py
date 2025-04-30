@@ -14,10 +14,7 @@ from pandoratargetlist import TARGDEFDIR, __version__
 # Update priority files
 
 
-def make_priorities(
-    dirs=[],
-    author='system'
-):
+def make_priorities(dirs=[], author="system"):
     """
     Function to make priority file.
 
