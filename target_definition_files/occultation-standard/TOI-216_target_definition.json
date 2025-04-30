@@ -1,0 +1,19 @@
+{
+    "Time Created": "2024-10-18 17:49:58",
+    "Version": "0.1.2",
+    "Author": "Ben Hord",
+    "Star Name": "TOI-216",
+    "RA": 73.9800060924931,
+    "DEC": -63.26033787465525,
+    "coord_epoch": "J2016.0",
+    "pm_RA": -22.534221908647954,
+    "pm_DEC": -56.448941918574505,
+    "Jmag": 10.758999824523926,
+    "Gmag": 12.157633781433105,
+    "Teff (K)": 5034.421875,
+    "logg": 4.595699787139893,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "Time Updated": "2024-12-06 23:28:51",
+    "StarRoiDetMethod": 1
+}

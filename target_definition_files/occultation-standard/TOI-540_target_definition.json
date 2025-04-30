@@ -1,0 +1,19 @@
+{
+    "Time Created": "2024-10-18 17:54:10",
+    "Version": "0.1.2",
+    "Author": "Ben Hord",
+    "Star Name": "TOI-540",
+    "RA": 76.30968124678877,
+    "DEC": -47.937535542918475,
+    "coord_epoch": "J2016.0",
+    "pm_RA": -65.90112106131718,
+    "pm_DEC": 24.895336483481316,
+    "Jmag": 9.755000114440918,
+    "Gmag": 12.873695373535156,
+    "Teff (K)": 3063.345947265625,
+    "logg": 5.07289981842041,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "Time Updated": "2024-12-06 23:28:53",
+    "StarRoiDetMethod": 1
+}
