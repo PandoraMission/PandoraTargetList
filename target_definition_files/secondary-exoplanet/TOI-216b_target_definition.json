@@ -1,25 +1,31 @@
 {
     "Time Created": "2024-10-18 17:49:58",
-    "Version": "0.1.2",
+    "Version": "0.1.3",
     "Author": "Ben Hord",
-    "Planet Name": "TOI-216b",
+    "Time Updated": "2025-05-06 18:09:47",
     "Star Name": "TOI-216",
-    "Number of Transits to Capture": 10,
+    "Primary Target": 0,
     "RA": 73.9800060924931,
     "DEC": -63.26033787465525,
-    "coord_epoch": "J2016.0",
+    "Coordinate Epoch": "J2016.0",
     "pm_RA": -22.534221908647954,
     "pm_DEC": -56.448941918574505,
     "Jmag": 10.758999824523926,
     "Gmag": 12.157633781433105,
     "Teff (K)": 5034.421875,
     "logg": 4.595699787139893,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0,
+    "Planet Name": "TOI-216b",
     "Planet Letter": "b",
     "Period (days)": 17.203,
     "Period Uncertainty (days)": 0.013,
     "Transit Duration (hrs)": 2.062,
     "Transit Epoch (BJD_TDB)": 2458892.985,
     "Transit Epoch Uncertainty (days)": 0.064,
+    "Obs Window (hrs)": 24,
     "Additional Planets": [
         {
             "Planet Letter": "c",
@@ -29,9 +35,5 @@
             "Transit Epoch (BJD_TDB)": 2458848.97,
             "Transit Epoch Uncertainty (days)": 0.022
         }
-    ],
-    "VDA Setting": "coadd_50",
-    "NIRDA Setting": "samp_4_6",
-    "Time Updated": "2024-12-06 23:28:53",
-    "StarRoiDetMethod": 1
+    ]
 }

@@ -1,11 +1,13 @@
 {
     "Time Created": "2024-10-18 17:53:13",
-    "Version": "0.1.2",
+    "Version": "0.1.3",
     "Author": "Ben Hord",
+    "Time Updated": "2025-05-06 18:11:40",
     "Star Name": "K2-141",
+    "Primary Target": 0,
     "RA": 350.9170625673834,
     "DEC": -1.1891792403354395,
-    "coord_epoch": "J2016.0",
+    "Coordinate Epoch": "J2016.0",
     "pm_RA": 116.32476036497832,
     "pm_DEC": 25.21354227268836,
     "Jmag": 9.086000442504883,
@@ -14,6 +16,6 @@
     "logg": 4.577400207519531,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "Time Updated": "2024-12-06 23:28:52",
-    "StarRoiDetMethod": 1
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
 }

@@ -1,11 +1,13 @@
 {
     "Time Created": "2024-10-18 05:15:09",
-    "Version": "0.1.2",
+    "Version": "0.1.3",
     "Author": "Ben Hord",
+    "Time Updated": "2025-05-06 18:11:42",
     "Star Name": "DR3_5786723482175241472",
+    "Primary Target": 0,
     "RA": 216.85073445396182,
     "DEC": -77.21641606774251,
-    "coord_epoch": "J2016.0",
+    "Coordinate Epoch": "J2016.0",
     "pm_RA": -15.892952174608917,
     "pm_DEC": -9.073818520905819,
     "Jmag": 8.550000190734863,
@@ -14,6 +16,6 @@
     "logg": 3.97160005569458,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "Time Updated": "2024-12-06 23:28:52",
-    "StarRoiDetMethod": 1
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
 }

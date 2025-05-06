@@ -1,11 +1,13 @@
 {
     "Time Created": "2024-10-18 18:05:00",
-    "Version": "0.1.2",
+    "Version": "0.1.3",
     "Author": "Ben Hord",
+    "Time Updated": "2025-05-06 18:11:42",
     "Star Name": "K2-198",
+    "Primary Target": 0,
     "RA": 198.84367656217745,
     "DEC": -6.464991748973773,
-    "coord_epoch": "J2016.0",
+    "Coordinate Epoch": "J2016.0",
     "pm_RA": -36.67215653532828,
     "pm_DEC": -21.70864009555902,
     "Jmag": 9.741000175476074,
@@ -14,6 +16,6 @@
     "logg": 4.56689977645874,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "Time Updated": "2024-12-06 23:28:51",
-    "StarRoiDetMethod": 1
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
 }

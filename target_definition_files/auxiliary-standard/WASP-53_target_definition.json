@@ -1,9 +1,10 @@
 {
     "Time Created": "2025-04-30 16:15:19",
     "Version": "0.1.3",
-    "Time Updated": "2025-04-30 16:15:19",
     "Author": "Ben Hord",
+    "Time Updated": "2025-05-06 18:08:12",
     "Star Name": "WASP-53",
+    "Primary Target": 0,
     "RA": 31.90916263471076,
     "DEC": -20.66184185243526,
     "Coordinate Epoch": "J2016.0",
@@ -11,10 +12,10 @@
     "pm_DEC": 7.9890760414125355,
     "Jmag": 10.958999633789062,
     "Gmag": 12.336133003234863,
-    "Bmag": 12.8233642578125,
     "Teff (K)": 4957.86669921875,
     "logg": 4.533599853515625,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 1
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
 }

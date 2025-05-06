@@ -1,25 +1,31 @@
 {
     "Time Created": "2024-10-18 17:53:23",
-    "Version": "0.1.2",
+    "Version": "0.1.3",
     "Author": "Ben Hord",
-    "Planet Name": "TOI-1634b",
+    "Time Updated": "2025-05-06 18:09:47",
     "Star Name": "TOI-1634",
-    "Number of Transits to Capture": 10,
+    "Primary Target": 0,
     "RA": 56.390623749990596,
     "DEC": 37.112282229230416,
-    "coord_epoch": "J2016.0",
+    "Coordinate Epoch": "J2016.0",
     "pm_RA": 81.34823828692757,
     "pm_DEC": 13.5483881408392,
     "Jmag": 9.484000205993652,
     "Gmag": 12.186321258544922,
     "Teff (K)": 3185.78173828125,
     "logg": 4.09499979019165,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0,
+    "Planet Name": "TOI-1634b",
     "Planet Letter": "b",
     "Period (days)": 0.9893455,
     "Period Uncertainty (days)": 6e-06,
     "Transit Duration (hrs)": 1.027,
     "Transit Epoch (BJD_TDB)": 2458791.5146,
     "Transit Epoch Uncertainty (days)": 0.0021,
+    "Obs Window (hrs)": 24,
     "Additional Planets": [
         {
             "Planet Letter": "c",
@@ -29,9 +35,5 @@
             "Transit Epoch (BJD_TDB)": 2458905.0,
             "Transit Epoch Uncertainty (days)": 5.15
         }
-    ],
-    "VDA Setting": "coadd_50",
-    "NIRDA Setting": "samp_4_6",
-    "Time Updated": "2024-12-06 23:28:53",
-    "StarRoiDetMethod": 1
+    ]
 }

@@ -1,13 +1,13 @@
 {
     "Time Created": "2024-10-18 17:54:32",
-    "Version": "0.1.2",
+    "Version": "0.1.3",
     "Author": "Ben Hord",
-    "Planet Name": "L_98-59b",
+    "Time Updated": "2025-05-06 18:08:12",
     "Star Name": "L_98-59",
-    "Number of Transits to Capture": 10,
+    "Primary Target": 0,
     "RA": 124.53289609935439,
     "DEC": -68.31451297878304,
-    "coord_epoch": "J2016.0",
+    "Coordinate Epoch": "J2016.0",
     "pm_RA": 94.7937841216887,
     "pm_DEC": -340.0843107376206,
     "Jmag": 7.933000087738037,
@@ -16,6 +16,6 @@
     "logg": 4.473100185394287,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "Time Updated": "2024-12-06 23:28:53",
-    "StarRoiDetMethod": 1
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
 }

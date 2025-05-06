@@ -1,13 +1,13 @@
 {
     "Time Created": "2024-10-18 18:01:46",
-    "Version": "0.1.2",
+    "Version": "0.1.3",
     "Author": "Ben Hord",
-    "Planet Name": "WASP-107b",
+    "Time Updated": "2025-05-06 18:08:12",
     "Star Name": "WASP-107",
-    "Number of Transits to Capture": 10,
+    "Primary Target": 0,
     "RA": 188.38641401350998,
     "DEC": -10.146215423330112,
-    "coord_epoch": "J2016.0",
+    "Coordinate Epoch": "J2016.0",
     "pm_RA": -96.66504698835888,
     "pm_DEC": -9.371881534089754,
     "Jmag": 9.378000259399414,
@@ -16,6 +16,6 @@
     "logg": 3.0,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "Time Updated": "2024-12-06 23:28:53",
-    "StarRoiDetMethod": 1
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
 }

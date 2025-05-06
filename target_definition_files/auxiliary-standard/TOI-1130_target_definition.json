@@ -1,13 +1,13 @@
 {
     "Time Created": "2024-10-18 18:18:55",
-    "Version": "0.1.2",
+    "Version": "0.1.3",
     "Author": "Ben Hord",
-    "Planet Name": "TOI-1130c",
+    "Time Updated": "2025-05-06 18:08:12",
     "Star Name": "TOI-1130",
-    "Number of Transits to Capture": 2,
+    "Primary Target": 0,
     "RA": 286.3760060046714,
     "DEC": -41.43764374119737,
-    "coord_epoch": "J2016.0",
+    "Coordinate Epoch": "J2016.0",
     "pm_RA": 12.579106224381306,
     "pm_DEC": -27.46876281033459,
     "Jmag": 9.055000305175781,
@@ -16,6 +16,6 @@
     "logg": 3.0,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "Time Updated": "2024-12-06 23:28:53",
-    "StarRoiDetMethod": 1
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
 }
