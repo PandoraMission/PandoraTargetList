@@ -1,7 +1,10 @@
 # Functions to make target definition JSON files
 
-# import os
+import os
 import json
+import difflib
+import re
+from functools import lru_cache
 
 import numpy as np
 import pandas as pd
@@ -13,13 +16,200 @@ import pandorasim as psim
 import pandorasat as psat
 import pandorapsf as ppsf
 
-from pandoratargetlist import __version__, TARGDEFDIR, VDA_PSF, NIRDA_PSF
+from pandoratargetlist import __version__, TARGDEFDIR  # , VDA_PSF, NIRDA_PSF
 
 
-# class Target(name, category):
-#     """
-#     Class to create and manipulate target definition files
-#     """
+class Target(object):
+    # name, category
+    """
+    Class to create and manipulate target definition files
+    """
+
+    def __init__(self, name=None, category=None, info_dict=None):
+        """Ensures necessary information is present and checks for existing file"""
+        # Throw error if all inputs are None
+        if all(arg is None for arg in (name, category, info_dict)):
+            raise ValueError("At least one input must be provided.")
+
+        self.category = category
+        self.dirpath = TARGDEFDIR + self.category + "/"
+
+        # Check if name is in info_dict
+        if info_dict is not None and name is None:
+            name_strs = [
+                "Planet Name",
+                "PlanetName",
+                "Star Name",
+                "StarName",
+                "hostname",
+                "name",
+                "Name",
+            ]
+            lower_keys = {key.lower(): key for key in info_dict}
+
+            for s in name_strs:
+                s_lower = s.lower()
+                matches = [
+                    orig_key
+                    for low_key, orig_key in lower_keys.items()
+                    if s_lower in low_key
+                ]
+                if matches:
+                    name_key = matches[0]
+                    break
+            self.name = info_dict[name_key]
+
+        # Process name to remove spaces
+        name = name.strip()
+        if name[-2] == " ":
+            name = name[:-2] + name[-1]
+        self.name = name.replace(" ", "_")
+
+        # Check to see if file already exists and adjust name to match
+        best_match = self._crossmatch_names(self.name, self.category)
+
+        if len(best_match) > 0:
+            self.name = best_match
+
+        self.filepath = self.dirpath + self.name + "_target_definition.json"
+
+        # Loading in info from best match if it exists
+        if info_dict is None and len(best_match) > 0:
+            print("Existing file found! Loading info for " + self.name)
+
+            with open(self.filepath, "r") as f:
+                self.info = json.load(f)
+
+        elif info_dict is not None:
+            # Need to process this to align with current keyword structure
+            # self.info = self._process_keywords(info_dict)
+            self.info = info_dict
+
+        else:
+            self.info = {}
+
+        # Run PSF stuff here or later? Maybe later since making the file is a method
+        # Properties that just print values of keywords
+        # method to save file? Already included in make file method?
+        # print method to pretty print dict info as if it were JSON file
+        # maybe add explicit=False flag to overwrite the nearest match name (in case a planet
+        # file needs to exist in the same directory as a star file)
+
+        return
+
+    def __repr__(self):
+        return f"{self.name}, {self.category} target"
+
+    @staticmethod
+    def from_name(name, category):
+        return Target(name=name, category=category)
+
+    @staticmethod
+    def from_dict(info_dict, category, **kwargs):
+        return Target(category=category, info_dict=info_dict)
+
+    def _check_version(self):
+        """Checks that current version number in file matches current version"""
+
+    def _crossmatch_names(self, name, category):
+        """Function to crossmatch input name with existing files"""
+        filelist = [f for f in os.listdir(self.dirpath) if f[-5:] == ".json"]
+        targs = [targ.split("_target")[0] for targ in filelist]
+
+        # Looking for nearest name matches
+        input_nums = re.findall(r"\d+", self.name)
+        input_text = re.sub(r"\d+", "", self.name).strip()
+
+        matches = []
+        for target in targs:
+            targ_nums = re.findall(r"\d+", target)
+            targ_text = re.sub(r"\d+", "", target).strip()
+            if input_nums == targ_nums:
+                ratio = difflib.SequenceMatcher(None, input_text, targ_text).ratio()
+                if ratio >= 0.6:
+                    matches.append((target, ratio))
+
+        best_matches = sorted(matches, key=lambda x: x[1], reverse=True)
+
+        return best_matches[0][0]
+
+    def make_file(self, save=True):
+        """Function that wraps other methods to make the target definition file in a single command"""
+
+    def fetch_params(self, overwrite=False):
+        """Function to fetch the parameters of the system"""
+        # Determine if the system is a planetary system or not
+        if "exoplanet" in self.category:
+            query_name = self.name[:-1]
+        else:
+            query_name = self.name
+
+        # Fetch system information from Gaia DR3 using exoscraper
+        info = xos.System.from_gaia(
+            query_name, time=Time("2457389.0", format="jd", scale="tcb")
+        )
+
+        # Make output dictionary with desired system values
+        out_dict = {
+            "RA": info.sky_cat["coords"].ra[0].value,
+            "DEC": info.sky_cat["coords"].dec[0].value,
+            "Coordinate Epoch": "J2016.0",
+            "pm_RA": info.sky_cat["coords"].pm_ra_cosdec[0].value,
+            "pm_DEC": info.sky_cat["coords"].pm_dec[0].value,
+            "Jmag": float(info.sky_cat["jmag"][0]),
+            "Gmag": float(info.sky_cat["gmag"][0]),
+            "Bmag": float(info.sky_cat["bmag"][0]),
+            "Teff (K)": float(info.sky_cat["teff"][0].value),
+            "logg": float(info.sky_cat["logg"][0]),
+        }
+
+        # Fetch planet parameters if target is a planetary system
+        if "exoplanet" in self.category:
+            targ_ind = [info[0][n].name for n in range(len(info[0].planets))].index(
+                self.name
+            )
+            planet = info[0][targ_ind]
+
+            # Update output dictionary with planet parameters
+            out_dict.update(
+                {
+                    "Planet Letter": self.name[-1:],
+                    "Period (days)": planet.pl_orbper.value,
+                    "Period Uncertainty (days)": planet.pl_orbper.err.value,
+                    "Transit Duration (hrs)": planet.pl_trandur.value,
+                    "Transit Epoch (BJD_TDB)": planet.pl_tranmid.value,
+                    "Transit Epoch Uncertainty (days)": planet.pl_tranmid.err.value,
+                }
+            )
+
+            # Obtain parameters for any other planets in the system
+            if len(info[0][:]) > 1:
+                other_planets = []
+
+                for i, pl in enumerate(info[0][:]):
+                    if i == targ_ind:
+                        continue
+
+                    tmp_dict = {
+                        "Planet Letter": str(pl)[-1],
+                        "Period (days)": info[0][i].pl_orbper.value,
+                        "Period Uncertainty (days)": info[0][i].pl_orbper.err.value,
+                        "Transit Duration (hrs)": info[0][i].pl_trandur.value,
+                        "Transit Epoch (BJD_TDB)": info[0][i].pl_tranmid.value,
+                        "Transit Epoch Uncertainty (days)": info[0][
+                            i
+                        ].pl_tranmid.err.value,
+                    }
+                    other_planets.append(tmp_dict)
+
+                out_dict.update({"Additional Planets": other_planets})
+
+        # if overwrite is True or
+        self.info.update(out_dict)
+        # if info_out:
+        #     return out_dict, info
+        # else:
+        #     return out_dict
 
 
 # Add method
@@ -50,8 +240,11 @@ def make_target_file(
         print("Gathering PSFs...", end="\r")
     # vda_psf = ppsf.PSF.from_name("VISDA")
     # nirda_psf = ppsf.PSF.from_name("NIRDA")
-    vda_psf = VDA_PSF
-    nirda_psf = NIRDA_PSF.freeze_dimension(row=0 * u.pixel, column=0 * u.pixel)
+    # vda_psf = VDA_PSF
+    # nirda_psf = NIRDA_PSF.freeze_dimension(row=0 * u.pixel, column=0 * u.pixel)
+    vda_psf = _load_psf_model("VISDA")
+    nirda_psf = _load_psf_model("NIRDA")
+    nirda_psf = nirda_psf.freeze_dimension(row=0 * u.pixel, column=0 * u.pixel)
 
     # Cycle through each target in the input target list
     for i, target in enumerate(target_list):
@@ -420,3 +613,8 @@ def update_file(target, category):
 
     print("Work in progress!")
     return []
+
+
+@lru_cache()
+def _load_psf_model(detector):
+    return ppsf.PSF.from_name(detector)
