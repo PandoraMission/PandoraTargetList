@@ -8,4 +8,4 @@ PACKAGEDIR = os.path.abspath(os.path.dirname(__file__))
 HOMEDIR = "/".join(PACKAGEDIR.split("/")[:-2]) + "/"
 TARGDEFDIR = "/".join(PACKAGEDIR.split("/")[:-2]) + "/target_definition_files/"
 
-from .targets import make_target_file  # noqa
+from .targets import Target  # noqa
