@@ -22,6 +22,8 @@ from .utils import (
     query_params,
     check_key_for_nan,
     load_psf_model,
+    estimate_transit_duration,
+    is_nan_or_none,
 )
 
 
@@ -124,9 +126,6 @@ class Target(object):
     @staticmethod
     def from_dict(info_dict, category, **kwargs):
         return Target(category=category, info_dict=info_dict)
-
-    # def _check_version(self):
-    #     """Checks that current version number in file matches current version"""
 
     def _crossmatch_names(self):
         """Function to crossmatch input name with existing files"""
@@ -266,12 +265,6 @@ class Target(object):
 
     def fetch_params(self, overwrite=False, obs_window=None, verbose=False):
         """Function to fetch the parameters of the system"""
-        # Determine if the system is a planetary system or not
-        if "exoplanet" in self.category:
-            self.star_name = self.name[:-1]
-        else:
-            self.star_name = self.name
-
         keys = star_keys
         if "exoplanet" in self.category:
             keys = star_keys + pl_keys
@@ -284,10 +277,13 @@ class Target(object):
         # Check if there are any system params that need values if overwrite is False
         if nan_flag or overwrite is True:
             # Fetch system information from Gaia DR3 using exoscraper
-            out_dict = query_params(self.name, self.category)
+            out_dict, self.query_result = query_params(
+                self.name, self.category, return_query=True
+            )
 
             # Fix params that might still be NaNs from the query
-            # out_dict = self._fix_params(out_dict)
+            if "exoplanet" in self.category:
+                self._fix_pl_duration(out_dict)
 
             if obs_window is None:
                 if "primary" in self.category or "secondary" in self.category:
@@ -556,9 +552,58 @@ class Target(object):
         """Function to pretty print the information in a JSON-like format."""
         print(json.dumps(self.info, indent=4))
 
-    def _fix_params(self):
+    def _fix_pl_duration(self, input_dict, force_query=False):
         """Helper function to fix any NaNs in planet params after the fetching them."""
-        # Calculate the transit duration
+        if force_query:
+            out_dict, self.query_res = query_params(
+                self.name, self.category, return_query=True
+            )
+
+        if is_nan_or_none(input_dict.get("Transit Duration (hrs)")):
+            period = input_dict.get("Period (days)")
+            epoch = input_dict.get("Transit Epoch (BJD_TDB)")
+            a_rs = None
+            st_rad = None
+
+            if hasattr(self, "query_res"):
+                if "pl_ratdor" in self.query_res.keys():
+                    a_rs = self.query_res["pl_ratdor"]
+                if "st_rad" in self.query_res.keys():
+                    st_rad = self.query_res["st_rad"]
+
+            if isinstance(period, (int, float)) and isinstance(
+                epoch, (int, float)
+            ):
+                input_dict["Transit Duration (hrs)"] = (
+                    estimate_transit_duration(period, a_rs, st_rad)
+                )
+
+        # Additional Planets
+        if "Additional Planets" in input_dict.keys():
+            for i, planet in enumerate(input_dict["Additional Planets"]):
+                if is_nan_or_none(planet.get("Transit Duration (hrs)")):
+                    period = planet.get("Period (days)")
+                    epoch = planet.get("Transit Epoch (BJD_TDB)")
+                    a_rs = None
+                    st_rad = None
+
+                    if hasattr(self, ".query_res"):
+                        if (
+                            "pl_ratdor"
+                            in self.query_res["Additional Planet"][i].keys()
+                        ):
+                            a_rs = self.query_res["Additional Planet"][i][
+                                "pl_ratdor"
+                            ]
+                        if "st_rad" in self.query_res.keys():
+                            st_rad = self.query_res["st_rad"]
+
+                    if isinstance(period, (int, float)) and isinstance(
+                        epoch, (int, float)
+                    ):
+                        input_dict["Additional Planets"][i][
+                            "Transit Duration (hrs)"
+                        ] = estimate_transit_duration(period, a_rs, st_rad)
 
     def update(self, update_dict, verbose=True):
         """Function to update the value of a given parameter."""
