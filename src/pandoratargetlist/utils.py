@@ -61,7 +61,9 @@ def query_params(name, category):
 
     # Fetch planet parameters if target is a planetary system
     if "exoplanet" in category:
-        targ_ind = [res[0][n].name for n in range(len(res[0].planets))].index(name)
+        targ_ind = [res[0][n].name for n in range(len(res[0].planets))].index(
+            name
+        )
         planet = res[0][targ_ind]
 
         # Update output dictionary with planet parameters
@@ -91,7 +93,9 @@ def query_params(name, category):
                     "Period Uncertainty (days)": res[0][i].pl_orbper.err.value,
                     "Transit Duration (hrs)": res[0][i].pl_trandur.value,
                     "Transit Epoch (BJD_TDB)": res[0][i].pl_tranmid.value,
-                    "Transit Epoch Uncertainty (days)": res[0][i].pl_tranmid.err.value,
+                    "Transit Epoch Uncertainty (days)": res[0][
+                        i
+                    ].pl_tranmid.err.value,
                 }
                 other_planets.append(tmp_dict)
 

@@ -3,8 +3,6 @@
 import os
 import csv
 
-import pandas as pd
-import numpy as np
 from astropy.time import Time
 
 from pandoratargetlist import TARGDEFDIR, __version__
@@ -26,8 +24,8 @@ class Priorities:
 
     def _load_json_targets(self):
         """Function for determing which targets are in a category."""
-        filelist = [f for f in os.listdir(self.dirpath) if f[-5:] == '.json']
-        return sorted([targ.split('_target')[0] for targ in filelist])
+        filelist = [f for f in os.listdir(self.dirpath) if f[-5:] == ".json"]
+        return sorted([targ.split("_target")[0] for targ in filelist])
 
     def _load_or_initialize_priorities(self):
         """Function that loads an existing prioritization file if it exists. Otherwise makes one."""
@@ -78,20 +76,24 @@ class Priorities:
     def _read_prioritization_file(self):
         """Function to read in a prioritization file."""
         with open(self.priority_file, newline="") as f:
-            reader = csv.DictReader((line for line in f if not line.startswith("#")))
+            reader = csv.DictReader(
+                (line for line in f if not line.startswith("#"))
+            )
             for row in reader:
                 priority = float(row["priority"])
                 target_name = row["target"]
                 if priority < 0.3 or priority > 0.9:
                     self.manual_priority.add(target_name)
-                self.targets.append({
+                self.targets.append(
+                    {
                         "target": target_name,
                         "rank": int(row["rank"]),
                         "priority": priority,
                         self._req_key(): float(row[self._req_key()]),
                         self._obs_key(): float(row[self._obs_key()]),
                         self._rem_key(): float(row[self._rem_key()]),
-                })
+                    }
+                )
 
     def _sync_targets(self):
         """Function to add/remove targets based on whether they're in the category."""
@@ -106,16 +108,20 @@ class Priorities:
                 if name in existing:
                     updated.append(existing[name])
                 else:
-                    updated.append({
+                    updated.append(
+                        {
                             "target": name,
                             "rank": -1,
                             "priority": 0.0,
                             self._req_key(): self._default_required(name),
                             self._obs_key(): 0,
                             self._rem_key(): self._default_required(name),
-                    })
+                        }
+                    )
 
-        updated.sort(key=lambda x: x["rank"] if x["rank"] >= 0 else float("inf"))
+        updated.sort(
+            key=lambda x: x["rank"] if x["rank"] >= 0 else float("inf")
+        )
         for i, t in enumerate(updated):
             t["rank"] = i
         self.targets = updated
@@ -125,11 +131,18 @@ class Priorities:
         if self.category == "occultation-standard":
             self.targets.sort(key=lambda x: ("DR3" in x["target"], x["rank"]))
 
-        auto_targets = [t for t in self.targets if t["target"] not in self.manual_priority]
-        manual_targets = [t for t in self.targets if t["target"] in self.manual_priority]
+        auto_targets = [
+            t for t in self.targets if t["target"] not in self.manual_priority
+        ]
+        manual_targets = [
+            t for t in self.targets if t["target"] in self.manual_priority
+        ]
 
         combined = manual_targets + auto_targets
-        combined.sort(key=lambda x: (x["priority"], x["target"] in self.manual_priority), reverse=True)
+        combined.sort(
+            key=lambda x: (x["priority"], x["target"] in self.manual_priority),
+            reverse=True,
+        )
 
         manual_priorities = set(t["priority"] for t in manual_targets)
 
@@ -138,7 +151,9 @@ class Priorities:
         for i, t in enumerate(combined):
             t["rank"] = i
             if t["target"] not in self.manual_priority:
-                priority = round(0.9 - (0.6 * auto_index / max(n_auto - 1, 1)), 6)
+                priority = round(
+                    0.9 - (0.6 * auto_index / max(n_auto - 1, 1)), 6
+                )
                 # Avoid conflict with manual priorities
                 while priority in manual_priorities:
                     priority = round(priority - 0.0001, 4)
@@ -181,7 +196,12 @@ class Priorities:
     ):
         """Function to move a target to a specific rank or proximity to another target."""
         index = next(
-            (i for i, t in enumerate(self.targets) if t["target"] == target_name), None
+            (
+                i
+                for i, t in enumerate(self.targets)
+                if t["target"] == target_name
+            ),
+            None,
         )
         if index is None:
             raise ValueError(f"Target {target_name} not found.")
@@ -198,7 +218,12 @@ class Priorities:
             )
         elif below:
             new_rank = (
-                next(i for i, t in enumerate(self.targets) if t["target"] == below) + 1
+                next(
+                    i
+                    for i, t in enumerate(self.targets)
+                    if t["target"] == below
+                )
+                + 1
             )
         else:
             raise ValueError("Must specify new_rank, delta, above, or below")
@@ -213,7 +238,9 @@ class Priorities:
         if 0 < new_rank < len(self.targets) - 1:
             above_priority = self.targets[new_rank - 1]["priority"]
             below_priority = self.targets[new_rank + 1]["priority"]
-            target["priority"] = round((above_priority + below_priority) / 2, 6)
+            target["priority"] = round(
+                (above_priority + below_priority) / 2, 6
+            )
         elif new_rank == 0 and len(self.targets) > 1:
             below_priority = self.targets[1]["priority"]
             target["priority"] = round(below_priority + 0.01, 6)
@@ -250,7 +277,9 @@ class Priorities:
                     t[self._req_key()] = float(req)
                 if obs is not None:
                     t[self._obs_key()] = float(obs)
-                t[self._rem_key()] = max(0.0, t[self._req_key()] - t[self._obs_key()])
+                t[self._rem_key()] = max(
+                    0.0, t[self._req_key()] - t[self._obs_key()]
+                )
                 return
         raise ValueError(f"Target {target_name} not found")
 
@@ -277,136 +306,20 @@ class Priorities:
         key_obs = self._obs_key()
         key_rem = self._rem_key()
 
-        print("{:<5} {:<25} {:<8} {:<12} {:<12} {:<12}".format(
-            "Rank", "Target", "Priority", key_req, key_obs, key_rem))
+        print(
+            "{:<5} {:<25} {:<8} {:<12} {:<12} {:<12}".format(
+                "Rank", "Target", "Priority", key_req, key_obs, key_rem
+            )
+        )
         print("-" * 80)
         for t in self.targets:
-            print("{:<5} {:<25} {:<8} {:<12} {:<12} {:<12}".format(
-                t["rank"], t["target"], t["priority"],
-                t[key_req], t[key_obs], t[key_rem]))
-
-    # refresh func to recheck all the files and make/insert new targets
-
-    # update func to update the priorities, time req, time obs, etc. for one or more entries
-
-    # make_priorites func to read in all files and make priorities from scratch
-
-    # save func to save priorities file
-
-
-def make_priorities(dirs=[], author="system"):
-    """
-    Function to make priority file.
-
-    Parameters
-    ----------
-
-    Returns
-    -------
-    """
-    # Set observation time per category
-    time_req_dict = {
-        "primary-exoplanet": 10,
-        "secondary-exoplanet": 10,
-        "auxiliary-exoplanet": 4,
-        "auxiliary-standard": 120,
-        "monitoring-standard": 1000,
-        "occultation-standard": 600,
-    }
-
-    # Maybe something like time_req_dict.update() with user-params inside the parenthesis?
-
-    if len(dirs) == 0:
-        targ_dirs = [
-            x
-            for x in os.listdir(TARGDEFDIR)
-            if os.path.isdir(os.path.join(TARGDEFDIR, x))
-        ]
-    else:
-        targ_dirs = dirs
-
-    for dir in targ_dirs:
-        # Detect targs in directory
-        dirpath = TARGDEFDIR + dir + "/"
-        filelist = [f for f in os.listdir(dirpath) if f[-5:] == ".json"]
-        targs = [targ.split("_target")[0] for targ in filelist]
-
-        # Define priority file path
-        priorityfile = dirpath + dir + "_priorities.csv"
-        tmp_priorityfile = dirpath + dir + "_priorities_tmp.csv"
-
-        # Delete temp priority file if it exists
-        if os.path.isfile(tmp_priorityfile):
-            os.remove(tmp_priorityfile)
-
-        if dir == "occultation-standard":
-            targs_planet = [targ for targ in targs if "DR3" not in targ]
-            targs_star = [targ for targ in targs if "DR3" in targ]
-            targs = targs_planet + targs_star
-
-        # Define priority space
-        priorities = np.linspace(0.9, 0.2, len(targs))
-
-        # Make observing time lists
-        time_req = np.ones(len(targs)) * time_req_dict[dir]
-
-        if dir == "occultation-standard":
-            gaia_flag = ["DR3" in s for s in targs]
-            time_req[gaia_flag] = 1000
-
-        time_obs = np.zeros(len(targs))
-        time_rem = time_req - time_obs
-
-        # Open file and setup standard header
-        f = open(tmp_priorityfile, "a")
-        f.write("# Priority file for " + dir + "\n")
-        f.write("# Version " + __version__ + "\n")
-        f.write("# Updated on: " + Time.now().strftime("%Y-%m-%d %H:%M:%S") + "\n")
-        f.write("# Updated by: " + author + "\n")
-        f.write("#\n")
-        f.write("# Column 1: Rank\n")
-        f.write("# Column 2: Target Name\n")
-        f.write("# Column 3: Priority\n")
-
-        # Make priorities dataframe
-        df_priorities = pd.DataFrame(
-            {
-                "target": targs,
-                "priority": priorities,
-            }
-        )
-
-        if "exoplanet" in dir:
-            df_priorities["transits_req"] = time_req.astype(int)
-            df_priorities["transits_obs"] = time_obs.astype(int)
-            df_priorities["transits_rem"] = time_rem.astype(int)
-
-            f.write("# Column 4: Number of Transits Requested\n")
-            f.write("# Column 5: Number of Transits Observed\n")
-            f.write("# Column 6: Number of Transits Remaining\n")
-
-        else:
-            df_priorities["hours_req"] = time_req
-            df_priorities["hours_obs"] = time_obs
-            df_priorities["hours_rem"] = time_rem
-
-            f.write("# Column 4: Number of Hours Requested\n")
-            f.write("# Column 5: Number of Hours Observed\n")
-            f.write("# Column 6: Number of Hours Remaining\n")
-
-        print(df_priorities)
-
-        # Save priority file
-        df_priorities.to_csv(f, index=True, index_label="rank")
-        f.close()
-
-        # Rename temp priority file to actual priority file
-        os.remove(priorityfile)
-        os.rename(tmp_priorityfile, priorityfile)
-
-
-# Funtion to recalculate priorities
-def _recalc_priorities():
-    """Function to recalculate priorities after a new target has been added"""
-    print("Work in progress!")
-    return None
+            print(
+                "{:<5} {:<25} {:<8} {:<12} {:<12} {:<12}".format(
+                    t["rank"],
+                    t["target"],
+                    t["priority"],
+                    t[key_req],
+                    t[key_obs],
+                    t[key_rem],
+                )
+            )

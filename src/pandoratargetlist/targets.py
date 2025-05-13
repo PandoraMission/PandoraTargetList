@@ -16,7 +16,13 @@ import pandorasat as psat
 import pandorapsf as ppsf
 
 from pandoratargetlist import __version__, TARGDEFDIR  # , VDA_PSF, NIRDA_PSF
-from .utils import star_keys, pl_keys, query_params, check_key_for_nan, load_psf_model
+from .utils import (
+    star_keys,
+    pl_keys,
+    query_params,
+    check_key_for_nan,
+    load_psf_model,
+)
 
 
 class Target(object):
@@ -26,7 +32,12 @@ class Target(object):
     """
 
     def __init__(
-        self, name=None, category=None, info_dict=None, author="system", explicit=False
+        self,
+        name=None,
+        category=None,
+        info_dict=None,
+        author="system",
+        explicit=False,
     ):
         """Ensures necessary information is present and checks for existing file"""
         # Throw error if all inputs are None
@@ -128,7 +139,9 @@ class Target(object):
 
         if "exoplanet" in self.category:
             input_end_match = re.search(r"([A-Za-z])$", self.name)
-            input_suffix = input_end_match.group(1) if input_end_match else None
+            input_suffix = (
+                input_end_match.group(1) if input_end_match else None
+            )
 
         matches = []
         for target in targs:
@@ -137,7 +150,9 @@ class Target(object):
 
             if "exoplanet" in self.category:
                 targ_end_match = re.search(r"([A-Za-z])$", target)
-                targ_suffix = targ_end_match.group(1) if targ_end_match else None
+                targ_suffix = (
+                    targ_end_match.group(1) if targ_end_match else None
+                )
 
                 if input_suffix != targ_suffix:
                     continue
@@ -205,7 +220,12 @@ class Target(object):
         if check_key_for_nan(reordered_info, "Primary Target"):
             if any(
                 s in self.category
-                for s in ["auxiliary", "occultation", "monitoring", "secondary"]
+                for s in [
+                    "auxiliary",
+                    "occultation",
+                    "monitoring",
+                    "secondary",
+                ]
             ):
                 update_dict.update({"Primary Target": 0})
             else:
@@ -233,7 +253,9 @@ class Target(object):
         self.fetch_params(overwrite=overwrite, verbose=verbose, **params_args)
 
         # Get the instrument settings
-        self.get_instrument_settings(overwrite=overwrite, verbose=verbose, **inst_args)
+        self.get_instrument_settings(
+            overwrite=overwrite, verbose=verbose, **inst_args
+        )
 
         # Get the ROI information
         self.get_rois(overwrite=overwrite)
@@ -285,16 +307,22 @@ class Target(object):
                     "Additional Planets" in out_dict.keys()
                     and "Additional Planets" not in self.info.keys()
                 ):
-                    self.info["Additional Planets"] = out_dict["Additional Planets"]
+                    self.info["Additional Planets"] = out_dict[
+                        "Additional Planets"
+                    ]
 
                 # Replace NaNs in info dict with values from query
                 for key in out_dict.keys():
-                    if key in self.info.keys() and check_key_for_nan(self.info, key):
+                    if key in self.info.keys() and check_key_for_nan(
+                        self.info, key
+                    ):
                         self.info[key] = out_dict[key]
             else:
                 self.info.update(out_dict)
         elif verbose:
-            print("No updates made. Try overwrite=True to check for value changes.")
+            print(
+                "No updates made. Try overwrite=True to check for value changes."
+            )
 
     def get_instrument_settings(
         self, detector=["VISDA", "NIRDA"], overwrite=False, verbose=False
@@ -305,7 +333,9 @@ class Target(object):
         ):
             # Put in a check for Bmag
             if check_key_for_nan(self.info, "Bmag"):
-                raise ValueError("Bmag is necessary for an accurate VDA Setting")
+                raise ValueError(
+                    "Bmag is necessary for an accurate VDA Setting"
+                )
 
             # Load in VDA PSF
             vda_psf = load_psf_model("VISDA")
@@ -373,7 +403,9 @@ class Target(object):
             if verbose:
                 print("Loaded NIRDA PSF model!")
 
-            nirda_psf = nirda_psf.freeze_dimension(row=0 * u.pixel, column=0 * u.pixel)
+            nirda_psf = nirda_psf.freeze_dimension(
+                row=0 * u.pixel, column=0 * u.pixel
+            )
             with open(TARGDEFDIR + "nirda_readout_schemes.json", "r") as file:
                 nirda_schemes = json.load(file)
             nirda_keys = nirda_schemes["data"]["IncludedMnemonics"]
@@ -399,7 +431,9 @@ class Target(object):
             wav, spec = psat.phoenix.get_phoenix_model(
                 teff=self.info["Teff (K)"], logg=logg, jmag=self.info["Jmag"]
             )
-            spectra[0, :] = nirda_psf.integrate_spectrum(wav, spec, nirda_wavelengths)
+            spectra[0, :] = nirda_psf.integrate_spectrum(
+                wav, spec, nirda_wavelengths
+            )
             spectra = spectra * u.electron / u.s
 
             saturation_counts = 80000
@@ -411,14 +445,22 @@ class Target(object):
                 integration_info = psim.utils.get_integrations(
                     SC_Resets1=nirda_schemes["data"][key]["SC_Resets1"],
                     SC_Resets2=nirda_schemes["data"][key]["SC_Resets2"],
-                    SC_DropFrames1=nirda_schemes["data"][key]["SC_DropFrames1"],
-                    SC_DropFrames2=nirda_schemes["data"][key]["SC_DropFrames2"],
-                    SC_DropFrames3=nirda_schemes["data"][key]["SC_DropFrames3"],
+                    SC_DropFrames1=nirda_schemes["data"][key][
+                        "SC_DropFrames1"
+                    ],
+                    SC_DropFrames2=nirda_schemes["data"][key][
+                        "SC_DropFrames2"
+                    ],
+                    SC_DropFrames3=nirda_schemes["data"][key][
+                        "SC_DropFrames3"
+                    ],
                     SC_ReadFrames=nirda_schemes["data"][key]["SC_ReadFrames"],
                     SC_Groups=nirda_schemes["data"][key]["SC_Groups"],
                     SC_Integrations=1,
                 )
-                integration_arrays = [np.hstack(idx) for idx in integration_info]
+                integration_arrays = [
+                    np.hstack(idx) for idx in integration_info
+                ]
                 resets = np.hstack(integration_arrays) != 1
 
                 source_flux = (
@@ -471,7 +513,9 @@ class Target(object):
 
             if overwrite is False:
                 for key in keys:
-                    if key in self.info.keys() and check_key_for_nan(self.info, key):
+                    if key in self.info.keys() and check_key_for_nan(
+                        self.info, key
+                    ):
                         self.info[key] = update_dict[key]
             else:
                 self.info.update(update_dict)
