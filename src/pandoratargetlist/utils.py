@@ -1,6 +1,7 @@
 # A collection of useful utility functions for the target definition file generation/maintenance
 
 from functools import lru_cache
+import math
 
 import numpy as np
 from astropy.time import Time
@@ -34,7 +35,7 @@ pl_keys = [
 ]
 
 
-def query_params(name, category):
+def query_params(name, category, return_query=False):
     """Function to query system parameters and output a formatted dictionary."""
     if "exoplanet" in category:
         star_name = name[:-1]
@@ -101,7 +102,10 @@ def query_params(name, category):
 
             out_dict.update({"Additional Planets": other_planets})
 
-    return out_dict
+    if return_query:
+        return out_dict, res
+    else:
+        return out_dict
 
 
 def check_key_for_nan(input_dict, key):
@@ -119,3 +123,24 @@ def check_key_for_nan(input_dict, key):
 @lru_cache()
 def load_psf_model(detector: str):
     return ppsf.PSF.from_name(detector)
+
+
+def is_nan_or_none(value):
+    """Quick helper function to determine if a value is NaN or None."""
+    return value is None or (isinstance(value, float) and math.isnan(value))
+
+
+def estimate_transit_duration(period, a_rs=None, r_star=None):
+    """Function to estimate the transit duration of a planet."""
+    if not is_nan_or_none(a_rs) and not is_nan_or_none(r_star) and a_rs > 0:
+        try:
+            arc_term = r_star / a_rs
+            if arc_term >= 1:
+                arc_term = 0.9999  # avoid domain error
+            duration = (period / math.pi) * math.asin(arc_term)
+            return round(duration * 24, 4)  # convert from days to hours
+        except Exception:
+            pass
+
+    # Fallback rough estimate
+    return round(1.5 * (period ** (1 / 3)), 4)
