@@ -104,12 +104,9 @@ class Target(object):
             # Add in some basic keywords here? (Star Name, Author, etc.)
             self.info = {}
 
-        # self._check_version()  # Check to see if version is old and params need to be updated?
         # Checking input info against keyword structure
         self.info = self._process_keywords(self.info)
 
-        # Run code to match keyword formatting and make empties into NaNs for filling?
-        # Run PSF stuff here or later? Maybe later since making the file is a method
         # method to just print individual params
         # maybe add explicit=False flag to overwrite the nearest match name (in case a planet
         # file needs to exist in the same directory as a star file)
@@ -288,13 +285,8 @@ class Target(object):
             if obs_window is None:
                 if "primary" in self.category or "secondary" in self.category:
                     out_dict["Obs Window (hrs)"] = 24.0
-                elif check_key_for_nan(out_dict, "Transit Duration (hrs)"):
-                    # Change this once _fix_params() function works above
-                    out_dict["Obs Window (hrs)"] = 5.0
                 else:
-                    out_dict["Obs Window (hrs)"] = (
-                        out_dict["Transit Duration (hrs)"] + 2.0
-                    )
+                    out_dict["Obs Window (hrs)"] = 6.0
             else:
                 out_dict["Obs Window (hrs)"] = obs_window
 
@@ -485,10 +477,16 @@ class Target(object):
         if "primary" in self.category:
             keys = keys + ["ROI_coord_epoch", "ROI_coord"]
 
-        for key in keys:
+        for key in keys[:-1]:
             nan_flag = check_key_for_nan(self.info, key)
             if nan_flag:
                 break
+
+        if "ROI_coord" in keys:
+            for sublist in self.info["ROI_coord"]:
+                for element in sublist:
+                    if isinstance(element, (int, float)) and np.isnan(element):
+                        nan_flag = True
 
         if nan_flag or overwrite is True:
             # Placeholders for later when ROI selection is fixed
