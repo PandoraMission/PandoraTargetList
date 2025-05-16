@@ -7,13 +7,13 @@ from pandoratargetlist.targets import Target
 from pandoratargetlist.prioritize import Priorities
 
 subdirs = [
-    'primary-exoplanet',
-    'auxiliary-exoplanet',
-    'exoplanet',
-    'auxiliary-standard',
-    'occultation-standard',
-    'monitoring-standard',
-    'secondary-exoplanet',
+    "primary-exoplanet",
+    "auxiliary-exoplanet",
+    "exoplanet",
+    "auxiliary-standard",
+    "occultation-standard",
+    "monitoring-standard",
+    "secondary-exoplanet",
 ]
 verbose = True
 
@@ -28,9 +28,11 @@ for subdir_name in subdirs:
 
     if subdir.name != "exoplanet":
         for file in subdir.glob("*_target_definition.json"):
-            target_name = file.name.replace('_target_definition.json', '')
+            target_name = file.name.replace("_target_definition.json", "")
             print(f"Running target {target_name}")
-            Target.from_name(target_name, subdir.name, author="Ben Hord").make_file()
+            Target.from_name(
+                target_name, subdir.name, author="Ben Hord"
+            ).make_file()
 
     print(f"Running prioritization on {subdir.name}")
     priorities = Priorities(subdir.name, author="Ben Hord")

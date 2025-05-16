@@ -37,8 +37,8 @@ pl_keys = [
 
 def query_params(name, category, return_query=False):
     """Function to query system parameters and output a formatted dictionary."""
-    name = name.replace('_', ' ')
-    name = name.replace('DR3', 'Gaia DR3')
+    name = name.replace("_", " ")
+    name = name.replace("DR3", "Gaia DR3")
 
     if "exoplanet" in category:
         star_name = name[:-1]
