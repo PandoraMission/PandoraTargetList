@@ -2,6 +2,7 @@
 
 import os
 import csv
+from pathlib import Path
 
 from astropy.time import Time
 
@@ -29,7 +30,6 @@ class Priorities:
 
     def _load_or_initialize_priorities(self):
         """Function that loads an existing prioritization file if it exists. Otherwise makes one."""
-        # if self.priority_file.exist s():
         if os.path.isfile(self.priority_file):
             self._read_prioritization_file()
         else:
@@ -100,6 +100,10 @@ class Priorities:
         existing = {t["target"]: t for t in self.targets}
         updated = []
 
+        if self.category == "exoplanet":
+            self.sync_exoplanet_categories()
+            self.json_targets = self._load_json_targets()
+
         for name in self.json_targets:
             existing = {t["target"]: t for t in self.targets}
             updated = []
@@ -131,6 +135,36 @@ class Priorities:
         if self.category == "occultation-standard":
             self.targets.sort(key=lambda x: ("DR3" in x["target"], x["rank"]))
 
+        if self.category == "exoplanet":
+            combined_targets = []
+
+            for source in ["primary-exoplanet", "auxiliary-exoplanet"]:
+                source_file = (
+                    TARGDEFDIR + source + "/" + source + "_priorities.csv"
+                )
+                if os.path.exists(source_file):
+                    with open(source_file, newline="") as f:
+                        reader = csv.DictReader(
+                            (line for line in f if not line.startswith("#"))
+                        )
+                        for row in reader:
+                            target_data = {
+                                "target": row["target"],
+                                "rank": int(row["rank"]),
+                                "priority": float(row["priority"]),
+                            }
+                            for key in row:
+                                if key not in target_data:
+                                    target_data[key] = (
+                                        float(row[key]) if row[key] else 0
+                                    )
+                            combined_targets.append(target_data)
+
+            for i, t in enumerate(combined_targets):
+                t["priority"] = 0.0
+
+            self.targets = combined_targets
+
         auto_targets = [
             t for t in self.targets if t["target"] not in self.manual_priority
         ]
@@ -161,6 +195,29 @@ class Priorities:
                 auto_index += 1
 
         self.targets = combined
+
+    def sync_exoplanet_categories(self):
+        """
+        Function to sync the targets in the exoplanet category with those in the
+        primary-exoplanet and auxiliary-exoplanet categories.
+        """
+        exoplanet_dir = Path(TARGDEFDIR + "exoplanet/")
+        sources = ["primary-exoplanet", "auxiliary-exoplanet"]
+        allowed_targets = set()
+
+        for source in sources:
+            source_dir = exoplanet_dir.parent / source
+            for file in source_dir.glob("*_target_definition.json"):
+                target_name = file.name
+                allowed_targets.add(target_name)
+                # dest = exoplanet_dir + target_name + '_target_definition.json'
+                dest = exoplanet_dir / target_name
+                dest.write_bytes(file.read_bytes())
+
+        # Remove outdated files from exoplanet directory
+        for file in exoplanet_dir.glob("*_target_definition.json"):
+            if file.name not in allowed_targets:
+                file.unlink()
 
     def _generate_header(self):
         """Function to generate the header for the output priorities file."""
