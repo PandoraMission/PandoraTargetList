@@ -1,9 +1,9 @@
 # PandoraTargetList
 
-version 0.1.2
-December 5, 2024
+version 0.2.0
+May 14, 2025
 
-Repository showing the current ranked list of Pandora targets used by the mission.
+`pandoratargetlist` is the repository containing information about targets to be observed by NASA's Pandora SmallSat mission. Information about individual targets can be found in the `target_definition_files` directory where all of the targets are sorted by their observation category. A tutorial on how to view, edit, and interact with all of the target definition files can be found in the `tutorial.ipynb` notebook in the `docs` directory. To run the use the full functionality of the software to interact with the target definition files, you will need to download and install the `exoscraper` package which can be found [here](https://github.com/PandoraMission/exoscraper).
 
 ``pandora_targets.csv`` contains a list of targets that fall within the parameters for the Pandora mission. Current parameters are:
 
@@ -17,7 +17,7 @@ Composite Table of the NASA Exoplanet Archive queried
 
 All column headers correspond to those of the NASA Exoplanet Archive. Further descriptions of these columns can be found at the [documentation pages](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html).
 
-This CSV file was generated using the ``pandora_target`` package developed by Ben Hord. This package can be downloaded and used from [here](https://github.com/benhord/pandora-target)
+This CSV file was generated using the ``pandora_target`` package developed by Ben Hord. This package can be downloaded and used from [here](https://github.com/benhord/pandora-target).
 
 ``pandora_target`` queries either the NASA Exoplanet Archive's Composite or Planetary Systems Tables (the user gets to choose) and downloads all planets from the table. If the Planetary Systems Table is queried, then only the values from the default parameter set is kept rather than a combination of parameter values from different data sets like in the Composite Table. At this point, targets without mass values or those with only mass limits have a mass value calculated according to a modified Chen & Kipping mass-radius relationship. This only differs from [Chen & Kipping, 2016](https://ui.adsabs.harvard.edu/abs/2017ApJ...834...17C/abstract) for planets with radii larger than 15 Earth radii, where the value is set to 1 Jupiter mass as the mass-radius relation is degenerate in this regime. This is similar to the treatment of mass by the NASA Exoplanet Archive.
 
