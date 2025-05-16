@@ -1,3 +1,14 @@
+# 0.2.0
+- Implemented object-oriented API for TDFs and prioritization files
+- Wrote tutorial notebook
+- Updated all target definition files to newest version
+- All targets now have Bmag as a standard keyword
+
+# 0.1.3
+- Added exoplanet category
+- added hours and transits required/observed/remaining to priority files
+- tweaked TDF keywords to be more uniform
+
 # 0.1.2
 
 - Changed target prioritization to a category-by-category basis
