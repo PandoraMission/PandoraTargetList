@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-04-30 14:10:35",
-    "Version": "0.1.3",
+    "Version": "0.2.0",
     "Author": "Ben Hord",
-    "Time Updated": "2025-05-06 18:07:12",
+    "Time Updated": "2025-05-14 18:58:57",
     "Star Name": "LHS_1140",
     "Primary Target": 0,
     "RA": 11.248677908444202,
@@ -12,6 +12,7 @@
     "pm_DEC": -596.6229051027707,
     "Jmag": 9.612000465393066,
     "Gmag": 12.653936386108398,
+    "Bmag": 14.414494514465332,
     "Teff (K)": 3837.447509765625,
     "logg": NaN,
     "VDA Setting": "coadd_50",
@@ -25,7 +26,7 @@
     "Transit Duration (hrs)": 1.13,
     "Transit Epoch (BJD_TDB)": 2458389.2939,
     "Transit Epoch Uncertainty (days)": 0.0002,
-    "Obs Window (hrs)": 3.13,
+    "Obs Window (hrs)": 6.0,
     "Additional Planets": [
         {
             "Planet Letter": "b",

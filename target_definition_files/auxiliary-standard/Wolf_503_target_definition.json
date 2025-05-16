@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-04-30 16:04:10",
-    "Version": "0.1.3",
+    "Version": "0.2.0",
     "Author": "Ben Hord",
-    "Time Updated": "2025-05-06 18:08:12",
+    "Time Updated": "2025-05-14 19:31:01",
     "Star Name": "Wolf_503",
     "Primary Target": 0,
     "RA": 206.8461499892822,
@@ -12,6 +12,7 @@
     "pm_DEC": -573.1119108741811,
     "Jmag": 8.324000358581543,
     "Gmag": 9.901058197021484,
+    "Bmag": 10.46744441986084,
     "Teff (K)": 4855.14697265625,
     "logg": 4.5,
     "VDA Setting": "coadd_50",

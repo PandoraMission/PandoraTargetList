@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-04-30 14:09:04",
-    "Version": "0.1.3",
+    "Version": "0.2.0",
     "Author": "Ben Hord",
-    "Time Updated": "2025-05-06 18:07:12",
+    "Time Updated": "2025-05-14 18:58:43",
     "Star Name": "K2-3",
     "Primary Target": 0,
     "RA": 172.3353838821948,
@@ -12,6 +12,7 @@
     "pm_DEC": -78.0031359022738,
     "Jmag": 9.420999526977539,
     "Gmag": 11.474142074584961,
+    "Bmag": 12.377142906188965,
     "Teff (K)": 4126.68994140625,
     "logg": 3.0,
     "VDA Setting": "coadd_50",
@@ -25,7 +26,7 @@
     "Transit Duration (hrs)": 2.563,
     "Transit Epoch (BJD_TDB)": 2457165.32947,
     "Transit Epoch Uncertainty (days)": 0.00025,
-    "Obs Window (hrs)": 4.563000000000001,
+    "Obs Window (hrs)": 6.0,
     "Additional Planets": [
         {
             "Planet Letter": "c",

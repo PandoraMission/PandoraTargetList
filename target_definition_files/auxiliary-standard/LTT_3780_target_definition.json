@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-04-30 16:48:31",
-    "Version": "0.1.3",
+    "Version": "0.2.0",
     "Author": "Ben Hord",
-    "Time Updated": "2025-05-06 18:08:12",
+    "Time Updated": "2025-05-14 19:22:04",
     "Star Name": "LTT_3780",
     "Primary Target": 0,
     "RA": 154.64485490553798,
@@ -12,6 +12,7 @@
     "pm_DEC": -247.7472524716081,
     "Jmag": 9.006999969482422,
     "Gmag": 11.837257385253906,
+    "Bmag": 13.324240684509277,
     "Teff (K)": 3857.61328125,
     "logg": NaN,
     "VDA Setting": "coadd_50",

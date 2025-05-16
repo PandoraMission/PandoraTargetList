@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-04-30 16:54:53",
-    "Version": "0.1.3",
+    "Version": "0.2.0",
     "Author": "Ben Hord",
-    "Time Updated": "2025-05-06 18:08:12",
+    "Time Updated": "2025-05-14 19:20:19",
     "Star Name": "K2-171",
     "Primary Target": 0,
     "RA": 332.34076988562634,
@@ -12,6 +12,7 @@
     "pm_DEC": 1.4366591163488964,
     "Jmag": 11.10099983215332,
     "Gmag": 12.42878532409668,
+    "Bmag": 12.884414672851562,
     "Teff (K)": 5037.0,
     "logg": 4.5,
     "VDA Setting": "coadd_50",

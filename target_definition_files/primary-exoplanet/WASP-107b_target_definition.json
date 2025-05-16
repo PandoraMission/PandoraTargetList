@@ -1,8 +1,8 @@
 {
     "Time Created": "2024-10-18 18:01:46",
-    "Version": "0.1.3",
+    "Version": "0.2.0",
     "Author": "Ben Hord",
-    "Time Updated": "2025-05-06 18:09:05",
+    "Time Updated": "2025-05-14 19:53:39",
     "Star Name": "WASP-107",
     "Primary Target": 1,
     "RA": 188.38641401350998,
@@ -12,6 +12,7 @@
     "pm_DEC": -9.371881534089754,
     "Jmag": 9.378000259399414,
     "Gmag": 11.183328628540039,
+    "Bmag": 11.901632308959961,
     "Teff (K)": 4233.18505859375,
     "logg": 3.0,
     "VDA Setting": "coadd_50",

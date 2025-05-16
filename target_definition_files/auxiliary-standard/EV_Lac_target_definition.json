@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-04-30 17:43:15",
-    "Version": "0.1.3",
+    "Version": "0.2.0",
     "Author": "Ben Hord",
-    "Time Updated": "2025-05-06 18:08:12",
+    "Time Updated": "2025-05-14 19:17:29",
     "Star Name": "EV_Lac",
     "Primary Target": 0,
     "RA": 341.7028254522359,
@@ -12,6 +12,7 @@
     "pm_DEC": -458.9196274161519,
     "Jmag": 6.105999946594238,
     "Gmag": 9.005234718322754,
+    "Bmag": 10.522136688232422,
     "Teff (K)": 3742.18994140625,
     "logg": NaN,
     "VDA Setting": "coadd_50",
