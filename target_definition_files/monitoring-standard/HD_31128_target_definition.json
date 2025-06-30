@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-06-30 19:52:08",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-06-30 19:52:08",
+    "Star Name": "HD_31128",
+    "Primary Target": 0,
+    "RA": 73.04211295139018,
+    "DEC": -27.064267949048283,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 164.79297002973547,
+    "pm_DEC": -26.528054002742635,
+    "Jmag": 8.031999588012695,
+    "Gmag": 8.990459442138672,
+    "Bmag": 9.253588676452637,
+    "Teff (K)": 5997.412109375,
+    "logg": 4.440199851989746,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

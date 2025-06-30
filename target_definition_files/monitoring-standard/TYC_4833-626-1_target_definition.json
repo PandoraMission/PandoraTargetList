@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-06-30 19:39:47",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-06-30 19:47:23",
+    "Star Name": "TYC_4833-626-1",
+    "Primary Target": 0,
+    "RA": 118.38888878830947,
+    "DEC": -0.8270702066667427,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -5.087884363090051,
+    "pm_DEC": -0.8343747520837258,
+    "Jmag": 8.920999526977539,
+    "Gmag": 10.685296058654785,
+    "Bmag": 11.320253372192383,
+    "Teff (K)": 4546.18994140625,
+    "logg": 3.0,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}
