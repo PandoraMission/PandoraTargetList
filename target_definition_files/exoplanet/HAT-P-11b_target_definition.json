@@ -1,10 +1,10 @@
 {
-    "Time Created": "2025-04-30 14:07:31",
+    "Time Created": "2025-07-01 20:13:43",
     "Version": "0.2.0",
     "Author": "Ben Hord",
-    "Time Updated": "2025-05-14 18:59:50",
+    "Time Updated": "2025-07-01 20:13:43",
     "Star Name": "HAT-P-11",
-    "Primary Target": 0,
+    "Primary Target": 1,
     "RA": 297.7102025682552,
     "DEC": 48.08189581073162,
     "Coordinate Epoch": "J2016.0",
@@ -17,8 +17,8 @@
     "logg": 4.545400142669678,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 1,
-    "numPredefinedStarRois": 0,
+    "StarRoiDetMethod": 0,
+    "numPredefinedStarRois": 1,
     "Planet Name": "HAT-P-11b",
     "Planet Letter": "b",
     "Period (days)": 4.888,
@@ -26,15 +26,19 @@
     "Transit Duration (hrs)": 2.35562,
     "Transit Epoch (BJD_TDB)": 2454957.8132067,
     "Transit Epoch Uncertainty (days)": 5.2500000000000006e-06,
-    "Obs Window (hrs)": 6.0,
+    "Obs Window (hrs)": 24.0,
     "Additional Planets": [
         {
             "Planet Letter": "c",
             "Period (days)": 3361.0,
             "Period Uncertainty (days)": 31.0,
-            "Transit Duration (hrs)": 15.0,
+            "Transit Duration (hrs)": 22.4688,
             "Transit Epoch (BJD_TDB)": 2456746.0,
             "Transit Epoch Uncertainty (days)": 28.0
         }
+    ],
+    "ROI_coord_epoch": "J2016.0",
+    "ROI_coord": [
+        []
     ]
 }

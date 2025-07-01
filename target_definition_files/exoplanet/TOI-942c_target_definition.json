@@ -1,0 +1,44 @@
+{
+    "Time Created": "2025-07-01 20:20:42",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-01 20:20:42",
+    "Star Name": "TOI-942",
+    "Primary Target": 1,
+    "RA": 76.6496195413261,
+    "DEC": -20.24561309525414,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 15.43534938724358,
+    "pm_DEC": -3.956337330679885,
+    "Jmag": 10.230999946594238,
+    "Gmag": 11.630298614501953,
+    "Bmag": 12.10917854309082,
+    "Teff (K)": 5267.66552734375,
+    "logg": 4.485499858856201,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 0,
+    "numPredefinedStarRois": 1,
+    "Planet Name": "TOI-942c",
+    "Planet Letter": "c",
+    "Period (days)": 10.156272,
+    "Period Uncertainty (days)": 3.5499999999999996e-05,
+    "Transit Duration (hrs)": 1.91856,
+    "Transit Epoch (BJD_TDB)": 2458447.0563,
+    "Transit Epoch Uncertainty (days)": 0.00195,
+    "Obs Window (hrs)": 24.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "b",
+            "Period (days)": 4.32421,
+            "Period Uncertainty (days)": 1.9e-05,
+            "Transit Duration (hrs)": 3.4032,
+            "Transit Epoch (BJD_TDB)": 2458441.579,
+            "Transit Epoch Uncertainty (days)": 0.0021
+        }
+    ],
+    "ROI_coord_epoch": "J2016.0",
+    "ROI_coord": [
+        []
+    ]
+}

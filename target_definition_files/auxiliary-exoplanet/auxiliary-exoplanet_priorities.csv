@@ -1,7 +1,7 @@
 # Prioritization file for auxiliary-exoplanet
 # Version: 0.2.0
-# Updated by: Ben Hord
-# Updated on: 2025-05-14 19:01:02
+# Updated by: system
+# Updated on: 2025-07-01 21:09:22
 #
 # Column 1: Rank
 # Column 2: Target Name
@@ -11,12 +11,11 @@
 # Column 6: Number of Transits Remaining
 rank,target,priority,transits_req,transits_obs,transits_rem
 0,TOI-2095b,0.9,2.0,0.0,2.0
-1,WASP-132b,0.833333,4.0,0.0,4.0
-2,K2-3b,0.766667,4.0,0.0,4.0
-3,LHS_1140c,0.7,5.0,0.0,5.0
-4,TOI-2095c,0.633333,2.0,0.0,2.0
-5,HAT-P-11b,0.566667,4.0,0.0,4.0
-6,TOI-1130c,0.5,3.0,0.0,3.0
-7,TOI-700b,0.433333,4.0,0.0,4.0
-8,GJ_9827c,0.366667,2.0,0.0,2.0
-9,TOI-700d,0.3,5.0,0.0,5.0
+1,WASP-132b,0.825,4.0,0.0,4.0
+2,K2-3b,0.75,4.0,0.0,4.0
+3,LHS_1140c,0.675,5.0,0.0,5.0
+4,TOI-2095c,0.6,2.0,0.0,2.0
+5,TOI-1130c,0.525,3.0,0.0,3.0
+6,TOI-700b,0.45,4.0,0.0,4.0
+7,GJ_9827c,0.375,2.0,0.0,2.0
+8,TOI-700d,0.3,5.0,0.0,5.0
