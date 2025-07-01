@@ -482,7 +482,7 @@ class Target(object):
             if nan_flag:
                 break
 
-        if "ROI_coord" in keys:
+        if "ROI_coord" in keys and nan_flag is False:
             for sublist in self.info["ROI_coord"]:
                 for element in sublist:
                     if isinstance(element, (int, float)) and np.isnan(element):
