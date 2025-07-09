@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-07-09 19:20:04",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:34",
+    "Star Name": "K2-165",
+    "Primary Target": 0,
+    "RA": 184.9004920900116,
+    "DEC": 0.9683250155546309,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 29.280756350059097,
+    "pm_DEC": -14.447078880916955,
+    "Jmag": 10.055000305175781,
+    "Gmag": 11.33014965057373,
+    "Bmag": 11.767748832702637,
+    "Teff (K)": 5197.04443359375,
+    "logg": 4.579400062561035,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

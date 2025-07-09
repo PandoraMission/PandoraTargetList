@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-07-09 19:20:38",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:34",
+    "Star Name": "TOI-2202",
+    "Primary Target": 0,
+    "RA": 51.22841616078919,
+    "DEC": -73.9575448903878,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -10.851697689714701,
+    "pm_DEC": 6.352020645581685,
+    "Jmag": 11.326000213623047,
+    "Gmag": 12.75400447845459,
+    "Bmag": 13.234149932861328,
+    "Teff (K)": 5028.02783203125,
+    "logg": 4.512899875640869,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

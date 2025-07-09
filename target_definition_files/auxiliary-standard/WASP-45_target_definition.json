@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-07-09 19:13:54",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:36",
+    "Star Name": "WASP-45",
+    "Primary Target": 0,
+    "RA": 5.237765771835368,
+    "DEC": -35.99847157994905,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 52.831140587639844,
+    "pm_DEC": -46.93997397473199,
+    "Jmag": 10.753000259399414,
+    "Gmag": 12.040077209472656,
+    "Bmag": 12.484286308288574,
+    "Teff (K)": 5157.76708984375,
+    "logg": 4.483099937438965,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

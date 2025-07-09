@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-07-09 19:38:10",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:36",
+    "Star Name": "TOI-1470",
+    "Primary Target": 0,
+    "RA": 10.08915696908795,
+    "DEC": 61.21337904306996,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 48.57636763776942,
+    "pm_DEC": -55.7343883322788,
+    "Jmag": 10.154000282287598,
+    "Gmag": 12.542486190795898,
+    "Bmag": 13.669262886047363,
+    "Teff (K)": 3399.8037109375,
+    "logg": 3.9651999473571777,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

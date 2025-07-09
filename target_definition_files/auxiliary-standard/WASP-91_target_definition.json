@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-07-09 19:36:18",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:36",
+    "Star Name": "WASP-91",
+    "Primary Target": 0,
+    "RA": 357.84647350495493,
+    "DEC": -70.15286236046585,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 96.191063496895,
+    "pm_DEC": -1.877826855806314,
+    "Jmag": 10.274999618530273,
+    "Gmag": 11.617521286010742,
+    "Bmag": 12.095705032348633,
+    "Teff (K)": 5042.861328125,
+    "logg": 4.519800186157227,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

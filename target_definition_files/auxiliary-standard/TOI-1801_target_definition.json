@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-07-09 19:06:37",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:36",
+    "Star Name": "TOI-1801",
+    "Primary Target": 0,
+    "RA": 175.57556859536825,
+    "DEC": 23.027039354714887,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -204.891488441079,
+    "pm_DEC": 41.838892671874646,
+    "Jmag": 8.64900016784668,
+    "Gmag": 10.829634666442871,
+    "Bmag": 11.801276206970215,
+    "Teff (K)": 3619.452392578125,
+    "logg": 4.445300102233887,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-07-09 19:39:27",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:36",
+    "Star Name": "TOI-712",
+    "Primary Target": 0,
+    "RA": 92.93610536374055,
+    "DEC": -65.82583426841087,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -2.8162142336382567,
+    "pm_DEC": 30.97433080372426,
+    "Jmag": 8.984000205993652,
+    "Gmag": 10.579951286315918,
+    "Bmag": 11.18264389038086,
+    "Teff (K)": 4526.0341796875,
+    "logg": 4.610400199890137,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

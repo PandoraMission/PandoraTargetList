@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-07-09 19:38:43",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:36",
+    "Star Name": "K2-275",
+    "Primary Target": 0,
+    "RA": 132.16987876314457,
+    "DEC": 20.45501413202039,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -5.0045206989612945,
+    "pm_DEC": -15.523454228894389,
+    "Jmag": 10.36400032043457,
+    "Gmag": 11.80809211730957,
+    "Bmag": 12.328791618347168,
+    "Teff (K)": 4802.87353515625,
+    "logg": 4.577199935913086,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}
