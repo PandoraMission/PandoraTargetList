@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-07-09 19:42:35",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:36",
+    "Star Name": "TOI-1272",
+    "Primary Target": 0,
+    "RA": 199.196190085243,
+    "DEC": 49.86105975025288,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -63.24076184348335,
+    "pm_DEC": 4.749896470576611,
+    "Jmag": 10.218000411987305,
+    "Gmag": 11.594841957092285,
+    "Bmag": 12.069357872009277,
+    "Teff (K)": 4973.29052734375,
+    "logg": 4.553500175476074,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

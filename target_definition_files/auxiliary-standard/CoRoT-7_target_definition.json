@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-04-30 16:12:43",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:34",
+    "Star Name": "CoRoT-7",
+    "Primary Target": 0,
+    "RA": 100.95616972793913,
+    "DEC": -1.0630075792826121,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 10.98397529029034,
+    "pm_DEC": -0.040168508543598484,
+    "Jmag": 10.300999641418457,
+    "Gmag": 11.519906044006348,
+    "Bmag": 11.935497283935547,
+    "Teff (K)": 5351.17138671875,
+    "logg": 4.57420015335083,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

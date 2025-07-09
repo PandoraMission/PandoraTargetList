@@ -1,0 +1,22 @@
+{
+    "Time Created": "2024-10-18 18:06:26",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-16 03:27:31",
+    "Star Name": "TOI-836",
+    "Primary Target": 0,
+    "RA": 225.07985270942572,
+    "DEC": -24.454206065152906,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -199.48263377244822,
+    "pm_DEC": -27.997252376472012,
+    "Jmag": 7.579999923706055,
+    "Gmag": 9.40713882446289,
+    "Bmag": 10.126359939575195,
+    "Teff (K)": 4248.3759765625,
+    "logg": 4.607699871063232,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_5",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-06-30 19:51:36",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-06-30 19:51:36",
+    "Star Name": "HD_9051",
+    "Primary Target": 0,
+    "RA": 22.19402237780349,
+    "DEC": -24.340476683229284,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 53.583999396956976,
+    "pm_DEC": -17.122278885279208,
+    "Jmag": 7.289000034332275,
+    "Gmag": 8.688342094421387,
+    "Bmag": 9.132611274719238,
+    "Teff (K)": 5019.0,
+    "logg": 2.5,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_5",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

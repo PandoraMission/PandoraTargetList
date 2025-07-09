@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-04-30 16:54:39",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-14 19:17:17",
+    "Star Name": "K2-148",
+    "Primary Target": 0,
+    "RA": 14.517644035871253,
+    "DEC": -0.1932612960592061,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -38.79163530207196,
+    "pm_DEC": -23.688754492805277,
+    "Jmag": 11.081999778747559,
+    "Gmag": 13.049330711364746,
+    "Bmag": 13.854928970336914,
+    "Teff (K)": 3957.0830078125,
+    "logg": 4.520199775695801,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

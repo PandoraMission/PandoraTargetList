@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-04-30 16:11:28",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-14 19:17:17",
+    "Star Name": "HIP_29442",
+    "Primary Target": 0,
+    "RA": 93.05783325659853,
+    "DEC": -14.649294086656349,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -79.1320013747779,
+    "pm_DEC": 162.69593831494234,
+    "Jmag": 8.055999755859375,
+    "Gmag": 9.282242774963379,
+    "Bmag": 9.689909934997559,
+    "Teff (K)": 5236.72705078125,
+    "logg": 4.425899982452393,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

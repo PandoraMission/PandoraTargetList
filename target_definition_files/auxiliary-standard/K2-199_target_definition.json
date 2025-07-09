@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-04-30 16:48:45",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:33",
+    "Star Name": "K2-199",
+    "Primary Target": 0,
+    "RA": 208.90144250884646,
+    "DEC": -6.136081112324807,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -59.12720484785596,
+    "pm_DEC": 15.295659281917992,
+    "Jmag": 10.277000427246094,
+    "Gmag": 11.89394760131836,
+    "Bmag": 12.49167251586914,
+    "Teff (K)": 4544.27392578125,
+    "logg": 4.590400218963623,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

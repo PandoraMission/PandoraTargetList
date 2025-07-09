@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-04-29 21:03:37",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-14 19:17:16",
+    "Star Name": "TRAPPIST-1",
+    "Primary Target": 0,
+    "RA": 346.62652162764437,
+    "DEC": -5.043528319429531,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 930.787522581778,
+    "pm_DEC": -479.03754095288554,
+    "Jmag": 11.354000091552734,
+    "Gmag": 15.622553825378418,
+    "Bmag": 19.005802154541016,
+    "Teff (K)": 3352.333251953125,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

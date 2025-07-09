@@ -1,0 +1,22 @@
+{
+    "Time Created": "2024-10-18 17:51:14",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-14 19:38:31",
+    "Star Name": "GJ_3090",
+    "Primary Target": 0,
+    "RA": 20.43840559561582,
+    "DEC": -46.71473451693094,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -111.08929387948496,
+    "pm_DEC": -79.95397168145396,
+    "Jmag": 8.168000221252441,
+    "Gmag": 10.556652069091797,
+    "Bmag": 11.669820785522461,
+    "Teff (K)": 3867.75,
+    "logg": 3.0,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

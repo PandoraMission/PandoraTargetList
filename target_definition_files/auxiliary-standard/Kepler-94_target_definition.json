@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-07-09 19:13:21",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:36",
+    "Star Name": "Kepler-94",
+    "Primary Target": 0,
+    "RA": 281.1947304731251,
+    "DEC": 47.49726403867884,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -5.525920382839657,
+    "pm_DEC": 25.06614549868028,
+    "Jmag": 11.180999755859375,
+    "Gmag": 12.84776782989502,
+    "Bmag": 13.453117370605469,
+    "Teff (K)": 4598.90966796875,
+    "logg": 4.552299976348877,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

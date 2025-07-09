@@ -1,0 +1,22 @@
+{
+    "Time Created": "2024-10-18 17:55:02",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-14 19:29:47",
+    "Star Name": "TOI-1452",
+    "Primary Target": 0,
+    "RA": 290.17397780753925,
+    "DEC": 73.19509791591854,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 7.799610985985343,
+    "pm_DEC": -74.07608082606318,
+    "Jmag": 10.604000091552734,
+    "Gmag": 13.598235130310059,
+    "Bmag": 15.22160530090332,
+    "Teff (K)": 3170.231689453125,
+    "logg": 4.9770002365112305,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

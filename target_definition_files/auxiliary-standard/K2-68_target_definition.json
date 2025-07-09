@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-04-30 16:50:42",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-14 19:24:49",
+    "Star Name": "K2-68",
+    "Primary Target": 0,
+    "RA": 334.0195465218465,
+    "DEC": -10.56736630498097,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -52.629438510849226,
+    "pm_DEC": -9.589169659479813,
+    "Jmag": 11.138999938964844,
+    "Gmag": 12.646795272827148,
+    "Bmag": 13.182405471801758,
+    "Teff (K)": 4720.7109375,
+    "logg": 4.592100143432617,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

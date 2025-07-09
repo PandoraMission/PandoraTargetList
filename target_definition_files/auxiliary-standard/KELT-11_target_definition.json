@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-04-30 14:18:54",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-14 19:17:17",
+    "Star Name": "KELT-11",
+    "Primary Target": 0,
+    "RA": 161.70689415477983,
+    "DEC": -9.399375433944758,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -79.15994244306279,
+    "pm_DEC": -78.5066636352633,
+    "Jmag": 6.616000175476074,
+    "Gmag": 7.841303825378418,
+    "Bmag": 8.246328353881836,
+    "Teff (K)": 5320.66650390625,
+    "logg": 4.5,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_3",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

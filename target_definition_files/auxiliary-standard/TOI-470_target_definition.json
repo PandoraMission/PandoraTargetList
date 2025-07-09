@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-04-30 16:06:07",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:36",
+    "Star Name": "TOI-470",
+    "Primary Target": 0,
+    "RA": 94.00991236431918,
+    "DEC": -25.03142038584858,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 52.56093333352426,
+    "pm_DEC": -67.103715967299,
+    "Jmag": 9.944999694824219,
+    "Gmag": 11.24565315246582,
+    "Bmag": 11.688377380371094,
+    "Teff (K)": 5085.16455078125,
+    "logg": 4.529900074005127,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

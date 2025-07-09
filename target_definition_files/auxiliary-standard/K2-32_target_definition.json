@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-04-30 15:48:22",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:34",
+    "Star Name": "K2-32",
+    "Primary Target": 0,
+    "RA": 252.4260055029446,
+    "DEC": -19.543057889000128,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -16.661968622896065,
+    "pm_DEC": -53.56380141081775,
+    "Jmag": 10.404000282287598,
+    "Gmag": 11.995158195495605,
+    "Bmag": 12.522444725036621,
+    "Teff (K)": 5032.537109375,
+    "logg": 4.46120023727417,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

@@ -1,0 +1,79 @@
+{
+    "Time Created": "2025-07-01 20:20:42",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 17:30:08",
+    "Star Name": "TOI-942",
+    "Primary Target": 1,
+    "RA": 76.6496195413261,
+    "DEC": -20.24561309525414,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 15.43534938724358,
+    "pm_DEC": -3.956337330679885,
+    "Jmag": 10.230999946594238,
+    "Gmag": 11.630298614501953,
+    "Bmag": 12.10917854309082,
+    "Teff (K)": 5267.66552734375,
+    "logg": 4.485499858856201,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 0,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "TOI-942c",
+    "Planet Letter": "c",
+    "Period (days)": 10.156272,
+    "Period Uncertainty (days)": 3.5499999999999996e-05,
+    "Transit Duration (hrs)": 1.91856,
+    "Transit Epoch (BJD_TDB)": 2458447.0563,
+    "Transit Epoch Uncertainty (days)": 0.00195,
+    "Obs Window (hrs)": 24.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "b",
+            "Period (days)": 4.32421,
+            "Period Uncertainty (days)": 1.9e-05,
+            "Transit Duration (hrs)": 3.4032,
+            "Transit Epoch (BJD_TDB)": 2458441.579,
+            "Transit Epoch Uncertainty (days)": 0.0021
+        }
+    ],
+    "ROI_coord_epoch": "J2016.0",
+    "ROI_coord": [
+        [
+            76.6496195413261,
+            -20.24561309525414
+        ],
+        [
+            76.7501382380034,
+            -20.11522185984782
+        ],
+        [
+            76.57350780216596,
+            -20.131484089553627
+        ],
+        [
+            76.57837532295767,
+            -20.086480556830804
+        ],
+        [
+            76.64610628710291,
+            -20.437795349966954
+        ],
+        [
+            76.65319884690004,
+            -20.33358484155889
+        ],
+        [
+            76.57506133463438,
+            -20.395377483825825
+        ],
+        [
+            76.62803050396532,
+            -20.22951097368529
+        ],
+        [
+            76.53334005377855,
+            -20.306118477327225
+        ]
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "Time Created": "2024-10-18 18:02:12",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-14 19:39:01",
+    "Star Name": "HIP_65_A",
+    "Primary Target": 0,
+    "RA": 0.18555746500007905,
+    "DEC": -54.83083281791827,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -202.71110344692192,
+    "pm_DEC": -71.61254357028731,
+    "Jmag": 8.92199993133545,
+    "Gmag": 10.588467597961426,
+    "Bmag": 11.212916374206543,
+    "Teff (K)": 4594.24658203125,
+    "logg": 4.592800140380859,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

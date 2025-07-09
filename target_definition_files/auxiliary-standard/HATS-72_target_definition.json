@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-04-30 16:10:08",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:36",
+    "Star Name": "HATS-72",
+    "Primary Target": 0,
+    "RA": 339.0258243286845,
+    "DEC": -17.00031641552448,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -108.58466109140186,
+    "pm_DEC": -84.4373177489151,
+    "Jmag": 10.423999786376953,
+    "Gmag": 12.064620018005371,
+    "Bmag": 12.678853988647461,
+    "Teff (K)": 4556.05908203125,
+    "logg": 4.565000057220459,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

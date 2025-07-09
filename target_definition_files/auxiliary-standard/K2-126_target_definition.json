@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-04-30 16:37:46",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-14 19:36:05",
+    "Star Name": "K2-126",
+    "Primary Target": 0,
+    "RA": 203.54670723644972,
+    "DEC": -13.576971567462989,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 36.10615891083191,
+    "pm_DEC": -8.037020950355265,
+    "Jmag": 10.508000373840332,
+    "Gmag": 12.386017799377441,
+    "Bmag": 13.124547958374023,
+    "Teff (K)": 4309.697265625,
+    "logg": 3.0,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

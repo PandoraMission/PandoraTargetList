@@ -1,0 +1,22 @@
+{
+    "Time Created": "2024-10-18 18:03:57",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-16 03:27:48",
+    "Star Name": "WASP-80",
+    "Primary Target": 0,
+    "RA": 303.1667810972023,
+    "DEC": -2.1444439912893576,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -132.91261542023565,
+    "pm_DEC": -50.68294540815508,
+    "Jmag": 9.218000411987305,
+    "Gmag": 11.26854419708252,
+    "Bmag": 12.14480972290039,
+    "Teff (K)": 4076.0498046875,
+    "logg": 3.0,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-04-30 16:52:40",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-14 19:32:10",
+    "Star Name": "K2-379",
+    "Primary Target": 0,
+    "RA": 283.03176369365906,
+    "DEC": -27.180734709005826,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -2.474368488763163,
+    "pm_DEC": -43.08619268251671,
+    "Jmag": 11.151000022888184,
+    "Gmag": 12.892680168151855,
+    "Bmag": 13.511542320251465,
+    "Teff (K)": 4797.01025390625,
+    "logg": 4.575900077819824,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

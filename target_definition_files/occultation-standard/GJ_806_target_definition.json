@@ -1,0 +1,22 @@
+{
+    "Time Created": "2024-10-18 17:56:10",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-16 03:27:38",
+    "Star Name": "GJ_806",
+    "Primary Target": 0,
+    "RA": 311.2697846821949,
+    "DEC": 44.5002726683959,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 434.0277717274866,
+    "pm_DEC": 271.02223027117464,
+    "Jmag": 7.328999996185303,
+    "Gmag": 9.828686714172363,
+    "Bmag": 11.005875587463379,
+    "Teff (K)": 3526.56640625,
+    "logg": 4.817200183868408,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_4",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

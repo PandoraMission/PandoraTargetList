@@ -1,0 +1,22 @@
+{
+    "Time Created": "2024-10-18 18:17:08",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-16 03:27:49",
+    "Star Name": "WASP-132",
+    "Primary Target": 0,
+    "RA": 217.60920221164744,
+    "DEC": -46.159526130256374,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 12.255085642630144,
+    "pm_DEC": -73.16945712544822,
+    "Jmag": 10.256999969482422,
+    "Gmag": 11.746747970581055,
+    "Bmag": 12.299771308898926,
+    "Teff (K)": 4783.0498046875,
+    "logg": 4.585599899291992,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-06-30 19:58:24",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-06-30 19:58:24",
+    "Star Name": "HD_200654",
+    "Primary Target": 0,
+    "RA": 316.64613723994984,
+    "DEC": -49.96518470993647,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 193.9534574544339,
+    "pm_DEC": -274.0404188035843,
+    "Jmag": 7.6479997634887695,
+    "Gmag": 8.885178565979004,
+    "Bmag": 9.245725631713867,
+    "Teff (K)": 5348.0,
+    "logg": 3.0,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

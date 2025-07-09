@@ -1,0 +1,22 @@
+{
+    "Time Created": "2024-10-18 17:56:43",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-16 03:27:39",
+    "Star Name": "LTT_1445_A",
+    "Primary Target": 0,
+    "RA": 45.46242451175699,
+    "DEC": -16.59453280551054,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -369.97184335074695,
+    "pm_DEC": -267.931311928784,
+    "Jmag": 7.294000148773193,
+    "Gmag": 10.058402061462402,
+    "Bmag": 11.475932121276855,
+    "Teff (K)": 3282.558349609375,
+    "logg": 4.987400054931641,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_4",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

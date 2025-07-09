@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-07-09 18:59:27",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:33",
+    "Star Name": "K2-216",
+    "Primary Target": 0,
+    "RA": 11.480235138301607,
+    "DEC": 6.347031671793535,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -1.8503393038201768,
+    "pm_DEC": 10.445622740369064,
+    "Jmag": 10.394000053405762,
+    "Gmag": 12.04857063293457,
+    "Bmag": 12.658249855041504,
+    "Teff (K)": 4628.54638671875,
+    "logg": 4.642199993133545,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

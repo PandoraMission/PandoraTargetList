@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-04-30 15:47:47",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-14 19:17:17",
+    "Star Name": "TOI-2427",
+    "Primary Target": 0,
+    "RA": 52.29175602628286,
+    "DEC": -31.362860745984026,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 150.46611791013888,
+    "pm_DEC": 41.419084321490566,
+    "Jmag": 7.888999938964844,
+    "Gmag": 9.8236083984375,
+    "Bmag": 10.620790481567383,
+    "Teff (K)": 4217.0732421875,
+    "logg": 3.0,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

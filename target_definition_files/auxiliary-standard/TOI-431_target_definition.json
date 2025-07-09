@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-04-30 16:50:11",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:34",
+    "Star Name": "TOI-431",
+    "Primary Target": 0,
+    "RA": 83.26925287515645,
+    "DEC": -26.72384884501141,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 16.886161988899513,
+    "pm_DEC": 150.77881187412743,
+    "Jmag": 7.304999828338623,
+    "Gmag": 8.798720359802246,
+    "Bmag": 9.334208488464355,
+    "Teff (K)": 4713.7216796875,
+    "logg": 4.556000232696533,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_5",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

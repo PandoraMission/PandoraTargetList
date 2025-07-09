@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-06-30 19:43:51",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-06-30 19:47:23",
+    "Star Name": "Ross_484",
+    "Primary Target": 0,
+    "RA": 199.73341956375648,
+    "DEC": -3.0722780703816746,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -646.1338086048971,
+    "pm_DEC": -133.4677190140831,
+    "Jmag": 8.86299991607666,
+    "Gmag": 10.458481788635254,
+    "Bmag": 11.029313087463379,
+    "Teff (K)": 4486.41650390625,
+    "logg": 4.693299770355225,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

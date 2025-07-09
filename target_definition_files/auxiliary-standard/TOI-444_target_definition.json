@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-04-30 15:56:46",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:34",
+    "Star Name": "TOI-444",
+    "Primary Target": 0,
+    "RA": 64.183994221758,
+    "DEC": -26.766423219723738,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -25.765918050441535,
+    "pm_DEC": -116.43396539840478,
+    "Jmag": 8.300000190734863,
+    "Gmag": 9.611574172973633,
+    "Bmag": 10.059778213500977,
+    "Teff (K)": 5005.36474609375,
+    "logg": 4.522799968719482,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

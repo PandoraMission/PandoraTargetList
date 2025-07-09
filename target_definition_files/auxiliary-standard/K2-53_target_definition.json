@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-04-30 16:17:50",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-14 19:26:42",
+    "Star Name": "K2-53",
+    "Primary Target": 0,
+    "RA": 244.14197335706547,
+    "DEC": -20.40060103560644,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 33.433810620604675,
+    "pm_DEC": -18.889856636378138,
+    "Jmag": 10.305999755859375,
+    "Gmag": 12.13822078704834,
+    "Bmag": 12.745697975158691,
+    "Teff (K)": 4749.3466796875,
+    "logg": 4.5,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

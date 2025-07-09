@@ -1,0 +1,22 @@
+{
+    "Time Created": "2024-10-18 18:01:20",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-16 03:27:36",
+    "Star Name": "WASP-69",
+    "Primary Target": 0,
+    "RA": 315.0259708078886,
+    "DEC": -5.094870064224303,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 33.777785646192,
+    "pm_DEC": -93.58071988791666,
+    "Jmag": 8.031999588012695,
+    "Gmag": 9.491503715515137,
+    "Bmag": 10.029881477355957,
+    "Teff (K)": 4729.37744140625,
+    "logg": 4.505799770355225,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

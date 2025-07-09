@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-04-30 15:55:45",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:34",
+    "Star Name": "TOI-3082",
+    "Primary Target": 0,
+    "RA": 195.90805370872775,
+    "DEC": -19.218988360745097,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -123.91486279545111,
+    "pm_DEC": -28.159980129125042,
+    "Jmag": 10.659000396728516,
+    "Gmag": 12.5193510055542,
+    "Bmag": 13.25004768371582,
+    "Teff (K)": 4500.353515625,
+    "logg": 4.674799919128418,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

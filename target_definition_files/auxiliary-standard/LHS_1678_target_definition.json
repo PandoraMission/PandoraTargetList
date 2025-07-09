@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-07-09 19:21:11",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 19:45:35",
+    "Star Name": "LHS_1678",
+    "Primary Target": 0,
+    "RA": 68.17902996429045,
+    "DEC": -39.79100877620121,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 239.36766680125515,
+    "pm_DEC": -967.5973374565772,
+    "Jmag": 9.020000457763672,
+    "Gmag": 11.532964706420898,
+    "Bmag": 12.727654457092285,
+    "Teff (K)": 3830.39990234375,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

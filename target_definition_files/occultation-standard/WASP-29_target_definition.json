@@ -1,0 +1,22 @@
+{
+    "Time Created": "2024-10-18 17:52:29",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-16 03:27:38",
+    "Star Name": "WASP-29",
+    "Primary Target": 0,
+    "RA": 357.8791873887889,
+    "DEC": -39.90713389150895,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -56.76661672315795,
+    "pm_DEC": -88.9882963579507,
+    "Jmag": 9.352999687194824,
+    "Gmag": 10.895415306091309,
+    "Bmag": 11.453864097595215,
+    "Teff (K)": 4701.32958984375,
+    "logg": 4.5329999923706055,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

@@ -1,0 +1,32 @@
+# Prioritization file for secondary-exoplanet
+# Version: 0.2.0
+# Updated by: Ben Hord
+# Updated on: 2025-05-14 20:03:44
+#
+# Column 1: Rank
+# Column 2: Target Name
+# Column 3: Priority
+# Column 4: Number of Transits Requested
+# Column 5: Number of Transits Observed
+# Column 6: Number of Transits Remaining
+rank,target,priority,transits_req,transits_obs,transits_rem
+0,TOI-1634b,0.9,10.0,0.0,10.0
+1,HAT-P-12b,0.868421,10.0,0.0,10.0
+2,GJ_3470b,0.836842,10.0,0.0,10.0
+3,TOI-216b,0.805263,10.0,0.0,10.0
+4,WASP-132c,0.773684,10.0,0.0,10.0
+5,GJ_806b,0.742105,10.0,0.0,10.0
+6,GJ_3090b,0.710526,10.0,0.0,10.0
+7,TOI-1452b,0.678947,10.0,0.0,10.0
+8,HAT-P-26b,0.647368,10.0,0.0,10.0
+9,HAT-P-18b,0.615789,10.0,0.0,10.0
+10,L_98-59b,0.584211,10.0,0.0,10.0
+11,K2-141c,0.552632,10.0,0.0,10.0
+12,TOI-2411b,0.521053,10.0,0.0,10.0
+13,TOI-2076b,0.489474,10.0,0.0,10.0
+14,WASP-29b,0.457895,10.0,0.0,10.0
+15,TOI-942c,0.426316,10.0,0.0,10.0
+16,LTT_1445_Ab,0.394737,10.0,0.0,10.0
+17,K2-141b,0.363158,10.0,0.0,10.0
+18,HIP_113103b,0.331579,10.0,0.0,10.0
+19,TOI-540b,0.3,10.0,0.0,10.0

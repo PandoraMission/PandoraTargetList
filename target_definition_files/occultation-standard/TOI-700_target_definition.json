@@ -1,0 +1,22 @@
+{
+    "Time Created": "2024-10-18 18:17:44",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-05-16 03:27:45",
+    "Star Name": "TOI-700",
+    "Primary Target": 0,
+    "RA": 97.09568215455467,
+    "DEC": -65.57859235953504,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -102.64102042240687,
+    "pm_DEC": 161.74799808232677,
+    "Jmag": 9.468999862670898,
+    "Gmag": 12.063116073608398,
+    "Bmag": 13.325263977050781,
+    "Teff (K)": 3219.275390625,
+    "logg": 4.177700042724609,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

@@ -1,0 +1,79 @@
+{
+    "Time Created": "2025-07-01 20:13:43",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 17:28:32",
+    "Star Name": "HAT-P-11",
+    "Primary Target": 1,
+    "RA": 297.7102025682552,
+    "DEC": 48.08189581073162,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 126.0945902203455,
+    "pm_DEC": 232.72618680731978,
+    "Jmag": 7.607999801635742,
+    "Gmag": 9.158262252807617,
+    "Bmag": 9.72132682800293,
+    "Teff (K)": 4642.484375,
+    "logg": 4.545400142669678,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 0,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "HAT-P-11b",
+    "Planet Letter": "b",
+    "Period (days)": 4.888,
+    "Period Uncertainty (days)": 0.0001,
+    "Transit Duration (hrs)": 2.35562,
+    "Transit Epoch (BJD_TDB)": 2454957.8132067,
+    "Transit Epoch Uncertainty (days)": 5.2500000000000006e-06,
+    "Obs Window (hrs)": 24.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 3361.0,
+            "Period Uncertainty (days)": 31.0,
+            "Transit Duration (hrs)": 22.4688,
+            "Transit Epoch (BJD_TDB)": 2456746.0,
+            "Transit Epoch Uncertainty (days)": 28.0
+        }
+    ],
+    "ROI_coord_epoch": "J2016.0",
+    "ROI_coord": [
+        [
+            297.7102025682552,
+            48.08189581073162
+        ],
+        [
+            297.48161033091816,
+            48.12719490639291
+        ],
+        [
+            297.60907425708115,
+            48.17880962053997
+        ],
+        [
+            297.55863997648953,
+            48.198927136327825
+        ],
+        [
+            297.69681039339935,
+            48.17148509423739
+        ],
+        [
+            297.6072678174105,
+            48.199127998644855
+        ],
+        [
+            297.57057142812346,
+            48.14562892946769
+        ],
+        [
+            297.57468793676355,
+            48.04970297363605
+        ],
+        [
+            297.5788298874823,
+            48.002024959549935
+        ]
+    ]
+}
