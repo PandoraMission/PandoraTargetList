@@ -2,7 +2,7 @@
     "Time Created": "2025-07-01 20:19:30",
     "Version": "0.2.0",
     "Author": "Ben Hord",
-    "Time Updated": "2025-07-02 21:04:30",
+    "Time Updated": "2025-07-09 17:28:46",
     "Star Name": "TOI-674",
     "Primary Target": 1,
     "RA": 164.5865308722478,
@@ -25,7 +25,7 @@
     "Period Uncertainty (days)": 3e-06,
     "Transit Duration (hrs)": 1.1104153,
     "Transit Epoch (BJD_TDB)": 2458862.847755,
-    "Transit Epoch Uncertainty (days)": 0.000088,
+    "Transit Epoch Uncertainty (days)": 8.8e-05,
     "Obs Window (hrs)": 24.0,
     "ROI_coord_epoch": "J2016.0",
     "ROI_coord": [

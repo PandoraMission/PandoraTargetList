@@ -1,0 +1,79 @@
+{
+    "Time Created": "2025-07-09 17:30:08",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-07-09 17:30:08",
+    "Star Name": "HD_73583",
+    "Primary Target": 1,
+    "RA": 129.68829349261745,
+    "DEC": -13.256521320044765,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -63.8310474123743,
+    "pm_DEC": 38.481540014954675,
+    "Jmag": 7.64900016784668,
+    "Gmag": 9.27745246887207,
+    "Bmag": 9.885737419128418,
+    "Teff (K)": 4462.21923828125,
+    "logg": 4.5808000564575195,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 0,
+    "numPredefinedStarRois": 1,
+    "Planet Name": "HD_73583b",
+    "Planet Letter": "b",
+    "Period (days)": 6.398042,
+    "Period Uncertainty (days)": 6.45e-06,
+    "Transit Duration (hrs)": 2.143,
+    "Transit Epoch (BJD_TDB)": 2458517.69013,
+    "Transit Epoch Uncertainty (days)": 0.000575,
+    "Obs Window (hrs)": 24.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 18.87974,
+            "Period Uncertainty (days)": 0.0007999999999999999,
+            "Transit Duration (hrs)": 3.67,
+            "Transit Epoch (BJD_TDB)": 2459232.1682,
+            "Transit Epoch Uncertainty (days)": 0.00215
+        }
+    ],
+    "ROI_coord_epoch": "J2016.0",
+    "ROI_coord": [
+        [
+            129.68829349261745,
+            -13.256521320044765
+        ],
+        [
+            129.65871903015966,
+            -13.294532294856364
+        ],
+        [
+            129.5982732144945,
+            -13.353465628300425
+        ],
+        [
+            129.67909303528614,
+            -13.300071659051094
+        ],
+        [
+            129.79155080845018,
+            -13.311466906692875
+        ],
+        [
+            129.60466069650232,
+            -13.361574148763237
+        ],
+        [
+            129.6854317381632,
+            -13.233273135957555
+        ],
+        [
+            129.6512327913014,
+            -13.462516624495404
+        ],
+        [
+            129.6757315517097,
+            -13.240164523525635
+        ]
+    ]
+}

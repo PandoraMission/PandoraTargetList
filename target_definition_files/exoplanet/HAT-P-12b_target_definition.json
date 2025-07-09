@@ -2,7 +2,7 @@
     "Time Created": "2025-07-01 20:14:16",
     "Version": "0.2.0",
     "Author": "Ben Hord",
-    "Time Updated": "2025-07-02 20:58:16",
+    "Time Updated": "2025-07-09 17:28:32",
     "Star Name": "HAT-P-12",
     "Primary Target": 1,
     "RA": 209.3886195030299,
@@ -25,7 +25,7 @@
     "Period Uncertainty (days)": 2.1e-06,
     "Transit Duration (hrs)": 2.3376,
     "Transit Epoch (BJD_TDB)": 2456851.481119,
-    "Transit Epoch Uncertainty (days)": 6e-5,
+    "Transit Epoch Uncertainty (days)": 6e-05,
     "Obs Window (hrs)": 24.0,
     "ROI_coord_epoch": "J2016.0",
     "ROI_coord": [
