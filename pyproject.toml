@@ -11,6 +11,7 @@ python = ">=3.9,<3.13"
 pandorasim = ">=1.0.10"
 pandorasat = ">=0.5.23"
 pandorapsf = ">=0.6.1"
+exoscraper = ">=0.2.0"
 
 [tool.poetry.group.dev]
 optional = true
