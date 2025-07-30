@@ -1,7 +1,7 @@
 # Prioritization file for primary-exoplanet
 # Version: 0.2.0
 # Updated by: system
-# Updated on: 2025-07-09 17:53:06
+# Updated on: 2025-07-30 19:01:36
 #
 # Column 1: Rank
 # Column 2: Target Name
@@ -26,7 +26,7 @@ rank,target,priority,transits_req,transits_obs,transits_rem
 13,L_98-59c,0.489474,10.0,0.0,10.0
 14,TOI-2076b,0.457895,10.0,0.0,10.0
 15,TOI-270d,0.426316,10.0,0.0,10.0
-16,TOI-5205b,0.394737,10.0,0.0,10.0
-17,TOI-674b,0.363158,10.0,0.0,10.0
-18,TOI-942c,0.331579,10.0,0.0,10.0
-19,HD_73583b,0.3,10,0,10
+16,TOI-674b,0.394737,10.0,0.0,10.0
+17,TOI-942c,0.363158,10.0,0.0,10.0
+18,HD_73583b,0.331579,10.0,0.0,10.0
+19,TOI-3629b,0.3,10.0,0.0,10.0
