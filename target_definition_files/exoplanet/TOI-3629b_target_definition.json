@@ -18,7 +18,7 @@
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
     "StarRoiDetMethod": 0,
-    "numPredefinedStarRois": 1,
+    "numPredefinedStarRois": 9,
     "Planet Name": "TOI-3629b",
     "Planet Letter": "b",
     "Period (days)": 3.936551,
