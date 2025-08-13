@@ -524,12 +524,12 @@ class Target(object):
 
         if os.path.exists(self.filepath) and overwrite is False:
             # Load in JSON file to check against self.info
-            with open(self.filepath, 'r') as f:
+            with open(self.filepath, "r") as f:
                 ref_dict = json.load(f)
 
             if self.info == ref_dict:
                 if verbose:
-                    print('No changes have been made. Not saving this file.')
+                    print("No changes have been made. Not saving this file.")
                 return
 
             if self.info.keys() == ref_dict.keys():
@@ -552,7 +552,9 @@ class Target(object):
 
                 if likeness:
                     if verbose:
-                        print('No changes have been made. Not saving this file.')
+                        print(
+                            "No changes have been made. Not saving this file."
+                        )
                     return
 
         # Add in final keywords like author and update time, for example.
