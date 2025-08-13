@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-08-13 19:41:46",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-08-13 19:41:46",
+    "Star Name": "WD2341+322",
+    "Primary Target": 0,
+    "RA": 355.9602000462695,
+    "DEC": 32.546047334095135,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -215.905037633773,
+    "pm_DEC": -59.8708759029864,
+    "Jmag": 13.170999526977539,
+    "Gmag": 12.966920852661133,
+    "Bmag": 12.96413516998291,
+    "Teff (K)": 8943.3330078125,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

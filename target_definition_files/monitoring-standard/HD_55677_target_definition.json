@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-08-13 19:26:43",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-08-13 19:26:43",
+    "Star Name": "HD_55677",
+    "Primary Target": 0,
+    "RA": 108.6303617798941,
+    "DEC": 13.860188013491268,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -2.594889756776142,
+    "pm_DEC": -6.5786662285088005,
+    "Jmag": 9.239999771118164,
+    "Gmag": 9.434715270996094,
+    "Bmag": 9.469990730285645,
+    "Teff (K)": 9584.3701171875,
+    "logg": 3.6085000038146973,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

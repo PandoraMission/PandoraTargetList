@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-08-13 19:07:47",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-08-13 19:07:47",
+    "Star Name": "HD_37962",
+    "Primary Target": 0,
+    "RA": 85.21621425881807,
+    "DEC": -31.35273018754962,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -59.52029065579583,
+    "pm_DEC": -365.1467953830785,
+    "Jmag": 6.675000190734863,
+    "Gmag": 7.690438270568848,
+    "Bmag": 8.00981616973877,
+    "Teff (K)": 5625.49755859375,
+    "logg": 4.4390997886657715,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_3",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-08-13 19:03:09",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-08-13 19:03:09",
+    "Star Name": "HZ4",
+    "Primary Target": 0,
+    "RA": 58.842398781099675,
+    "DEC": 9.788346084659434,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 173.27410124015998,
+    "pm_DEC": -5.569188780863079,
+    "Jmag": 14.831000328063965,
+    "Gmag": 14.547840118408203,
+    "Bmag": 14.520261764526367,
+    "Teff (K)": 8704.3330078125,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

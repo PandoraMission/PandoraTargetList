@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-08-13 19:43:06",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-08-13 19:43:06",
+    "Star Name": "WD0308-565",
+    "Primary Target": 0,
+    "RA": 47.450855974546485,
+    "DEC": -56.39676176398672,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 149.261316435725,
+    "pm_DEC": 66.80582633069469,
+    "Jmag": 14.597999572753906,
+    "Gmag": 14.103209495544434,
+    "Bmag": 14.00623893737793,
+    "Teff (K)": 8868.6669921875,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

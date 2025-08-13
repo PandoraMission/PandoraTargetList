@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-08-13 18:55:02",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-08-13 18:55:02",
+    "Star Name": "HD_2811",
+    "Primary Target": 0,
+    "RA": 7.827004360456619,
+    "DEC": -43.606407573097556,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -6.007747460433909,
+    "pm_DEC": -4.32600992669546,
+    "Jmag": 7.144000053405762,
+    "Gmag": 7.499755382537842,
+    "Bmag": 7.57119083404541,
+    "Teff (K)": 8078.0,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_5",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}
