@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-08-13 19:01:28",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-08-13 19:01:28",
+    "Star Name": "HD_14943",
+    "Primary Target": 0,
+    "RA": 35.7279706236141,
+    "DEC": -51.09183293619499,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 22.30638222527709,
+    "pm_DEC": 66.32436291820365,
+    "Jmag": 5.585000038146973,
+    "Gmag": 5.879464626312256,
+    "Bmag": 5.961175441741943,
+    "Teff (K)": 7858.259765625,
+    "logg": 4.114099979400635,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "all_frames_24",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

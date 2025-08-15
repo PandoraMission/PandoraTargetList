@@ -516,11 +516,46 @@ class Target(object):
 
                 # also need to add in ROI_coord_epoch and ROI_coord to process keys func
 
-    def save(self, explicit=False):
+    def save(self, explicit=False, overwrite=False, verbose=False):
         """Function to save the target definition file."""
         # Check if category's directory exists. If not, make it.
         if not os.path.exists(self.dirpath):
             os.makedirs(self.dirpath)
+
+        if os.path.exists(self.filepath) and overwrite is False:
+            # Load in JSON file to check against self.info
+            with open(self.filepath, "r") as f:
+                ref_dict = json.load(f)
+
+            if self.info == ref_dict:
+                if verbose:
+                    print("No changes have been made. Not saving this file.")
+                return
+
+            if self.info.keys() == ref_dict.keys():
+                likeness = True
+                common_keys = set(self.info.keys())
+
+                for key in common_keys:
+                    val1 = self.info[key]
+                    val2 = ref_dict[key]
+
+                    is_nan1 = isinstance(val1, float) and np.isnan(val1)
+                    is_nan2 = isinstance(val2, float) and np.isnan(val2)
+
+                    if is_nan1 and is_nan2:
+                        likeness = True
+                        continue
+                    elif val1 != val2:
+                        likeness = False
+                        break
+
+                if likeness:
+                    if verbose:
+                        print(
+                            "No changes have been made. Not saving this file."
+                        )
+                    return
 
         # Add in final keywords like author and update time, for example.
         if check_key_for_nan(self.info, "Time Created"):

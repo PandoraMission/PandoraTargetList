@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-08-13 18:43:55",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-08-13 18:43:55",
+    "Star Name": "GJ_15A",
+    "Primary Target": 0,
+    "RA": 4.613226257557736,
+    "DEC": 44.02478674398518,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 2891.518077336779,
+    "pm_DEC": 411.83202036614654,
+    "Jmag": 5.251999855041504,
+    "Gmag": 7.21856689453125,
+    "Bmag": 8.332123756408691,
+    "Teff (K)": 3352.20849609375,
+    "logg": 4.0640997886657715,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "all_frames_24",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}

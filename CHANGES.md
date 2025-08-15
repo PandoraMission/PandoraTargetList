@@ -1,3 +1,6 @@
+# 0.2.1
+- Fixed bug where files that hadn't been changed were re-saved with identical versions
+
 # 0.2.0
 - Implemented object-oriented API for TDFs and prioritization files
 - Wrote tutorial notebook

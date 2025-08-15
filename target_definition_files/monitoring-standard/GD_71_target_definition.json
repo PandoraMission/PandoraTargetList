@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-08-13 18:47:25",
+    "Version": "0.2.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-08-15 20:35:25",
+    "Star Name": "GD_71",
+    "Primary Target": 0,
+    "RA": 88.11543730306488,
+    "DEC": 15.886239315232912,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 76.72806594267264,
+    "pm_DEC": -172.95960304595332,
+    "Jmag": 13.727999687194824,
+    "Gmag": 12.99976921081543,
+    "Bmag": 12.853095054626465,
+    "Teff (K)": 41088.0,
+    "logg": 8.04,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 0
+}
