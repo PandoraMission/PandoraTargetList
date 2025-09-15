@@ -1,6 +1,7 @@
 # Standard library
 import json
 import os
+import re
 
 # First-party/Local
 from pandoratargetlist import TARGDEFDIR
@@ -9,6 +10,7 @@ from pandoratargetlist import TARGDEFDIR
 # Validate the formatting of the target definition files
 def test_name_format():
     cats = [cat for cat in os.listdir(TARGDEFDIR) if "." not in cat]
+    pattern = r"^[a-zA-Z0-9_\-+.]*$"
     for cat in cats:
         catpath = TARGDEFDIR + cat + "/"
         filelist = [f for f in os.listdir(catpath) if f[-5:] == ".json"]
@@ -24,11 +26,26 @@ def test_name_format():
             if i.count(" ") > 0:
                 res = False
                 break
+        for i in filelist:
+            if i.count(" ") > 0:
+                res = False
+                break
         assert res is True
 
         res = True
         for s in targ_names:
             if len(s) > 20:
+                res = False
+                break
+        assert res is True
+
+        res = True
+        for s in targ_names:
+            if not re.match(pattern, s):
+                res = False
+                break
+        for s in filelist:
+            if not re.match(pattern, s):
                 res = False
                 break
         assert res is True
