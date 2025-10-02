@@ -1,3 +1,6 @@
+# 0.2.2
+- Updates `StarRoiDetMethod` key to new commanding manual syntax.s
+
 # 0.2.1
 - Fixed bug where files that hadn't been changed were re-saved with identical versions
 
