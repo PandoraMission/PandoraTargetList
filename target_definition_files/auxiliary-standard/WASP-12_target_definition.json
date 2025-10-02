@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-07-09 19:14:36",
-    "Version": "0.2.0",
+    "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-07-09 19:45:34",
+    "Time Updated": "2025-10-02 21:23:15",
     "Star Name": "WASP-12",
     "Primary Target": 0,
     "RA": 97.6366447703347,
@@ -17,6 +17,6 @@
     "logg": 3.951900005340576,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 1,
+    "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0
 }

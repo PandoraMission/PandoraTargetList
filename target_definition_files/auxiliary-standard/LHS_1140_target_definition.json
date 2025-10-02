@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-04-30 14:18:12",
-    "Version": "0.2.0",
+    "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-08-15 20:59:36",
+    "Time Updated": "2025-10-02 21:23:15",
     "Star Name": "LHS_1140",
     "Primary Target": 0,
     "RA": 11.248677908444202,
@@ -17,6 +17,6 @@
     "logg": 5.041,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 1,
+    "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0
 }

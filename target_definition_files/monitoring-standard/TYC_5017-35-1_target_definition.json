@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-06-30 19:47:59",
-    "Version": "0.2.0",
+    "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-06-30 19:47:59",
+    "Time Updated": "2025-10-02 21:23:12",
     "Star Name": "TYC_5017-35-1",
     "Primary Target": 0,
     "RA": 234.96840812185505,
@@ -17,6 +17,6 @@
     "logg": 2.647599935531616,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 1,
+    "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0
 }

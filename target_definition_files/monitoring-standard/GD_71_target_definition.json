@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-08-13 18:47:25",
-    "Version": "0.2.0",
+    "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-08-15 20:35:25",
+    "Time Updated": "2025-10-02 21:23:12",
     "Star Name": "GD_71",
     "Primary Target": 0,
     "RA": 88.11543730306488,
@@ -17,6 +17,6 @@
     "logg": 8.04,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 1,
+    "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0
 }

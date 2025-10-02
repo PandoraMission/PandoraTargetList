@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-04-30 16:57:00",
-    "Version": "0.2.0",
+    "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-08-15 21:01:29",
+    "Time Updated": "2025-10-02 21:23:15",
     "Star Name": "K2-65",
     "Primary Target": 0,
     "RA": 333.21257159878326,
@@ -17,6 +17,6 @@
     "logg": 4.55,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 1,
+    "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0
 }

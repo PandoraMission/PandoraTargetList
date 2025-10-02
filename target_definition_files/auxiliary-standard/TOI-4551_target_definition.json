@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-04-30 16:54:09",
-    "Version": "0.2.0",
+    "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-05-14 19:27:15",
+    "Time Updated": "2025-10-02 21:23:15",
     "Star Name": "TOI-4551",
     "Primary Target": 0,
     "RA": 184.97875260730532,
@@ -17,6 +17,6 @@
     "logg": 3.3334999084472656,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 1,
+    "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0
 }

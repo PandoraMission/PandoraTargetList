@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-06-30 19:42:31",
-    "Version": "0.2.0",
+    "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-06-30 19:47:59",
+    "Time Updated": "2025-10-02 21:23:12",
     "Star Name": "BD+00_4260",
     "Primary Target": 0,
     "RA": 294.4303814315122,
@@ -17,6 +17,6 @@
     "logg": 3.0,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "fowler_4",
-    "StarRoiDetMethod": 1,
+    "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0
 }

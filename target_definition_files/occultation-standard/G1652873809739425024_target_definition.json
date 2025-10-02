@@ -1,8 +1,8 @@
 {
     "Time Created": "2024-10-16 22:36:55",
-    "Version": "0.2.1",
+    "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-08-28 16:01:58",
+    "Time Updated": "2025-10-02 21:23:14",
     "Star Name": "G1652873809739425024",
     "Primary Target": 0,
     "RA": 246.4254561470975,
@@ -17,6 +17,6 @@
     "logg": 2.892899990081787,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 1,
+    "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0
 }

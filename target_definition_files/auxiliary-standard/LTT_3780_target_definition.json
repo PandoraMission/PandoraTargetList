@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-04-30 16:48:31",
-    "Version": "0.2.0",
+    "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-08-15 21:03:34",
+    "Time Updated": "2025-10-02 21:23:15",
     "Star Name": "LTT_3780",
     "Primary Target": 0,
     "RA": 154.64485490553798,
@@ -17,6 +17,6 @@
     "logg": 4.85,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 1,
+    "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0
 }
