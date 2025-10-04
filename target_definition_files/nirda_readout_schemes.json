@@ -14,11 +14,16 @@
         ],
         "FixedParameters": {
             "AverageGroups": 1,
-            "IncludeFieldSolnsInResp": 1,
             "ROI_StartX": 1968,
             "ROI_StartY": 824,
             "ROI_SizeX": 80,
-            "ROI_SizeY": 400
+            "ROI_SizeY": 400,
+            "RiceX": 4,
+            "RiceY": 28,
+            "SaveImagesToDisk": 1,
+            "SendThumbnails": 1,
+            "ThumbnailBinSize": 1,
+            "ThumbnailCompressionType": 1
         },
         "all_frames_24": {
             "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
