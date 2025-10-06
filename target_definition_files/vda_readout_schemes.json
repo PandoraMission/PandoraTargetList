@@ -50,6 +50,7 @@
             "MaxNumStarRois": 9,
             "StarRoiDimension": 50,
             "NumTotalFramesRequested": "SET_BY_SCHEDULER",
+            "NumExposuresMax": "SET_BY_SCHEDULER",
             "IntegrationTime_s": 1.0
         },
         "coadd_50": {
@@ -65,6 +66,7 @@
             "MaxNumStarRois": 9,
             "StarRoiDimension": 50,
             "NumTotalFramesRequested": "SET_BY_SCHEDULER",
+            "NumExposuresMax": "SET_BY_SCHEDULER",
             "IntegrationTime_s": 10.0
         }
     }
