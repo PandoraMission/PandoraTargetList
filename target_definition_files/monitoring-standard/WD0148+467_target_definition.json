@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-08-13 19:38:25",
-    "Version": "0.2.0",
+    "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-08-15 20:51:25",
+    "Time Updated": "2025-10-02 21:23:12",
     "Star Name": "WD0148+467",
     "Primary Target": 0,
     "RA": 28.01237195264665,
@@ -14,9 +14,9 @@
     "Gmag": 12.495588302612305,
     "Bmag": 12.469656944274902,
     "Teff (K)": 14293.0,
-    "logg": 8.00,
+    "logg": 8.0,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 1,
+    "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0
 }

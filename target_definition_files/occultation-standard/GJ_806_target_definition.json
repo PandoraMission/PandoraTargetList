@@ -1,8 +1,8 @@
 {
     "Time Created": "2024-10-18 17:56:10",
-    "Version": "0.2.0",
+    "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-05-16 03:27:38",
+    "Time Updated": "2025-10-02 21:23:14",
     "Star Name": "GJ_806",
     "Primary Target": 0,
     "RA": 311.2697846821949,
@@ -17,6 +17,6 @@
     "logg": 4.817200183868408,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_4",
-    "StarRoiDetMethod": 1,
+    "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0
 }

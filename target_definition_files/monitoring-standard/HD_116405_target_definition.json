@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-06-30 19:54:30",
-    "Version": "0.2.0",
+    "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-08-15 20:38:30",
+    "Time Updated": "2025-10-02 21:23:12",
     "Star Name": "HD_116405",
     "Primary Target": 0,
     "RA": 200.68806606486734,
@@ -14,9 +14,9 @@
     "Gmag": 8.322404861450195,
     "Bmag": 8.282752990722656,
     "Teff (K)": 8562.5,
-    "logg": 4.10,
+    "logg": 4.1,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 1,
+    "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0
 }

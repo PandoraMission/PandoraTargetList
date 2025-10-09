@@ -1,8 +1,8 @@
 {
     "Time Created": "2024-10-18 17:49:34",
-    "Version": "0.2.0",
+    "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-05-16 03:27:31",
+    "Time Updated": "2025-10-02 21:23:13",
     "Star Name": "HAT-P-12",
     "Primary Target": 0,
     "RA": 209.3886195030299,
@@ -17,6 +17,6 @@
     "logg": 4.544000148773193,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 1,
+    "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0
 }

@@ -494,14 +494,14 @@ class Target(object):
                 # Fix coords for now to something just randomly around target
                 # Something about calculating ROIs and numROIs
                 update_dict = {
-                    "StarRoiDetMethod": 0,
+                    "StarRoiDetMethod": 1,
                     "numPredefinedStarRois": 1,
                     "ROI_coord_epoch": "J2016.0",
                     "ROI_coord": [[]],
                 }
             else:
                 update_dict = {
-                    "StarRoiDetMethod": 1,
+                    "StarRoiDetMethod": 2,
                     "numPredefinedStarRois": 0,
                 }
 

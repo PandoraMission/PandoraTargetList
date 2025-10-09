@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-04-30 15:56:46",
-    "Version": "0.2.0",
+    "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-07-09 19:45:34",
+    "Time Updated": "2025-10-02 21:23:15",
     "Star Name": "TOI-444",
     "Primary Target": 0,
     "RA": 64.183994221758,
@@ -17,6 +17,6 @@
     "logg": 4.522799968719482,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 1,
+    "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0
 }

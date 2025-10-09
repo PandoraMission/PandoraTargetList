@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-08-13 19:39:26",
-    "Version": "0.2.0",
+    "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-08-15 20:42:26",
+    "Time Updated": "2025-10-02 21:23:12",
     "Star Name": "WD0227+050",
     "Primary Target": 0,
     "RA": 37.5696248988566,
@@ -17,6 +17,6 @@
     "logg": 7.85,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 1,
+    "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0
 }
