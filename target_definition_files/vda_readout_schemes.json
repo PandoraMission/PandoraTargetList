@@ -10,12 +10,16 @@
         "CommandName": "AcquireVisCamScienceData",
         "IncludedMnemonics": ["all_frames", "coadd_5","coadd_50"],
         "FixedParameters": {
-            "NumExposuresMax": 1,
             "IncludeFieldSolnsInResp": 1,
             "ROI_StartX": 512,
             "ROI_StartY": 512,
             "ROI_SizeX": 1024,
-            "ROI_SizeY": 1024
+            "ROI_SizeY": 1024,
+            "MaxMagnitudeInQuadCatalog": 15.5,
+            "SaveImagesToDisk": 1,
+            "RiceX": 5,
+            "RiceY": 25,
+            "SendThumbnails": 0
         },
         "all_frames": {
             "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
@@ -27,7 +31,7 @@
             "PredefinedStarRoiDec": "SET_BY_TARGET_DEFINITION_FILE",
             "FramesPerCoadd": 1,
             "ExposureTime_us": 200000,
-            "MaxNumStarRois": 0,
+            "MaxNumStarRois": 9,
             "StarRoiDimension": 50,
             "NumTotalFramesRequested": "SET_BY_SCHEDULER",
             "IntegrationTime_s": 0.2
@@ -42,7 +46,7 @@
             "PredefinedStarRoiDec": "SET_BY_TARGET_DEFINITION_FILE",
             "FramesPerCoadd": 5,
             "ExposureTime_us": 200000,
-            "MaxNumStarRois": 0,
+            "MaxNumStarRois": 9,
             "StarRoiDimension": 50,
             "NumTotalFramesRequested": "SET_BY_SCHEDULER",
             "IntegrationTime_s": 1.0
@@ -57,7 +61,7 @@
             "PredefinedStarRoiDec": "SET_BY_TARGET_DEFINITION_FILE",
             "FramesPerCoadd": 50,
             "ExposureTime_us": 200000,
-            "MaxNumStarRois": 0,
+            "MaxNumStarRois": 9,
             "StarRoiDimension": 50,
             "NumTotalFramesRequested": "SET_BY_SCHEDULER",
             "IntegrationTime_s": 10.0
