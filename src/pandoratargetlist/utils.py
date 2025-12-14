@@ -35,7 +35,7 @@ pl_keys = [
 ]
 
 
-def query_params(name, category, return_query=False):
+def query_params(name, category, return_query=False, **kwargs):
     """Function to query system parameters and output a formatted dictionary."""
     name = name.replace("_", " ")
     name = name.replace("DR3", "Gaia DR3")
@@ -46,7 +46,7 @@ def query_params(name, category, return_query=False):
         star_name = name
 
     res = xos.System.from_gaia(
-        star_name, time=Time("2457389.0", format="jd", scale="tcb")
+        star_name, time=Time("2457389.0", format="jd", scale="tcb"), **kwargs
     )
 
     # Make output dictionary with desired system values
