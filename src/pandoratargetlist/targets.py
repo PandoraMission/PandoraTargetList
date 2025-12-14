@@ -241,7 +241,9 @@ class Target(object):
     def make_file(self, save=True, overwrite=False, verbose=False, **kwargs):
         """Function that wraps other methods to make the target definition file in a single command"""
         # Sort input arguments
-        params_args = {k: kwargs[k] for k in ["obs_window"] if k in kwargs}
+        params_args = {
+            k: kwargs[k] for k in ["obs_window", "offline"] if k in kwargs
+        }
         inst_args = {k: kwargs[k] for k in ["detector"] if k in kwargs}
         save_args = {k: kwargs[k] for k in ["explicit"] if k in kwargs}
 
@@ -260,7 +262,9 @@ class Target(object):
         if save:
             self.save(**save_args)
 
-    def fetch_params(self, overwrite=False, obs_window=None, verbose=False):
+    def fetch_params(
+        self, overwrite=False, obs_window=None, verbose=False, offline=False
+    ):
         """Function to fetch the parameters of the system"""
         keys = star_keys
         if "exoplanet" in self.category:
@@ -275,7 +279,7 @@ class Target(object):
         if nan_flag or overwrite is True:
             # Fetch system information from Gaia DR3 using exoscraper
             out_dict, self.query_result = query_params(
-                self.name, self.category, return_query=True
+                self.name, self.category, return_query=True, offline=offline
             )
 
             # Fix params that might still be NaNs from the query
