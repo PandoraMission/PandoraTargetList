@@ -239,7 +239,27 @@ class Target(object):
         return reordered_info
 
     def make_file(self, save=True, overwrite=False, verbose=False, **kwargs):
-        """Function that wraps other methods to make the target definition file in a single command"""
+        """
+        Function that wraps other methods to make the target definition file in a single command.
+
+        Parameters
+        ----------
+        save : bool, optional
+            If True, save the target definition file. Default is True.
+        overwrite : bool, optional
+            If True, overwrite existing files. Default is False.
+        verbose : bool, optional
+            If True, print verbose output. Default is False.
+        offline : bool, optional
+            If True, run in offline mode and do not attempt to fetch data from online sources.
+            Default is False. Passed via **kwargs.
+        **kwargs :
+            Additional keyword arguments passed to underlying methods. Supported keys include:
+                - obs_window: Observation window to use.
+                - detector: Detector to use.
+                - explicit: If True, save with explicit file naming.
+
+        """
         # Sort input arguments
         params_args = {
             k: kwargs[k] for k in ["obs_window", "offline"] if k in kwargs
