@@ -239,9 +239,31 @@ class Target(object):
         return reordered_info
 
     def make_file(self, save=True, overwrite=False, verbose=False, **kwargs):
-        """Function that wraps other methods to make the target definition file in a single command"""
+        """
+        Function that wraps other methods to make the target definition file in a single command.
+
+        Parameters
+        ----------
+        save : bool, optional
+            If True, save the target definition file. Default is True.
+        overwrite : bool, optional
+            If True, overwrite existing files. Default is False.
+        verbose : bool, optional
+            If True, print verbose output. Default is False.
+        offline : bool, optional
+            If True, run in offline mode and do not attempt to fetch data from online sources.
+            Default is False. Passed via **kwargs.
+        **kwargs :
+            Additional keyword arguments passed to underlying methods. Supported keys include:
+                - obs_window: Observation window to use.
+                - detector: Detector to use.
+                - explicit: If True, save with explicit file naming.
+
+        """
         # Sort input arguments
-        params_args = {k: kwargs[k] for k in ["obs_window"] if k in kwargs}
+        params_args = {
+            k: kwargs[k] for k in ["obs_window", "offline"] if k in kwargs
+        }
         inst_args = {k: kwargs[k] for k in ["detector"] if k in kwargs}
         save_args = {k: kwargs[k] for k in ["explicit"] if k in kwargs}
 
@@ -260,8 +282,24 @@ class Target(object):
         if save:
             self.save(**save_args)
 
-    def fetch_params(self, overwrite=False, obs_window=None, verbose=False):
-        """Function to fetch the parameters of the system"""
+    def fetch_params(
+        self, overwrite=False, obs_window=None, verbose=False, offline=False
+    ):
+        """
+        Function to fetch the parameters of the system.
+
+        Parameters
+        ----------
+        overwrite : bool, optional
+            If True, overwrite existing parameters with newly fetched values. Default is False.
+        obs_window : float or None, optional
+            Observation window in hours. If None, a default value is used based on the target category.
+        verbose : bool, optional
+            If True, print additional information. Default is False.
+        offline : bool, optional
+            If True, fetch parameters using only local/offline data sources and do not attempt to query online databases.
+            Set to True if you do not have internet access or want to avoid remote queries. Default is False.
+        """
         keys = star_keys
         if "exoplanet" in self.category:
             keys = star_keys + pl_keys
@@ -275,7 +313,7 @@ class Target(object):
         if nan_flag or overwrite is True:
             # Fetch system information from Gaia DR3 using exoscraper
             out_dict, self.query_result = query_params(
-                self.name, self.category, return_query=True
+                self.name, self.category, return_query=True, offline=offline
             )
 
             # Fix params that might still be NaNs from the query

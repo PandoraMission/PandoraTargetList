@@ -2,7 +2,7 @@
 name = "pandoratargetlist"
 version = "0.1.3"
 description = "Maintaining information about Pandora targets"
-authors = ["benhord <benjhord@gmail.com>"]
+authors = ["benhord <drbenhord@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 
@@ -11,8 +11,9 @@ python = ">=3.9,<3.13"
 pandorasim = ">=1.0.10"
 pandorasat = ">=0.5.23"
 pandorapsf = ">=0.6.1"
-exoscraper = ">=0.2.0"
+exoscraper = ">=0.2.1"
 pandoraref = { git = "https://github.com/PandoraMission/pandora-ref.git", rev = "main" }
+astropy = ">=5.0,<7.0"
 
 [tool.poetry.group.dev]
 optional = true
