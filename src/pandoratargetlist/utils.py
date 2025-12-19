@@ -36,7 +36,31 @@ pl_keys = [
 
 
 def query_params(name, category, return_query=False, **kwargs):
-    """Function to query system parameters and output a formatted dictionary."""
+    """
+    Query system parameters and output a formatted dictionary.
+
+    Parameters
+    ----------
+    name : str
+        The name of the target system or star.
+    category : str
+        The category of the target (e.g., 'exoplanet', 'star', etc.).
+    return_query : bool, optional
+        If True, also return the raw result from `xos.System.from_gaia()`. Default is False.
+    **kwargs
+        Additional keyword arguments passed to `xos.System.from_gaia()`. Common options include:
+
+        - offline (bool): If True, use only local cached data and do not attempt to access the network.
+          This is useful for running in environments without internet access or for reproducibility.
+        - Any other keyword arguments accepted by `xos.System.from_gaia()`.
+
+    Returns
+    -------
+    dict
+        A dictionary containing the queried system parameters.
+    tuple (dict, xos.System), optional
+        If `return_query` is True, returns a tuple of the output dictionary and the raw result.
+    """
     name = name.replace("_", " ")
     name = name.replace("DR3", "Gaia DR3")
 
