@@ -265,7 +265,21 @@ class Target(object):
     def fetch_params(
         self, overwrite=False, obs_window=None, verbose=False, offline=False
     ):
-        """Function to fetch the parameters of the system"""
+        """
+        Function to fetch the parameters of the system.
+
+        Parameters
+        ----------
+        overwrite : bool, optional
+            If True, overwrite existing parameters with newly fetched values. Default is False.
+        obs_window : float or None, optional
+            Observation window in hours. If None, a default value is used based on the target category.
+        verbose : bool, optional
+            If True, print additional information. Default is False.
+        offline : bool, optional
+            If True, fetch parameters using only local/offline data sources and do not attempt to query online databases.
+            Set to True if you do not have internet access or want to avoid remote queries. Default is False.
+        """
         keys = star_keys
         if "exoplanet" in self.category:
             keys = star_keys + pl_keys
