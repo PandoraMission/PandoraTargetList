@@ -1,8 +1,8 @@
 {
     "Time Created": "2024-10-18 18:17:08",
-    "Version": "0.2.2",
+    "Version": "1.0.0",
     "Author": "Ben Hord",
-    "Time Updated": "2025-10-02 21:23:15",
+    "Time Updated": "2025-12-29 22:04:00",
     "Star Name": "WASP-132",
     "Primary Target": 0,
     "RA": 217.60920221164744,
@@ -26,7 +26,7 @@
     "Transit Duration (hrs)": 3.18,
     "Transit Epoch (BJD_TDB)": 2459337.608,
     "Transit Epoch Uncertainty (days)": 0.0002,
-    "Obs Window (hrs)": 6.0,
+    "Obs Window (hrs)": 7.0,
     "Additional Planets": [
         {
             "Planet Letter": "c",
@@ -36,5 +36,6 @@
             "Transit Epoch (BJD_TDB)": 2458597.5762,
             "Transit Epoch Uncertainty (days)": 0.0024
         }
-    ]
+    ],
+    "Program": "HJs-with-Friends"
 }
