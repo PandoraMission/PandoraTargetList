@@ -1,0 +1,57 @@
+{
+    "Time Created": "2025-12-29 22:57:59",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-29 22:57:59",
+    "Star Name": "HD_3167",
+    "Primary Target": 0,
+    "RA": 8.740163711242479,
+    "DEC": 4.380697426639665,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 107.5691515603243,
+    "pm_DEC": -173.3337048948391,
+    "Jmag": 7.548,
+    "Gmag": 8.772421575583095,
+    "Bmag": 9.178294951837742,
+    "Teff (K)": 5261.0,
+    "logg": 4.47,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Planet Name": "HD_3167b",
+    "Planet Letter": "b",
+    "Period (days)": 0.959641,
+    "Period Uncertainty (days)": 1.1e-05,
+    "Transit Duration (hrs)": 1.609,
+    "Transit Epoch (BJD_TDB)": 2457394.37454,
+    "Transit Epoch Uncertainty (days)": 0.00043,
+    "Obs Window (hrs)": 6.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 29.8454,
+            "Period Uncertainty (days)": 0.0012,
+            "Transit Duration (hrs)": 4.869,
+            "Transit Epoch (BJD_TDB)": 2457394.9788,
+            "Transit Epoch Uncertainty (days)": 0.0012
+        },
+        {
+            "Planet Letter": "d",
+            "Period (days)": 8.4112,
+            "Period Uncertainty (days)": 0.0052,
+            "Transit Duration (hrs)": 3.0505,
+            "Transit Epoch (BJD_TDB)": 2457745.37,
+            "Transit Epoch Uncertainty (days)": 0.18
+        },
+        {
+            "Planet Letter": "e",
+            "Period (days)": 96.63,
+            "Period Uncertainty (days)": 0.292,
+            "Transit Duration (hrs)": 6.8833,
+            "Transit Epoch (BJD_TDB)": 2457738.43,
+            "Transit Epoch Uncertainty (days)": 2.67
+        }
+    ],
+    "Program": "Volcanic-Atmospheres"
+}

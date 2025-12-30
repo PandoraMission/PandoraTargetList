@@ -1,0 +1,41 @@
+{
+    "Time Created": "2025-12-29 21:38:17",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-29 22:04:07",
+    "Star Name": "GJ_806",
+    "Primary Target": 0,
+    "RA": 311.2697846820926,
+    "DEC": 44.500272668350384,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 434.0277717260355,
+    "pm_DEC": 271.0222302710229,
+    "Jmag": 7.329,
+    "Gmag": 9.828687124487162,
+    "Bmag": 11.00587525761037,
+    "Teff (K)": 3526.5664,
+    "logg": 4.8172,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_5",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Planet Name": "GJ_806b",
+    "Planet Letter": "b",
+    "Period (days)": 0.9263237,
+    "Period Uncertainty (days)": 9e-07,
+    "Transit Duration (hrs)": 0.93,
+    "Transit Epoch (BJD_TDB)": 2459445.57371,
+    "Transit Epoch Uncertainty (days)": 0.00015,
+    "Obs Window (hrs)": 6.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 6.64064,
+            "Period Uncertainty (days)": 0.00025,
+            "Transit Duration (hrs)": 2.8194,
+            "Transit Epoch (BJD_TDB)": 2459422.182,
+            "Transit Epoch Uncertainty (days)": 0.05
+        }
+    ],
+    "Program": "Volcanic-Atmospheres"
+}
