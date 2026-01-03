@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 20:44:14",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 20:44:14",
+    "Star Name": "GJ_673",
+    "Primary Target": 0,
+    "RA": 261.4358874868077,
+    "DEC": 2.106157763078385,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -580.3245900668309,
+    "pm_DEC": -1184.7371121340195,
+    "Jmag": 4.934,
+    "Gmag": 6.934473078575042,
+    "Bmag": 7.754755720958883,
+    "Teff (K)": 4500.0,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "all_frames_24",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "SPARCS"
+}

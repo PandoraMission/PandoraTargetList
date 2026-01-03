@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 20:49:50",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 20:49:50",
+    "Star Name": "Barnard's_Star",
+    "Primary Target": 0,
+    "RA": 269.44850252543836,
+    "DEC": 4.739420051112412,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -801.5509783684709,
+    "pm_DEC": 10362.394206546573,
+    "Jmag": 5.244,
+    "Gmag": 16.204378128051758,
+    "Bmag": 18.113080978393555,
+    "Teff (K)": 3099.6335,
+    "logg": 4.764,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "all_frames_24",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Flare-Stars"
+}

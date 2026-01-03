@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-02 02:44:00",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-02 02:44:00",
+    "Star Name": "Wolf_359",
+    "Primary Target": 0,
+    "RA": 164.10319030821407,
+    "DEC": 7.002726941438251,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -3866.3382751474373,
+    "pm_DEC": -2699.2149876737826,
+    "Jmag": 7.085,
+    "Gmag": 11.038390654990396,
+    "Bmag": 13.770286935413413,
+    "Teff (K)": 4500.0,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_4",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Flare-Stars"
+}

@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 04:03:24",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 04:03:24",
+    "Star Name": "LP_738-14",
+    "Primary Target": 0,
+    "RA": 207.02716940918648,
+    "DEC": -13.74439102199078,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -687.9203489555535,
+    "pm_DEC": -513.0139976519753,
+    "Jmag": 10.413,
+    "Gmag": 13.513359268002961,
+    "Bmag": 15.351427791495151,
+    "Teff (K)": 3058.9128,
+    "logg": 5.0833,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "M+T pairs"
+}
