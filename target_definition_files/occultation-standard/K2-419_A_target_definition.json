@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 22:01:05",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 22:01:05",
+    "Star Name": "K2-419_A",
+    "Primary Target": 0,
+    "RA": 135.01948323356217,
+    "DEC": 13.273701828543038,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -71.33608548563379,
+    "pm_DEC": -27.145633364201085,
+    "Jmag": 13.358,
+    "Gmag": 16.281286239624023,
+    "Bmag": 18.125139236450195,
+    "Teff (K)": 5351.1978,
+    "logg": 4.7773,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "GEMS-Targets"
+}

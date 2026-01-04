@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 20:47:54",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 20:47:54",
+    "Star Name": "GJ_380",
+    "Primary Target": 0,
+    "RA": 152.8329289582321,
+    "DEC": 49.451988897100506,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -1363.2871863986295,
+    "pm_DEC": -505.7703588749188,
+    "Jmag": 3.894,
+    "Gmag": 16.204378128051758,
+    "Bmag": 18.113080978393555,
+    "Teff (K)": 3978.864,
+    "logg": 4.5458,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "all_frames_24",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "SPARCS"
+}

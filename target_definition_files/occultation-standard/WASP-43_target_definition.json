@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-04-30 15:53:01",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 04:03:32",
+    "Star Name": "WASP-43",
+    "Primary Target": 0,
+    "RA": 154.90818098458632,
+    "DEC": -9.806448296528222,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -41.991510867081224,
+    "pm_DEC": -38.00414959716231,
+    "Jmag": 9.994999885559082,
+    "Gmag": 11.893575668334961,
+    "Bmag": 12.66008186340332,
+    "Teff (K)": 4416.36865234375,
+    "logg": 4.603700160980225,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "GEMs-Hosts"
+}

@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 04:06:59",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 04:06:59",
+    "Star Name": "GJ_273",
+    "Primary Target": 0,
+    "RA": 111.85462844249736,
+    "DEC": 5.209382702327055,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 571.2323467331198,
+    "pm_DEC": -3691.4865654001132,
+    "Jmag": 5.714,
+    "Gmag": 8.576388718684715,
+    "Bmag": 10.111704693591395,
+    "Teff (K)": 3024.395,
+    "logg": 4.2393,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "all_frames_24",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Exotic-Stars"
+}

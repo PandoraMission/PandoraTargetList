@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 21:51:08",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 21:51:08",
+    "Star Name": "TOI-1130",
+    "Primary Target": 0,
+    "RA": 286.37600600466857,
+    "DEC": -41.43764374119275,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 12.579106224378206,
+    "pm_DEC": -27.46876281033018,
+    "Jmag": 9.055,
+    "Gmag": 10.898941797085227,
+    "Bmag": 11.624973729791389,
+    "Teff (K)": 4500.0,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "HJs-with-Friends"
+}

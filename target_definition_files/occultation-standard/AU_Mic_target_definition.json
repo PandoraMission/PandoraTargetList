@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-02 02:44:44",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-02 02:44:44",
+    "Star Name": "AU_Mic",
+    "Primary Target": 0,
+    "RA": 311.29118264804856,
+    "DEC": -31.342500079867598,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 281.3190345258337,
+    "pm_DEC": -360.14771869617874,
+    "Jmag": 5.436,
+    "Gmag": 7.843439655770165,
+    "Bmag": 8.909956019767222,
+    "Teff (K)": 4500.0,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "all_frames_24",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Flare-Stars"
+}

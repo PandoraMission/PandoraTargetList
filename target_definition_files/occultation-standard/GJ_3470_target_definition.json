@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-07-01 20:13:21",
+    "Version": "0.2.2",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-10-02 21:23:12",
+    "Star Name": "GJ_3470",
+    "Primary Target": 1,
+    "RA": 119.77347532185624,
+    "DEC": 15.391201153609417,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -185.7063619241512,
+    "pm_DEC": -56.99404074674391,
+    "Jmag": 8.793999671936035,
+    "Gmag": 11.360213279724121,
+    "Bmag": 12.56407642364502,
+    "Teff (K)": 3775.5,
+    "logg": 3.0,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9
+}

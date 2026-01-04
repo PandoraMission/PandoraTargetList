@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 03:56:04",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 22:04:05",
+    "Star Name": "TIC_46432937",
+    "Primary Target": 0,
+    "RA": 83.86897752953098,
+    "DEC": -14.597185721005262,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -13.365363835175959,
+    "pm_DEC": 36.96160275843432,
+    "Jmag": 11.011,
+    "Gmag": 13.417175143140017,
+    "Bmag": 14.496161680315375,
+    "Teff (K)": 3695.646,
+    "logg": 4.5906,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "GEMs-Hosts"
+}

@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-29 21:39:25",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-29 22:04:09",
+    "Star Name": "GJ_367",
+    "Primary Target": 0,
+    "RA": 146.12137189347197,
+    "DEC": -45.77909735104796,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -462.6209234134662,
+    "pm_DEC": -582.6676603061071,
+    "Jmag": 6.632,
+    "Gmag": 9.158753094098227,
+    "Bmag": 10.373460756395815,
+    "Teff (K)": 3282.4324,
+    "logg": 3.9365,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_3",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Volcanic-Atmospheres"
+}

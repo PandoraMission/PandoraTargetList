@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-29 21:38:55",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-29 22:04:09",
+    "Star Name": "GJ_486",
+    "Primary Target": 0,
+    "RA": 191.98138882534207,
+    "DEC": 9.749354230959495,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -1008.2670672028096,
+    "pm_DEC": -460.03394608461406,
+    "Jmag": 7.195,
+    "Gmag": 10.105141033663672,
+    "Bmag": 11.642646652100055,
+    "Teff (K)": 3038.983,
+    "logg": 4.2507,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_4",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Volcanic-Atmospheres"
+}

@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-07-30 18:58:04",
+    "Version": "0.2.2",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-10-02 21:23:12",
+    "Star Name": "TOI-3629",
+    "Primary Target": 1,
+    "RA": 359.7934184522216,
+    "DEC": 39.314255712110466,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 185.70734443417717,
+    "pm_DEC": 1.0100915878087207,
+    "Jmag": 11.423999786376953,
+    "Gmag": 13.82262134552002,
+    "Bmag": 14.893939018249512,
+    "Teff (K)": 3805.45556640625,
+    "logg": 4.554500102996826,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9
+}

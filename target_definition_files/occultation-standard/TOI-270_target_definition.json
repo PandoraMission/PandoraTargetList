@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-07-01 20:17:35",
+    "Version": "0.2.2",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-10-02 21:23:12",
+    "Star Name": "TOI-270",
+    "Primary Target": 1,
+    "RA": 68.41609923470311,
+    "DEC": -51.957431176233946,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 83.08204378717043,
+    "pm_DEC": -269.8034870673142,
+    "Jmag": 9.098999977111816,
+    "Gmag": 11.621159553527832,
+    "Bmag": 12.851274490356445,
+    "Teff (K)": 3290.188232421875,
+    "logg": 4.161900043487549,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9
+}

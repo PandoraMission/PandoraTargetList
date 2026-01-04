@@ -1,0 +1,22 @@
+{
+    "Time Created": "2024-10-18 18:08:25",
+    "Version": "0.2.2",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-10-02 21:23:12",
+    "Star Name": "TOI-244",
+    "Primary Target": 1,
+    "RA": 10.56972686967573,
+    "DEC": -36.717968019208875,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -154.88014017660998,
+    "pm_DEC": 45.632485481413546,
+    "Jmag": 8.82699966430664,
+    "Gmag": 11.548954010009766,
+    "Bmag": 12.9330472946167,
+    "Teff (K)": 3843.64990234375,
+    "logg": 4.66,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9
+}
