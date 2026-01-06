@@ -1,0 +1,65 @@
+{
+    "Time Created": "2025-12-29 21:40:25",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-29 22:04:09",
+    "Star Name": "55_Cnc",
+    "Primary Target": 0,
+    "RA": 133.14676062092667,
+    "DEC": 28.32978300040193,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -485.68081334834153,
+    "pm_DEC": -233.51700529367974,
+    "Jmag": 4.768,
+    "Gmag": 5.732680729674964,
+    "Bmag": 6.15568118395057,
+    "Teff (K)": 5184.4775,
+    "logg": 4.4506,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "all_frames_24",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Planet Name": "55_Cnce",
+    "Planet Letter": "e",
+    "Period (days)": 0.7365474,
+    "Period Uncertainty (days)": 1.35e-06,
+    "Transit Duration (hrs)": 1.5439,
+    "Transit Epoch (BJD_TDB)": 2457063.2096,
+    "Transit Epoch Uncertainty (days)": 0.0005,
+    "Obs Window (hrs)": 6.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "b",
+            "Period (days)": 14.651552,
+            "Period Uncertainty (days)": 3.6e-05,
+            "Transit Duration (hrs)": 3.6704,
+            "Transit Epoch (BJD_TDB)": 2455495.595,
+            "Transit Epoch Uncertainty (days)": 0.0135
+        },
+        {
+            "Planet Letter": "c",
+            "Period (days)": 44.3936,
+            "Period Uncertainty (days)": 0.0024,
+            "Transit Duration (hrs)": 5.3113,
+            "Transit Epoch (BJD_TDB)": 2455491.23,
+            "Transit Epoch Uncertainty (days)": 0.34
+        },
+        {
+            "Planet Letter": "d",
+            "Period (days)": 4799.0,
+            "Period Uncertainty (days)": 9.95,
+            "Transit Duration (hrs)": 25.3012,
+            "Transit Epoch (BJD_TDB)": 2451517.8,
+            "Transit Epoch Uncertainty (days)": 11.75
+        },
+        {
+            "Planet Letter": "f",
+            "Period (days)": 260.58,
+            "Period Uncertainty (days)": 0.15,
+            "Transit Duration (hrs)": 9.5809,
+            "Transit Epoch (BJD_TDB)": 2455236.4,
+            "Transit Epoch Uncertainty (days)": 2.6
+        }
+    ],
+    "Program": "Volcanic-Atmospheres"
+}

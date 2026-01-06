@@ -1,0 +1,41 @@
+{
+    "Time Created": "2025-12-29 22:03:30",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-29 22:12:38",
+    "Star Name": "TOI-1130",
+    "Primary Target": 0,
+    "RA": 286.37600600466857,
+    "DEC": -41.43764374119275,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 12.579106224378206,
+    "pm_DEC": -27.46876281033018,
+    "Jmag": 9.055,
+    "Gmag": 10.898941797085227,
+    "Bmag": 11.624973729791389,
+    "Teff (K)": 4341.39990234375,
+    "logg": 3.0,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Planet Name": "TOI-1130b",
+    "Planet Letter": "b",
+    "Period (days)": 4.074554,
+    "Period Uncertainty (days)": 0.000221,
+    "Transit Duration (hrs)": 1.8373729,
+    "Transit Epoch (BJD_TDB)": 2458658.74627,
+    "Transit Epoch Uncertainty (days)": 0.0007000000000000001,
+    "Obs Window (hrs)": 5.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 8.3501898,
+            "Period Uncertainty (days)": 4.74e-05,
+            "Transit Duration (hrs)": 2.02,
+            "Transit Epoch (BJD_TDB)": 2458841.6013,
+            "Transit Epoch Uncertainty (days)": 0.00013
+        }
+    ],
+    "Program": "HJs-with-Friends"
+}
