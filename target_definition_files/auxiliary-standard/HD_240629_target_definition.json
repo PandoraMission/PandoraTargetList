@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 20:42:04",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 20:42:04",
+    "Star Name": "HD_240629",
+    "Primary Target": 0,
+    "RA": 76.41851085434199,
+    "DEC": 6.465200845961048,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 65.71525209774653,
+    "pm_DEC": 6.4072489208432,
+    "Jmag": 8.127,
+    "Gmag": 16.204378128051758,
+    "Bmag": 18.113080978393555,
+    "Teff (K)": 4673.497,
+    "logg": 4.1795,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "SPARCS"
+}

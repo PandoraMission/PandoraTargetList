@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 22:01:49",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 22:01:49",
+    "Star Name": "61_Cygni_A",
+    "Primary Target": 0,
+    "RA": 316.74847929310334,
+    "DEC": 38.76386244595213,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 4164.208692155618,
+    "pm_DEC": 3249.613883813558,
+    "Jmag": 3.114,
+    "Gmag": 4.766713085403264,
+    "Bmag": 5.439792445187692,
+    "Teff (K)": 4353.7437,
+    "logg": 4.6322,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "all_frames_24",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Exotic-Stars"
+}

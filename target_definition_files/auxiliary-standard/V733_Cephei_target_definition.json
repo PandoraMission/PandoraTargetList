@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 21:25:31",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 21:25:31",
+    "Star Name": "V733_Cephei",
+    "Primary Target": 0,
+    "RA": 343.3885703908891,
+    "DEC": 62.53988721127358,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -0.43347156386524544,
+    "pm_DEC": -2.214179936266618,
+    "Jmag": 10.848,
+    "Gmag": 16.279727935791016,
+    "Bmag": 18.818683624267578,
+    "Teff (K)": 7968.09130859375,
+    "logg": 3.5566999912261963,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Exotic-Stars"
+}

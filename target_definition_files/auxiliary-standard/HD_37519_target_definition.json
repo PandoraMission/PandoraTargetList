@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-02 02:46:11",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-02 02:46:11",
+    "Star Name": "HD_37519",
+    "Primary Target": 0,
+    "RA": 85.1495878179656,
+    "DEC": 31.35816542577507,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -5.0142708331392285,
+    "pm_DEC": -7.671295342338193,
+    "Jmag": 5.776,
+    "Gmag": 6.004388015806121,
+    "Bmag": 6.025383035717226,
+    "Teff (K)": 4500.0,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "all_frames_24",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Exotic-Stars"
+}

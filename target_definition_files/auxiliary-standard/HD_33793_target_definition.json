@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 04:09:30",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 04:09:30",
+    "Star Name": "HD_33793",
+    "Primary Target": 0,
+    "RA": 77.95993734867565,
+    "DEC": -45.043812698401325,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 6491.2233394527175,
+    "pm_DEC": -5708.614150608607,
+    "Jmag": 5.821,
+    "Gmag": 8.063552321727855,
+    "Bmag": 9.086243672401622,
+    "Teff (K)": 3451.8704,
+    "logg": 4.4062,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "all_frames_24",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Exotic-Stars"
+}

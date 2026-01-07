@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 03:53:32",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 03:53:32",
+    "Star Name": "TOI-7265",
+    "Primary Target": 0,
+    "RA": 318.7040241783397,
+    "DEC": 45.92590530088229,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 29.929630338834222,
+    "pm_DEC": -28.849833455643186,
+    "Jmag": 12.419,
+    "Gmag": 15.22781500890429,
+    "Bmag": 16.63822140948308,
+    "Teff (K)": 3606.9084,
+    "logg": 4.7007,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "GEMS-Targets"
+}

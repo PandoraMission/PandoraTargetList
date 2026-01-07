@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-02 02:44:24",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-02 02:44:24",
+    "Star Name": "Proxima",
+    "Primary Target": 0,
+    "RA": 217.39232147339268,
+    "DEC": -62.6760751168959,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -3781.741008202838,
+    "pm_DEC": 769.4650145506733,
+    "Jmag": 5.357,
+    "Gmag": 8.984748963718726,
+    "Bmag": 11.373115067186545,
+    "Teff (K)": 2829.3542,
+    "logg": 5.1373,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "all_frames_24",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Flare-Stars"
+}

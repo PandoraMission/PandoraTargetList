@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-04-30 17:41:44",
-    "Version": "0.2.2",
+    "Version": "1.0.0",
     "Author": "Ben Hord",
-    "Time Updated": "2025-10-02 21:23:15",
+    "Time Updated": "2025-12-31 04:03:40",
     "Star Name": "YZ_CMI",
     "Primary Target": 0,
     "RA": 116.1658359308822,
@@ -18,5 +18,6 @@
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_3",
     "StarRoiDetMethod": 2,
-    "numPredefinedStarRois": 0
+    "numPredefinedStarRois": 0,
+    "Program": "Flare-Stars"
 }

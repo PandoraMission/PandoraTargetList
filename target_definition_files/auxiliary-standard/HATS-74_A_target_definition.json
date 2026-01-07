@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-02 02:30:53",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-02 02:30:53",
+    "Star Name": "HATS-74_A",
+    "Primary Target": 0,
+    "RA": 171.0147863253882,
+    "DEC": -19.55695334893116,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -38.99226220119725,
+    "pm_DEC": 39.578321958411344,
+    "Jmag": 13.25,
+    "Gmag": 15.97064239905519,
+    "Bmag": 17.223695269063935,
+    "Teff (K)": 4500.0,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "GEMS-Targets"
+}
