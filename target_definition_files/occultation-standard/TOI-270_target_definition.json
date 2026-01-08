@@ -2,7 +2,7 @@
     "Time Created": "2025-07-01 20:17:35",
     "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-10-02 21:23:12",
+    "Time Updated": "2026-01-08 16:20:12",
     "Star Name": "TOI-270",
     "Primary Target": 1,
     "RA": 68.41609923470311,
@@ -17,6 +17,6 @@
     "logg": 4.161900043487549,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 1,
-    "numPredefinedStarRois": 9
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0
 }
