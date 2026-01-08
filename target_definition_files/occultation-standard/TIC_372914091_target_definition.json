@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 16:04:05",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 16:04:05",
+    "Star Name": "TIC_372914091",
+    "Primary Target": 0,
+    "RA": 119.45011997200238,
+    "DEC": -60.30254220359923,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 517.6254838159459,
+    "pm_DEC": 119.20647264348301,
+    "Jmag": 4.792,
+    "Gmag": 5.442085314899497,
+    "Bmag": 5.732446533288488,
+    "Teff (K)": 5886.4585,
+    "logg": 4.2773,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "all_frames_24",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "HWO-tier-1"
+}

@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 22:08:34",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 22:08:34",
+    "Star Name": "R_Leporis",
+    "Primary Target": 0,
+    "RA": 74.90148358934348,
+    "DEC": -14.806256303446451,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 6.6793468251536,
+    "pm_DEC": -1.2633291771653654,
+    "Jmag": 2.16,
+    "Gmag": 6.011401676145567,
+    "Bmag": 8.07889077610092,
+    "Teff (K)": 3952.7993,
+    "logg": 0.677,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "all_frames_24",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Exotic-Stars"
+}

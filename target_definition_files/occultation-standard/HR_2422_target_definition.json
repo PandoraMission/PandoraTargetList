@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 21:26:22",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 21:26:22",
+    "Star Name": "HR_2422",
+    "Primary Target": 0,
+    "RA": 99.35016610481571,
+    "DEC": 6.13538575358584,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -2.0696066636156862,
+    "pm_DEC": 1.2255288592605436,
+    "Jmag": 5.827,
+    "Gmag": 6.016069208050759,
+    "Bmag": 6.010852303503672,
+    "Teff (K)": 21545.633,
+    "logg": 3.3112,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "fowler_4",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Exotic-Stars"
+}

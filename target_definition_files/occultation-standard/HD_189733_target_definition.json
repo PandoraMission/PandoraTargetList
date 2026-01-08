@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 16:28:20",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 16:28:20",
+    "Star Name": "HD_189733",
+    "Primary Target": 0,
+    "RA": 300.18212180624124,
+    "DEC": 22.709741105210323,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -3.2083397848651667,
+    "pm_DEC": -250.32333085813607,
+    "Jmag": 6.073,
+    "Gmag": 7.428370889201798,
+    "Bmag": 7.893073019577734,
+    "Teff (K)": 4897.251,
+    "logg": 4.513,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "fowler_4",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Famous Planets"
+}
