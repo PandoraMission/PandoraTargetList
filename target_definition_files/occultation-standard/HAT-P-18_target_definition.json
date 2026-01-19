@@ -1,10 +1,10 @@
 {
-    "Time Created": "2024-10-18 17:48:40",
+    "Time Created": "2025-07-01 20:14:51",
     "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-10-02 21:23:13",
+    "Time Updated": "2026-01-08 16:20:12",
     "Star Name": "HAT-P-18",
-    "Primary Target": 0,
+    "Primary Target": 1,
     "RA": 256.34637374627954,
     "DEC": 33.01231999522879,
     "Coordinate Epoch": "J2016.0",

@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-29 21:40:25",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-29 22:04:09",
+    "Star Name": "55_Cnc",
+    "Primary Target": 0,
+    "RA": 133.14676062092667,
+    "DEC": 28.32978300040193,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -485.68081334834153,
+    "pm_DEC": -233.51700529367974,
+    "Jmag": 4.768,
+    "Gmag": 5.732680729674964,
+    "Bmag": 6.15568118395057,
+    "Teff (K)": 5184.4775,
+    "logg": 4.4506,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "all_frames_24",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Volcanic-Atmospheres"
+}

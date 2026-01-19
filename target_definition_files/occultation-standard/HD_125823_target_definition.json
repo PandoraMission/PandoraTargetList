@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 20:52:20",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 20:52:20",
+    "Star Name": "HD_125823",
+    "Primary Target": 0,
+    "RA": 215.75918733222755,
+    "DEC": -39.51190991531263,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -24.420861456006815,
+    "pm_DEC": -20.69594581260564,
+    "Jmag": 5.173,
+    "Gmag": 4.362966253032276,
+    "Bmag": 4.268634367723983,
+    "Teff (K)": 16531.592,
+    "logg": 4.121,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "all_frames_24",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Exotic-Stars"
+}

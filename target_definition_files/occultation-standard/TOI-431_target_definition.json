@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-22 22:39:34",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-29 22:04:09",
+    "Star Name": "TOI-431",
+    "Primary Target": 0,
+    "RA": 83.26925287515327,
+    "DEC": -26.723848845036734,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 16.88616198893442,
+    "pm_DEC": 150.77881187440514,
+    "Jmag": 7.305,
+    "Gmag": 8.798720075010223,
+    "Bmag": 9.334208683086697,
+    "Teff (K)": 4713.7217,
+    "logg": 4.556,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_5",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Volcanic-Atmospheres"
+}

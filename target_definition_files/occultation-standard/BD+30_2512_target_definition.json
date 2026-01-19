@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 20:39:55",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 20:39:55",
+    "Star Name": "BD+30_2512",
+    "Primary Target": 0,
+    "RA": 215.48517155074614,
+    "DEC": 29.628244836723752,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -631.661692553963,
+    "pm_DEC": -308.4689251807831,
+    "Jmag": 6.135,
+    "Gmag": 8.020257082884338,
+    "Bmag": 8.751454520573997,
+    "Teff (K)": 4076.1396,
+    "logg": 4.4953,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "fowler_4",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "SPARCS"
+}

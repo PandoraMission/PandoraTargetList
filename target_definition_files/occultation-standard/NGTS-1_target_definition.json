@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 03:59:33",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 03:59:33",
+    "Star Name": "NGTS-1",
+    "Primary Target": 0,
+    "RA": 82.71420783926898,
+    "DEC": -36.630986921084094,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -31.88687400945394,
+    "pm_DEC": -41.07719996665015,
+    "Jmag": 12.702,
+    "Gmag": 14.848971972019562,
+    "Bmag": 15.759403878081994,
+    "Teff (K)": 4003.0696,
+    "logg": 4.6764,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "GEMS-Targets"
+}

@@ -1,10 +1,10 @@
 {
-    "Time Created": "2024-10-18 18:04:51",
+    "Time Created": "2025-07-01 20:20:42",
     "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-10-02 21:23:13",
+    "Time Updated": "2026-01-08 16:20:12",
     "Star Name": "TOI-942",
-    "Primary Target": 0,
+    "Primary Target": 1,
     "RA": 76.6496195413261,
     "DEC": -20.24561309525414,
     "Coordinate Epoch": "J2016.0",

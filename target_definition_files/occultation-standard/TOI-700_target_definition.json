@@ -1,8 +1,8 @@
 {
-    "Time Created": "2024-10-18 18:17:44",
-    "Version": "0.2.2",
+    "Time Created": "2025-04-30 14:18:39",
+    "Version": "1.0.0",
     "Author": "Ben Hord",
-    "Time Updated": "2025-10-02 21:23:14",
+    "Time Updated": "2025-12-31 04:02:08",
     "Star Name": "TOI-700",
     "Primary Target": 0,
     "RA": 97.09568215455467,
@@ -18,5 +18,6 @@
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
     "StarRoiDetMethod": 2,
-    "numPredefinedStarRois": 0
+    "numPredefinedStarRois": 0,
+    "Program": "TOI-700-general"
 }
