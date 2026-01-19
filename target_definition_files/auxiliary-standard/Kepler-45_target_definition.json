@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 03:52:38",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 03:52:38",
+    "Star Name": "Kepler-45",
+    "Primary Target": 0,
+    "RA": 292.8729300886332,
+    "DEC": 41.064169714401025,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 4.645533371778134,
+    "pm_DEC": -21.589330296768463,
+    "Jmag": 13.749,
+    "Gmag": 15.964754413611642,
+    "Bmag": 16.961670188580875,
+    "Teff (K)": 4128.3594,
+    "logg": 4.6515,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "GEMS-Targets"
+}

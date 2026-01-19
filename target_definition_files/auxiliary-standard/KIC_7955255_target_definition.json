@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 21:49:05",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 21:49:05",
+    "Star Name": "KIC_7955255",
+    "Primary Target": 0,
+    "RA": 290.1717108770985,
+    "DEC": 43.70215685893327,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 10.640013807863673,
+    "pm_DEC": 15.532118782661984,
+    "Jmag": 13.005,
+    "Gmag": 15.07452375004323,
+    "Bmag": 15.855542160308012,
+    "Teff (K)": 4349.692,
+    "logg": 4.6708,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Robby-Planets"
+}

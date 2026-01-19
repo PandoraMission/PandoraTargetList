@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 20:46:48",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 20:46:48",
+    "Star Name": "AD_Leo",
+    "Primary Target": 0,
+    "RA": 154.8988137011958,
+    "DEC": 19.86980990545862,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -498.6203603124579,
+    "pm_DEC": -43.42766908187071,
+    "Jmag": 5.449,
+    "Gmag": 8.204091168291082,
+    "Bmag": 9.597193482228883,
+    "Teff (K)": 3187.3616,
+    "logg": 4.0032,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "all_frames_24",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "SPARCS"
+}

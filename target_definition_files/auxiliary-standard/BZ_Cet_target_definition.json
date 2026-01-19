@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 20:48:22",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 20:48:22",
+    "Star Name": "BZ_Cet",
+    "Primary Target": 0,
+    "RA": 45.01318769630182,
+    "DEC": 7.749849243254921,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 328.02571296798993,
+    "pm_DEC": 21.18076541171715,
+    "Jmag": 6.323,
+    "Gmag": 7.71990332558536,
+    "Bmag": 8.189355848872463,
+    "Teff (K)": 4953.862,
+    "logg": 4.4942,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "fowler_4",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "SPARCS"
+}

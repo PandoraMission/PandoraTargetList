@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 22:08:03",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 22:08:03",
+    "Star Name": "GJ_338_A",
+    "Primary Target": 0,
+    "RA": 138.58356161565263,
+    "DEC": 52.68408016700822,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -1545.7874520670625,
+    "pm_DEC": -569.0528235154047,
+    "Jmag": 4.889,
+    "Gmag": 6.9760259072385615,
+    "Bmag": 7.863407530482817,
+    "Teff (K)": 3745.384,
+    "logg": 4.5113,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "all_frames_24",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "SPARCS"
+}

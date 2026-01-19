@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-02 02:43:38",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-02 02:43:38",
+    "Star Name": "EQ_Peg",
+    "Primary Target": 0,
+    "RA": 352.97012375440147,
+    "DEC": 19.93699282661297,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 578.0086593589567,
+    "pm_DEC": -59.76860489846572,
+    "Jmag": 6.162,
+    "Gmag": 9.043997538810704,
+    "Bmag": 10.507310662875554,
+    "Teff (K)": 4500.0,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "fowler_4",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Flare-Stars"
+}
