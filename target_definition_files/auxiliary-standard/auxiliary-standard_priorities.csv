@@ -1,3 +1,14 @@
+# Prioritization file for auxiliary-standard
+# Version: 0.2.0
+# Updated by: system
+# Updated on: 2025-07-09 19:46:01
+#
+# Column 1: Rank
+# Column 2: Target Name
+# Column 3: Priority
+# Column 4: Number of Hours Requested
+# Column 5: Number of Hours Observed
+# Column 6: Number of Hours Remaining
 rank,target,score,col4,col5,col6
 0,TIC_309599261,0.9,24.0,0.0,24.0
 1,TRAPPIST-1,0.899799,24.0,0.0,24.0
