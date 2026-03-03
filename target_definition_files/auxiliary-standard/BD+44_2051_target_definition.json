@@ -2,7 +2,7 @@
     "Time Created": "2026-01-02 02:46:47",
     "Version": "1.0.0",
     "Author": "Ben Hord",
-    "Time Updated": "2026-01-02 02:46:47",
+    "Time Updated": "2026-03-03 18:46:32",
     "Star Name": "BD+44_2051",
     "Primary Target": 0,
     "RA": 166.34205974529567,
@@ -16,7 +16,7 @@
     "Teff (K)": 3382.1968,
     "logg": 4.095,
     "VDA Setting": "coadd_50",
-    "NIRDA Setting": "all_frames_24",
+    "NIRDA Setting": "fowler_4",
     "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0,
     "Program": "Exotic-Stars"

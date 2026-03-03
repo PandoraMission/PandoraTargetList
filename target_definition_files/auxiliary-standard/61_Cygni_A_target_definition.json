@@ -2,7 +2,7 @@
     "Time Created": "2026-01-03 22:01:49",
     "Version": "1.0.0",
     "Author": "Ben Hord",
-    "Time Updated": "2026-01-03 22:01:49",
+    "Time Updated": "2026-03-03 18:46:32",
     "Star Name": "61_Cygni_A",
     "Primary Target": 0,
     "RA": 316.74847929310334,
@@ -16,7 +16,7 @@
     "Teff (K)": 4353.7437,
     "logg": 4.6322,
     "VDA Setting": "coadd_50",
-    "NIRDA Setting": "all_frames_24",
+    "NIRDA Setting": "fowler_4",
     "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0,
     "Program": "Exotic-Stars"

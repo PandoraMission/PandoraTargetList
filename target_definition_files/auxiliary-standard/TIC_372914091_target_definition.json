@@ -2,7 +2,7 @@
     "Time Created": "2025-12-31 16:04:05",
     "Version": "1.0.0",
     "Author": "Ben Hord",
-    "Time Updated": "2025-12-31 16:04:05",
+    "Time Updated": "2026-03-03 18:46:32",
     "Star Name": "TIC_372914091",
     "Primary Target": 0,
     "RA": 119.45011997200238,
@@ -16,7 +16,7 @@
     "Teff (K)": 5886.4585,
     "logg": 4.2773,
     "VDA Setting": "coadd_50",
-    "NIRDA Setting": "all_frames_24",
+    "NIRDA Setting": "fowler_4",
     "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0,
     "Program": "HWO-tier-1"

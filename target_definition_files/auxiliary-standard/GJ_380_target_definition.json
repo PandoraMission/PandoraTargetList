@@ -2,7 +2,7 @@
     "Time Created": "2026-01-03 20:47:54",
     "Version": "1.0.0",
     "Author": "Ben Hord",
-    "Time Updated": "2026-01-03 20:47:54",
+    "Time Updated": "2026-03-03 18:46:32",
     "Star Name": "GJ_380",
     "Primary Target": 0,
     "RA": 152.8329289582321,
@@ -16,7 +16,7 @@
     "Teff (K)": 3978.864,
     "logg": 4.5458,
     "VDA Setting": "coadd_50",
-    "NIRDA Setting": "all_frames_24",
+    "NIRDA Setting": "fowler_4",
     "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0,
     "Program": "SPARCS"
