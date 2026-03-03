@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 15:18:04",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 15:18:04",
+    "Star Name": "GJ_876",
+    "Primary Target": 0,
+    "RA": 343.3241110016783,
+    "DEC": -14.266689393403462,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 957.7147312884116,
+    "pm_DEC": -673.6012364812864,
+    "Jmag": 5.934,
+    "Gmag": 8.875058837058834,
+    "Bmag": 10.45300502484504,
+    "Teff (K)": 3185.4407,
+    "logg": 4.7813,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "fowler_4",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "nan"
+}

@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 20:54:46",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 20:54:46",
+    "Star Name": "EPIC-212813907",
+    "Primary Target": 0,
+    "RA": 206.83255,
+    "DEC": -5.106086,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -21.776496120620376,
+    "pm_DEC": -2.194271321342177,
+    "Jmag": 12.531,
+    "Gmag": 4.5618,
+    "Bmag": 14.522326865087031,
+    "Teff (K)": 4845.3394,
+    "logg": 4.5618,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "GEMS-Targets"
+}

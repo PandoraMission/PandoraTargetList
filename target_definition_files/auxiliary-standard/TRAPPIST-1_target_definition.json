@@ -2,7 +2,7 @@
     "Time Created": "2025-04-29 21:03:37",
     "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-10-02 21:23:15",
+    "Time Updated": "2026-1-03 11:23:15",
     "Star Name": "TRAPPIST-1",
     "Primary Target": 0,
     "RA": 346.62652162764437,
@@ -18,5 +18,6 @@
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
     "StarRoiDetMethod": 2,
-    "numPredefinedStarRois": 0
+    "numPredefinedStarRois": 0,
+    "Program": "Famous Planets"
 }

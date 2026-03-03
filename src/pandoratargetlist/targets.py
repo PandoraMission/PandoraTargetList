@@ -91,7 +91,7 @@ class Target(object):
         self.filepath = self.dirpath + self.name + "_target_definition.json"
 
         # Loading in info from best match if it exists
-        if info_dict is None and len(best_match) > 0:
+        if info_dict is None and os.path.exists(self.filepath):
             print("Existing file found! Loading info for " + self.name)
 
             with open(self.filepath, "r") as f:
