@@ -26,6 +26,6 @@
     "Transit Duration (hrs)": 1.422,
     "Transit Epoch (BJD_TDB)": 2460313.41,
     "Transit Epoch Uncertainty (days)": 4.2e-05,
-    "Obs Window (hrs)": 3.0,
+    "Obs Window (hrs)": 5.0,
     "Program": "GEMS-Targets"
 }

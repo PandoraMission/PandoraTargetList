@@ -26,6 +26,6 @@
     "Transit Duration (hrs)": 4.08,
     "Transit Epoch (BJD_TDB)": 2456898.69288,
     "Transit Epoch Uncertainty (days)": 0.00119,
-    "Obs Window (hrs)": 6.0,
+    "Obs Window (hrs)": 8.0,
     "Program": "Young-Planets"
 }
