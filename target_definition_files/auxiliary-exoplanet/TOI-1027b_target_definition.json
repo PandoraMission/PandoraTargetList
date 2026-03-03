@@ -1,0 +1,49 @@
+{
+    "Time Created": "2025-12-30 02:43:02",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-30 22:04:24",
+    "Star Name": "TOI-1027",
+    "Primary Target": 0,
+    "RA": 167.13326,
+    "DEC": -29.653133,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -87.53159059,
+    "pm_DEC": 13.04047881,
+    "Jmag": 9.188,
+    "Gmag": 10.96590669216935,
+    "Bmag": 11.679660256887296,
+    "Teff (K)": 4272,
+    "logg": 4.59877,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Planet Name": "TOI-1027b",
+    "Planet Letter": "b",
+    "Period (days)": 5.0113292,
+    "Period Uncertainty (days)": 1.2e-05,
+    "Transit Duration (hrs)": 1.024,
+    "Transit Epoch (BJD_TDB)": 2460032.573,
+    "Transit Epoch Uncertainty (days)": 0.0025669,
+    "Obs Window (hrs)": 6.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 5.011346,
+            "Period Uncertainty (days)": 2e-05,
+            "Transit Duration (hrs)": 1.692988,
+            "Transit Epoch (BJD_TDB)": 2459285.888582,
+            "Transit Epoch Uncertainty (days)": 0.001819
+        },
+        {
+            "Planet Letter": "d",
+            "Period (days)": 11.028725,
+            "Period Uncertainty (days)": 5.2e-05,
+            "Transit Duration (hrs)": 3.308946,
+            "Transit Epoch (BJD_TDB)": 2459304.63254,
+            "Transit Epoch Uncertainty (days)": 0.001451
+        }
+    ],
+    "Program": "Robby-Planets"
+}

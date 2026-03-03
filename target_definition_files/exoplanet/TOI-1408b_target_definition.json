@@ -1,0 +1,41 @@
+{
+    "Time Created": "2025-12-22 22:33:46",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-29 22:04:00",
+    "Star Name": "TOI-1408",
+    "Primary Target": 0,
+    "RA": 313.51105241714555,
+    "DEC": 72.58064946714337,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 11.847550892755224,
+    "pm_DEC": 28.73036556677779,
+    "Jmag": 8.365,
+    "Gmag": 9.195247554079469,
+    "Bmag": 9.45593705302273,
+    "Teff (K)": 6131.947,
+    "logg": 4.1306,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Planet Name": "TOI-1408b",
+    "Planet Letter": "b",
+    "Period (days)": 4.42587,
+    "Period Uncertainty (days)": 3e-05,
+    "Transit Duration (hrs)": 1.65,
+    "Transit Epoch (BJD_TDB)": 2458740.8581,
+    "Transit Epoch Uncertainty (days)": 0.0002,
+    "Obs Window (hrs)": 5.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 2.1664,
+            "Period Uncertainty (days)": 0.0001,
+            "Transit Duration (hrs)": 2.67,
+            "Transit Epoch (BJD_TDB)": 2458739.847,
+            "Transit Epoch Uncertainty (days)": 0.004
+        }
+    ],
+    "Program": "HJs-with-Friends"
+}

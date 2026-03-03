@@ -1,0 +1,41 @@
+{
+    "Time Created": "2025-12-22 22:39:05",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-29 22:04:09",
+    "Star Name": "K2-141",
+    "Primary Target": 0,
+    "RA": 350.91706256736387,
+    "DEC": -1.1891792403396748,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 116.32476036497121,
+    "pm_DEC": 25.21354227268597,
+    "Jmag": 9.086,
+    "Gmag": 10.718701315753005,
+    "Bmag": 11.347564811650445,
+    "Teff (K)": 4436.6133,
+    "logg": 4.5774,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Planet Name": "K2-141b",
+    "Planet Letter": "b",
+    "Period (days)": 0.2803244,
+    "Period Uncertainty (days)": 1.5e-06,
+    "Transit Duration (hrs)": 0.94,
+    "Transit Epoch (BJD_TDB)": 2457744.0716,
+    "Transit Epoch Uncertainty (days)": 0.00022,
+    "Obs Window (hrs)": 6.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 7.7485,
+            "Period Uncertainty (days)": 0.00022,
+            "Transit Duration (hrs)": 2.9682,
+            "Transit Epoch (BJD_TDB)": 2457751.1546,
+            "Transit Epoch Uncertainty (days)": 0.0
+        }
+    ],
+    "Program": "Volcanic-Atmospheres"
+}
