@@ -1,8 +1,8 @@
 {
     "Time Created": "2026-01-03 22:08:34",
-    "Version": "1.0.0",
+    "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2026-01-03 22:08:34",
+    "Time Updated": "2026-03-03 18:48:14",
     "Star Name": "R_Leporis",
     "Primary Target": 0,
     "RA": 74.90148358934348,
@@ -16,7 +16,7 @@
     "Teff (K)": 3952.7993,
     "logg": 0.677,
     "VDA Setting": "coadd_50",
-    "NIRDA Setting": "all_frames_24",
+    "NIRDA Setting": "fowler_4",
     "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0,
     "Program": "Exotic-Stars"

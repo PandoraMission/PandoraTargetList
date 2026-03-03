@@ -1,8 +1,8 @@
 {
     "Time Created": "2025-12-31 04:09:30",
-    "Version": "1.0.0",
+    "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-12-31 04:09:30",
+    "Time Updated": "2026-03-03 18:48:16",
     "Star Name": "HD_33793",
     "Primary Target": 0,
     "RA": 77.95993734867565,
@@ -16,7 +16,7 @@
     "Teff (K)": 3451.8704,
     "logg": 4.4062,
     "VDA Setting": "coadd_50",
-    "NIRDA Setting": "all_frames_24",
+    "NIRDA Setting": "fowler_4",
     "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0,
     "Program": "Exotic-Stars"
