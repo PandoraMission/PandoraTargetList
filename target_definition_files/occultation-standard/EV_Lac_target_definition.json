@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-04-30 17:43:15",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 04:03:32",
+    "Star Name": "EV_Lac",
+    "Primary Target": 0,
+    "RA": 341.7028254522359,
+    "DEC": 44.33195332331929,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -706.2158109750713,
+    "pm_DEC": -458.9196274161519,
+    "Jmag": 6.105999946594238,
+    "Gmag": 9.005234718322754,
+    "Bmag": 10.522136688232422,
+    "Teff (K)": 3742.18994140625,
+    "logg": 4.89,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "fowler_4",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Flare-Stars"
+}

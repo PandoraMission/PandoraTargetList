@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 20:43:47",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 20:43:47",
+    "Star Name": "HIP_18327",
+    "Primary Target": 0,
+    "RA": 58.77777509779153,
+    "DEC": 16.99836888503614,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 147.60551611189888,
+    "pm_DEC": -24.542747473783916,
+    "Jmag": 7.413,
+    "Gmag": 8.745134317819122,
+    "Bmag": 9.194527966205573,
+    "Teff (K)": 5032.9463,
+    "logg": 4.5182,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "SPARCS"
+}

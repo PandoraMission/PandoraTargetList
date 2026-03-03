@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 03:51:36",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 03:51:36",
+    "Star Name": "TOI-3714",
+    "Primary Target": 0,
+    "RA": 69.55234508139081,
+    "DEC": 39.4579936461113,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 19.82611980376092,
+    "pm_DEC": -70.76231775791176,
+    "Jmag": 11.736,
+    "Gmag": 14.290816650243697,
+    "Bmag": 15.51143444352163,
+    "Teff (K)": 3590.548,
+    "logg": 4.5342,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "GEMS-Targets"
+}

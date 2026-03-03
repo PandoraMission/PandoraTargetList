@@ -2,7 +2,7 @@
     "Time Created": "2024-10-16 23:15:49",
     "Version": "0.2.2",
     "Author": "Ben Hord",
-    "Time Updated": "2025-10-02 21:23:14",
+    "Time Updated": "2026-03-03 18:48:15",
     "Star Name": "G2010713133182029312",
     "Primary Target": 0,
     "RA": 348.7650910603743,
@@ -16,7 +16,7 @@
     "Teff (K)": 5871.521484375,
     "logg": 0.6025999784469604,
     "VDA Setting": "coadd_50",
-    "NIRDA Setting": "all_frames_24",
+    "NIRDA Setting": "fowler_4",
     "StarRoiDetMethod": 2,
     "numPredefinedStarRois": 0
 }

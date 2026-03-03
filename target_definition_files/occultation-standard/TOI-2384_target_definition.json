@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 03:58:31",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 03:58:31",
+    "Star Name": "TOI-2384",
+    "Primary Target": 0,
+    "RA": 36.15614935381057,
+    "DEC": -65.00020300107985,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 9.257461138964588,
+    "pm_DEC": -52.66198261051024,
+    "Jmag": 11.997,
+    "Gmag": 14.387966186152386,
+    "Bmag": 15.387792773163648,
+    "Teff (K)": 3924.9246,
+    "logg": 4.494,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "GEMS-Targets"
+}

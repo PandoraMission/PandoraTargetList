@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-07-01 20:19:30",
+    "Version": "0.2.2",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-08 16:20:12",
+    "Star Name": "TOI-674",
+    "Primary Target": 1,
+    "RA": 164.5865308722478,
+    "DEC": -36.85810967114435,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -163.2554203126889,
+    "pm_DEC": -3.6723711197501925,
+    "Jmag": 10.359000205993652,
+    "Gmag": 13.073343276977539,
+    "Bmag": 14.453070640563965,
+    "Teff (K)": 3691.260009765625,
+    "logg": 4.817,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0
+}

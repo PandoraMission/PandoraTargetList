@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-22 22:41:18",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-29 22:04:09",
+    "Star Name": "HD_93963_A",
+    "Primary Target": 0,
+    "RA": 162.77668261827387,
+    "DEC": 25.64106185606295,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -92.83332777267036,
+    "pm_DEC": -22.91109358993501,
+    "Jmag": 8.108,
+    "Gmag": 9.040344548236707,
+    "Bmag": 9.33884761882913,
+    "Teff (K)": 5846.199,
+    "logg": 4.3429,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Volcanic-Atmospheres"
+}
