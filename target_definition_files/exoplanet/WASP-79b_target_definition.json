@@ -26,6 +26,6 @@
     "Transit Duration (hrs)": 3.7669692,
     "Transit Epoch (BJD_TDB)": 2458160.186968,
     "Transit Epoch Uncertainty (days)": 3.9e-05,
-    "Obs Window (hrs)": 7.0,
+    "Obs Window (hrs)": 24.0,
     "Program": "Sweet-Planets"
 }
