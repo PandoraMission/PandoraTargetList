@@ -12,7 +12,7 @@ def test_name_format():
     cats = [cat for cat in os.listdir(TARGDEFDIR) if "." not in cat]
     pattern = r"^[a-zA-Z0-9_\-+.]*$"
     for cat in cats:
-        catpath = TARGDEFDIR + cat + "/"
+        catpath = TARGDEFDIR + cat + os.sep
         filelist = [f for f in os.listdir(catpath) if f[-5:] == ".json"]
         targ_names = []
         for file in filelist:
