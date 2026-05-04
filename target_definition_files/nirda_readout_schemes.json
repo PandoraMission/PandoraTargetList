@@ -14,8 +14,8 @@
         ],
         "FixedParameters": {
             "AverageGroups": 1,
-            "ROI_StartX": 1968,
-            "ROI_StartY": 824,
+            "ROI_StartX": 1737,
+            "ROI_StartY": 907,
             "ROI_SizeX": 80,
             "ROI_SizeY": 400,
             "RiceX": 5,
