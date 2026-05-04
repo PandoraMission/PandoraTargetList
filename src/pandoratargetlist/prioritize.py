@@ -14,7 +14,7 @@ class Priorities:
 
     def __init__(self, category, author="system"):
         self.category = category
-        self.dirpath = TARGDEFDIR + self.category + "/"
+        self.dirpath = TARGDEFDIR + self.category + os.sep
         self.priority_file = self.dirpath + self.category + "_priorities.csv"
         self.author = author
         self.is_exoplanet = "exoplanet" in self.category
@@ -140,7 +140,7 @@ class Priorities:
 
             for source in ["primary-exoplanet", "auxiliary-exoplanet"]:
                 source_file = (
-                    TARGDEFDIR + source + "/" + source + "_priorities.csv"
+                    TARGDEFDIR + source + os.sep + source + "_priorities.csv"
                 )
                 if os.path.exists(source_file):
                     with open(source_file, newline="") as f:
@@ -201,7 +201,7 @@ class Priorities:
         Function to sync the targets in the exoplanet category with those in the
         primary-exoplanet and auxiliary-exoplanet categories.
         """
-        exoplanet_dir = Path(TARGDEFDIR + "exoplanet/")
+        exoplanet_dir = Path(TARGDEFDIR + "exoplanet" + os.sep)
         sources = ["primary-exoplanet", "auxiliary-exoplanet"]
         allowed_targets = set()
 

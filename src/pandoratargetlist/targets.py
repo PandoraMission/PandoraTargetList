@@ -48,7 +48,7 @@ class Target(object):
 
         self.category = category
         self.author = author
-        self.dirpath = TARGDEFDIR + self.category + "/"
+        self.dirpath = TARGDEFDIR + self.category + os.sep
 
         # Check if name is in info_dict
         if info_dict is not None and name is None:
