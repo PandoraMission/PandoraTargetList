@@ -459,8 +459,8 @@ class Target(object):
             )
             spectra[0, :] = nirda_psf.integrate_spectrum(
                 wav, spec, nirda_wavelengths
-            )
-            spectra = spectra * u.electron / u.s
+            ).value
+            spectra = spectra * u.electron / (u.Angstrom * u.s)
 
             saturation_counts = 80000
             max_pix = 0
@@ -496,8 +496,8 @@ class Target(object):
                     * resets.astype(float)
                 )
 
-                data = NIRDA_trace.model(source_flux)
-                data += 8 * u.electron
+                data = NIRDA_trace.model(source_flux).to(u.electron / u.pixel)
+                data += 8 * u.electron / u.pixel
 
                 max_pix = np.max(np.cumsum(data, axis=0)[-1])
 
