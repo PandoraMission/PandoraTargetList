@@ -1,3 +1,6 @@
+# 1.0.1
+- Made directory handling OS agnostic.
+
 # 0.2.2
 - Updates `StarRoiDetMethod` key to new commanding manual syntax.s
 
