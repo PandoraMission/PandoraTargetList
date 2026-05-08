@@ -1,0 +1,65 @@
+{
+    "Time Created": "2026-05-08 12:40:30",
+    "Version": "1.0.1",
+    "Author": "Joe P. Renaud",
+    "Time Updated": "2026-05-08 12:40:30",
+    "Star Name": "L_98-59",
+    "Primary Target": 0,
+    "RA": 124.53289609931126,
+    "DEC": -68.31451297872593,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 94.79378412138361,
+    "pm_DEC": -340.084310737445,
+    "Jmag": 7.933,
+    "Gmag": 10.605512915275817,
+    "Bmag": 11.960903714711396,
+    "Teff (K)": 3178.8445,
+    "logg": 4.4731,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Planet Name": "L 98-59b",
+    "Planet Letter": "b",
+    "Period (days)": 2.253114,
+    "Period Uncertainty (days)": 4e-07,
+    "Transit Duration (hrs)": 1.01,
+    "Transit Epoch (BJD_TDB)": 2458366.17056,
+    "Transit Epoch Uncertainty (days)": 0.00024,
+    "Obs Window (hrs)": 6.0,
+    "Program": "Volcanic-Atmospheres",
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 3.6906764,
+            "Period Uncertainty (days)": 4e-07,
+            "Transit Duration (hrs)": 1.28,
+            "Transit Epoch (BJD_TDB)": 2458367.27303,
+            "Transit Epoch Uncertainty (days)": 0.00015
+        },
+        {
+            "Planet Letter": "d",
+            "Period (days)": 7.450729,
+            "Period Uncertainty (days)": 2e-06,
+            "Transit Duration (hrs)": 0.84,
+            "Transit Epoch (BJD_TDB)": 2458362.74002,
+            "Transit Epoch Uncertainty (days)": 0.00025
+        },
+        {
+            "Planet Letter": "e",
+            "Period (days)": 12.8278,
+            "Period Uncertainty (days)": 0.0018,
+            "Transit Duration (hrs)": 3.5114,
+            "Transit Epoch (BJD_TDB)": 2458438.48,
+            "Transit Epoch Uncertainty (days)": 0.15
+        },
+        {
+            "Planet Letter": "f",
+            "Period (days)": 23.064,
+            "Period Uncertainty (days)": 0.055,
+            "Transit Duration (hrs)": 4.2698,
+            "Transit Epoch (BJD_TDB)": 2458437.84,
+            "Transit Epoch Uncertainty (days)": 0.75
+        }
+    ]
+}
