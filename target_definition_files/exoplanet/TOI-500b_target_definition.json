@@ -1,0 +1,57 @@
+{
+    "Time Created": "2026-05-08 12:40:20",
+    "Version": "1.0.1",
+    "Author": "Joe P. Renaud",
+    "Time Updated": "2026-05-08 12:40:20",
+    "Star Name": "TOI-500",
+    "Primary Target": 0,
+    "RA": 106.55912604595684,
+    "DEC": -47.58783586259122,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 135.92831559449567,
+    "pm_DEC": -146.05848432478197,
+    "Jmag": 8.403,
+    "Gmag": 10.103840389014636,
+    "Bmag": 10.745727665177256,
+    "Teff (K)": 4495.351,
+    "logg": 4.591,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Planet Name": "TOI-500b",
+    "Planet Letter": "b",
+    "Period (days)": 0.548177,
+    "Period Uncertainty (days)": 1.9e-05,
+    "Transit Duration (hrs)": 0.998,
+    "Transit Epoch (BJD_TDB)": 2458468.3905,
+    "Transit Epoch Uncertainty (days)": 0.0017,
+    "Obs Window (hrs)": 6.0,
+    "Program": "Volcanic-Atmospheres",
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 6.6356,
+            "Period Uncertainty (days)": 0.004,
+            "Transit Duration (hrs)": 2.8187,
+            "Transit Epoch (BJD_TDB)": 2458561.96,
+            "Transit Epoch Uncertainty (days)": 0.2
+        },
+        {
+            "Planet Letter": "d",
+            "Period (days)": 26.233,
+            "Period Uncertainty (days)": 0.02,
+            "Transit Duration (hrs)": 4.457,
+            "Transit Epoch (BJD_TDB)": 2458587.22,
+            "Transit Epoch Uncertainty (days)": 0.21000000000000002
+        },
+        {
+            "Planet Letter": "e",
+            "Period (days)": 61.3,
+            "Period Uncertainty (days)": 0.28,
+            "Transit Duration (hrs)": 5.9144,
+            "Transit Epoch (BJD_TDB)": 2458865.82,
+            "Transit Epoch Uncertainty (days)": 1.24
+        }
+    ]
+}
