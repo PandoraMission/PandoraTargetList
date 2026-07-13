@@ -1,0 +1,40 @@
+{
+    "Time Created": "2026-07-10 21:00:07",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-07-10 21:09:18",
+    "Star Name": "TOI-2134",
+    "Primary Target": 0,
+    "RA": 271.935511237796,
+    "DEC": 39.072887523098075,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 54.535776180108556,
+    "pm_DEC": -283.0509637225753,
+    "Jmag": 6.776,
+    "Gmag": 8.514701589679387,
+    "Bmag": 9.172328252486302,
+    "Teff (K)": 4354.2,
+    "logg": 4.5392,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_3",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Planet Name": "TOI-2134c",
+    "Planet Letter": "c",
+    "Period (days)": 95.5,
+    "Period Uncertainty (days)": 0.305,
+    "Transit Duration (hrs)": 5.267,
+    "Transit Epoch (BJD_TDB)": 2459718.96939,
+    "Transit Epoch Uncertainty (days)": 0.0002,
+    "Obs Window (hrs)": 18.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "b",
+            "Period (days)": 9.2292005,
+            "Period Uncertainty (days)": 6.3e-06,
+            "Transit Duration (hrs)": 2.995,
+            "Transit Epoch (BJD_TDB)": 2459407.54493,
+            "Transit Epoch Uncertainty (days)": 0.00027
+        }
+    ]
+}
