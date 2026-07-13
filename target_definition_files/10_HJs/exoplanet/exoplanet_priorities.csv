@@ -1,0 +1,22 @@
+# Prioritization file for 10 HJs
+# Version: 1.0.0
+# Updated by: vbk
+# Updated on: 2026-04-10
+#
+# Column 1: Rank
+# Column 2: Target Name
+# Column 3: Priority
+# Column 4: Number of Transits Requested
+# Column 5: Number of Transits Observed
+# Column 6: Number of Transits Remaining
+rank,target,priority,transits_req,transits_obs,transits_rem
+0,KELT-3b,0.900000,10.0,0.0,10.0
+1,KELT-4_Ab,0.890909,10.0,0.0,10.0
+2,TOI-615b,0.881818,10.0,0.0,10.0
+3,WASP-127b,0.872727,10.0,0.0,10.0
+4,WASP-13b,0.863636,10.0,0.0,10.0
+5,WASP-14b,0.854545,10.0,0.0,10.0
+6,WASP-167b,0.845455,10.0,0.0,10.0
+7,WASP-178b,0.836364,10.0,0.0,10.0
+8,WASP-34b,0.827273,10.0,0.0,10.0
+9,WASP-85_Ab,0.818182,10.0,0.0,10.0

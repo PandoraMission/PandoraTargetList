@@ -1,0 +1,40 @@
+{
+    "Time Created": "2026-06-22 17:48:28",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-06-22 17:48:28",
+    "Star Name": "WASP-18",
+    "Primary Target": 0,
+    "RA": 24.354466933033496,
+    "DEC": -45.677790846802935,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 25.404449269629488,
+    "pm_DEC": 20.47932580564887,
+    "Jmag": 8.409,
+    "Gmag": 9.173880843192613,
+    "Bmag": 9.411079659286305,
+    "Teff (K)": 6311.6724,
+    "logg": 4.2654,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Planet Name": "WASP-18b",
+    "Planet Letter": "b",
+    "Period (days)": 0.94145223,
+    "Period Uncertainty (days)": 2.4e-07,
+    "Transit Duration (hrs)": 2.21,
+    "Transit Epoch (BJD_TDB)": 2456740.8056,
+    "Transit Epoch Uncertainty (days)": 0.00019,
+    "Obs Window (hrs)": 24.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 2.1558,
+            "Period Uncertainty (days)": 0.0064,
+            "Transit Duration (hrs)": 1.9377,
+            "Transit Epoch (BJD_TDB)": NaN,
+            "Transit Epoch Uncertainty (days)": NaN
+        }
+    ]
+}
