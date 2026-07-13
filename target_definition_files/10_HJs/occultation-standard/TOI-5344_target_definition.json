@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-02 02:32:46",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-02 02:32:46",
+    "Star Name": "TOI-5344",
+    "Primary Target": 0,
+    "RA": 63.266222500678865,
+    "DEC": 20.915153756028285,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 40.32468568159887,
+    "pm_DEC": -22.194082893515656,
+    "Jmag": 11.799,
+    "Gmag": 14.318606958179377,
+    "Bmag": 15.503729750315921,
+    "Teff (K)": 4500.0,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "GEMS-Targets"
+}

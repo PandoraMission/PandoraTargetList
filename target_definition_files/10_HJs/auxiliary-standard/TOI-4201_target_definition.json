@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-02 02:30:31",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-02 02:30:31",
+    "Star Name": "TOI-4201",
+    "Primary Target": 0,
+    "RA": 90.47472533978747,
+    "DEC": -13.461370094085574,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 11.731295236427998,
+    "pm_DEC": 6.052727660099564,
+    "Jmag": 12.258,
+    "Gmag": 14.480462803040911,
+    "Bmag": 15.472410075028678,
+    "Teff (K)": 4500.0,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "GEMS-Targets"
+}

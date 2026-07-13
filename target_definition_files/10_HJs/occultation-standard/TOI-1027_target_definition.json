@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-30 02:43:02",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-30 02:48:34",
+    "Star Name": "TOI-1027",
+    "Primary Target": 0,
+    "RA": 167.13326,
+    "DEC": -29.653133,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -87.53159059,
+    "pm_DEC": 13.04047881,
+    "Jmag": 9.188,
+    "Gmag": 10.96590669216935,
+    "Bmag": 11.679660256887296,
+    "Teff (K)": 4272,
+    "logg": 4.59877,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Robby-Planets"
+}

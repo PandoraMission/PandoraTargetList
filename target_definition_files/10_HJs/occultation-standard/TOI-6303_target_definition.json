@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 03:54:29",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 03:54:29",
+    "Star Name": "TOI-6303",
+    "Primary Target": 0,
+    "RA": 46.780656147603885,
+    "DEC": 40.14716907514321,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 33.035498873979364,
+    "pm_DEC": -35.35213065506052,
+    "Jmag": 11.679,
+    "Gmag": 13.897933122726775,
+    "Bmag": 14.844816313606438,
+    "Teff (K)": 4227.0264,
+    "logg": 4.6612,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "GEMS-Targets"
+}

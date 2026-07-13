@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-02 02:42:56",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-02 02:42:56",
+    "Star Name": "Wolf_940",
+    "Primary Target": 0,
+    "RA": 326.6718481186878,
+    "DEC": -0.17551733742953485,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 769.3658855980893,
+    "pm_DEC": -505.6819875374623,
+    "Jmag": 8.364,
+    "Gmag": 11.31023178252414,
+    "Bmag": 12.912895995526398,
+    "Teff (K)": 4500.0,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "M+T pairs"
+}

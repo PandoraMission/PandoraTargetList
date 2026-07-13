@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 21:52:18",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 21:52:18",
+    "Star Name": "WASP-6",
+    "Primary Target": 0,
+    "RA": 348.15712472850566,
+    "DEC": -22.674130028135327,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -23.26396177720717,
+    "pm_DEC": -37.14347147281934,
+    "Jmag": 10.769,
+    "Gmag": 11.968608658537859,
+    "Bmag": 12.35578577585484,
+    "Teff (K)": 5390.584,
+    "logg": 4.5333,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "GEMs-Hosts"
+}

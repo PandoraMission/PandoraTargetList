@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 21:27:40",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 21:27:40",
+    "Star Name": "AO_Cassiopeiae",
+    "Primary Target": 0,
+    "RA": 4.429409172714961,
+    "DEC": 51.433077352427276,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -2.9877052891739115,
+    "pm_DEC": -2.3738757300358793,
+    "Jmag": 6.283,
+    "Gmag": 6.089311014020762,
+    "Bmag": 6.003279013559432,
+    "Teff (K)": 30775.691,
+    "logg": 3.74,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "fowler_4",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Exotic-Stars"
+}

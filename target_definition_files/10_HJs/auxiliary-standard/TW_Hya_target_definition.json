@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 20:45:39",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 20:45:39",
+    "Star Name": "TW_Hya",
+    "Primary Target": 0,
+    "RA": 165.46590290602833,
+    "DEC": -34.704793228435086,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -68.30937498865904,
+    "pm_DEC": -13.900123966272316,
+    "Jmag": 8.217,
+    "Gmag": 10.450886745560624,
+    "Bmag": 11.178593914929339,
+    "Teff (K)": 3848.2793,
+    "logg": 4.0509,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "SPARCS"
+}

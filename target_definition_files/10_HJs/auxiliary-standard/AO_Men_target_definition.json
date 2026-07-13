@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 20:44:45",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 20:44:45",
+    "Star Name": "AO_Men",
+    "Primary Target": 0,
+    "RA": 94.6174214852522,
+    "DEC": -72.04451593392713,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -7.708823631353558,
+    "pm_DEC": 74.41171747049003,
+    "Jmag": 7.53,
+    "Gmag": 9.272831931578455,
+    "Bmag": 9.907029392340203,
+    "Teff (K)": 4398.954,
+    "logg": 4.3909,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "SPARCS"
+}

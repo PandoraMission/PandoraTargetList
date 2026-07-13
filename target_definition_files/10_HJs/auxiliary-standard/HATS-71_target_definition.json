@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 03:59:00",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 03:59:00",
+    "Star Name": "HATS-71",
+    "Primary Target": 0,
+    "RA": 15.551912490582087,
+    "DEC": -61.75613704694081,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 79.12762957671175,
+    "pm_DEC": -26.98528651434777,
+    "Jmag": 12.605,
+    "Gmag": 15.326510957033125,
+    "Bmag": 16.71974820963465,
+    "Teff (K)": 3560.2913,
+    "logg": 4.7382,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "GEMS-Targets"
+}

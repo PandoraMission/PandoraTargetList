@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 20:51:51",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 20:51:51",
+    "Star Name": "KIC_8462852",
+    "Primary Target": 0,
+    "RA": 301.56432144989975,
+    "DEC": 44.45684069427097,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -10.374843111722305,
+    "pm_DEC": -10.27311547579883,
+    "Jmag": 10.763,
+    "Gmag": 11.758744239807129,
+    "Bmag": 12.06261920928955,
+    "Teff (K)": 4500.0,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Exotic-Stars"
+}

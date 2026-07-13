@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 22:02:23",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 22:02:23",
+    "Star Name": "IM_Lupi",
+    "Primary Target": 0,
+    "RA": 239.03829315127817,
+    "DEC": -37.935140484894646,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -12.058649500931066,
+    "pm_DEC": -23.7266804847065,
+    "Jmag": 8.783,
+    "Gmag": 11.186080738107332,
+    "Bmag": 12.013967378385829,
+    "Teff (K)": 5503.8564,
+    "logg": 4.0631,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Exotic-Stars"
+}

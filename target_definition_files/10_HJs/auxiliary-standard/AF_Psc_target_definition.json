@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 20:41:22",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 20:41:22",
+    "Star Name": "AF_Psc",
+    "Primary Target": 0,
+    "RA": 352.9376079423518,
+    "DEC": -2.7446366226461403,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 93.9615540765884,
+    "pm_DEC": -72.1247452520258,
+    "Jmag": 9.507,
+    "Gmag": 12.791576206724894,
+    "Bmag": 14.70933415067811,
+    "Teff (K)": 4500.0,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "SPARCS"
+}

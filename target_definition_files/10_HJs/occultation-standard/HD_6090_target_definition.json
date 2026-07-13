@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 04:09:02",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 04:09:02",
+    "Star Name": "HD_6090",
+    "Primary Target": 0,
+    "RA": 15.07960811022547,
+    "DEC": -72.7432787988738,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 35.40942351241781,
+    "pm_DEC": 0.5632031739722406,
+    "Jmag": 9.229,
+    "Gmag": 10.40650264902816,
+    "Bmag": 10.796456981955117,
+    "Teff (K)": 5260.533,
+    "logg": 3.74,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Exotic-Stars"
+}

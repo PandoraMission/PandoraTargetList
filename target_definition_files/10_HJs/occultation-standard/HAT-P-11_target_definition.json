@@ -1,0 +1,22 @@
+{
+    "Time Created": "2025-07-01 20:13:43",
+    "Version": "0.2.2",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-08 16:20:12",
+    "Star Name": "HAT-P-11",
+    "Primary Target": 1,
+    "RA": 297.7102025682552,
+    "DEC": 48.08189581073162,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 126.0945902203455,
+    "pm_DEC": 232.72618680731978,
+    "Jmag": 7.607999801635742,
+    "Gmag": 9.158262252807617,
+    "Bmag": 9.72132682800293,
+    "Teff (K)": 4642.484375,
+    "logg": 4.545400142669678,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0
+}

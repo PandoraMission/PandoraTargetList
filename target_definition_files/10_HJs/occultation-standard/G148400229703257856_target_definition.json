@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-02 02:39:38",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-02 02:39:38",
+    "Star Name": "G148400229703257856",
+    "Primary Target": 0,
+    "RA": 69.93703900744292,
+    "DEC": 26.031209749272,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 6.6870901915351855,
+    "pm_DEC": -21.949003203507488,
+    "Jmag": 10.64,
+    "Gmag": 14.987539291381836,
+    "Bmag": 17.89177131652832,
+    "Teff (K)": 4500.0,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "TBOSS"
+}

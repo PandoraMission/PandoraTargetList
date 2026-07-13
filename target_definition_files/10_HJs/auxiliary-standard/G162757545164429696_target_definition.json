@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-02 02:38:30",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-02 02:38:30",
+    "Star Name": "G162757545164429696",
+    "Primary Target": 0,
+    "RA": 63.69714187092417,
+    "DEC": 26.773903297413405,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 8.989825384713045,
+    "pm_DEC": -22.657513948657588,
+    "Jmag": 9.897,
+    "Gmag": 12.721832275390625,
+    "Bmag": 14.058402061462402,
+    "Teff (K)": 4500.0,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "TBOSS young-ish M+L dwarfs in Taurus region with ALMA obs"
+}

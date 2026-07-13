@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 02:24:18",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 02:24:18",
+    "Star Name": "G441138736672364800",
+    "Primary Target": 0,
+    "RA": 44.3539950787501,
+    "DEC": 53.012301700649815,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -0.2007891933000981,
+    "pm_DEC": -1.6368045526166646,
+    "Jmag": 11.871,
+    "Gmag": 10.787806510925293,
+    "Bmag": 11.048501014709473,
+    "Teff (K)": 15003.062,
+    "logg": 4.0912,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "ApStarSurvey"
+}

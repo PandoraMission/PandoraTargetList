@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-02 02:45:29",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-02 02:45:29",
+    "Star Name": "BD-16_251",
+    "Primary Target": 0,
+    "RA": 22.37976737420695,
+    "DEC": -16.01282775354348,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 11.737561804766006,
+    "pm_DEC": -42.78734838168833,
+    "Jmag": 10.053,
+    "Gmag": 11.409827168991903,
+    "Bmag": 11.848770635978447,
+    "Teff (K)": 4500.0,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Exotic-Stars"
+}

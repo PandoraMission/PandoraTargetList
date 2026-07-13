@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-12-31 04:08:33",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 04:08:33",
+    "Star Name": "V4334_Sagittarii",
+    "Primary Target": 0,
+    "RA": 268.1338457364508,
+    "DEC": -17.68484932636501,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 0.14787753703606918,
+    "pm_DEC": -5.390867800525876,
+    "Jmag": 12.503,
+    "Gmag": 15.731071012613405,
+    "Bmag": 17.26172664131336,
+    "Teff (K)": 4670.773,
+    "logg": 2.7897,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Exotic-Stars"
+}

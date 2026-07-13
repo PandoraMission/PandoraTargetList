@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 20:38:33",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 20:38:33",
+    "Star Name": "TYC_1766-1431-1",
+    "Primary Target": 0,
+    "RA": 35.861502297671265,
+    "DEC": 22.734710641040532,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 98.67335793047096,
+    "pm_DEC": -112.5796152979869,
+    "Jmag": 8.182,
+    "Gmag": 10.429566305911774,
+    "Bmag": 11.410246192716325,
+    "Teff (K)": 4500.0,
+    "logg": NaN,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "SPARCS"
+}

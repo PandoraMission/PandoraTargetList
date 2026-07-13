@@ -1,0 +1,23 @@
+{
+    "Time Created": "2025-04-30 16:04:46",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-31 04:03:32",
+    "Star Name": "K2-141",
+    "Primary Target": 0,
+    "RA": 350.9170625673834,
+    "DEC": -1.1891792403354395,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 116.32476036497832,
+    "pm_DEC": 25.21354227268836,
+    "Jmag": 9.086000442504883,
+    "Gmag": 10.718701362609863,
+    "Bmag": 11.347564697265625,
+    "Teff (K)": 4436.61328125,
+    "logg": 4.577400207519531,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "Kepler-targets"
+}

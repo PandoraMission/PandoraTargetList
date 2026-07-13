@@ -1,0 +1,23 @@
+{
+    "Time Created": "2026-01-03 21:50:06",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-01-03 21:50:06",
+    "Star Name": "WASP-84",
+    "Primary Target": 0,
+    "RA": 131.10699265672974,
+    "DEC": 1.8598889887490573,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -23.344213829463182,
+    "pm_DEC": -31.569771786351996,
+    "Jmag": 9.346,
+    "Gmag": 10.579236722347122,
+    "Bmag": 11.002601520682077,
+    "Teff (K)": 5283.737,
+    "logg": 4.5579,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 2,
+    "numPredefinedStarRois": 0,
+    "Program": "HJs-with-Friends"
+}
