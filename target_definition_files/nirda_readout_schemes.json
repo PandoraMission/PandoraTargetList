@@ -27,7 +27,7 @@
         },
         "all_frames_24": {
             "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
-            "SC_Resets1": 1,
+            "SC_Resets1": 261,
             "SC_Resets2": 1,
             "SC_DropFrames1": 0,
             "SC_DropFrames2": 0,
@@ -35,112 +35,112 @@
             "SC_ReadFrames": 24,
             "SC_Groups": 1,
             "SC_Integrations": "SET_BY_SCHEDULER",
-            "FramesPerIntegration": 25,
-            "IntegrationTime_s": 8.0
+            "FramesPerIntegration": 24,
+            "IntegrationTime_s": 5.796
         },
         "fowler_1": {
             "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
-            "SC_Resets1": 1,
+            "SC_Resets1": 261,
             "SC_Resets2": 1,
-            "SC_DropFrames1": 0,
+            "SC_DropFrames1": 1,
             "SC_DropFrames2": 16,
             "SC_DropFrames3": 0,
             "SC_ReadFrames": 1,
             "SC_Groups": 2,
             "SC_Integrations": "SET_BY_SCHEDULER",
             "FramesPerIntegration": 19,
-            "IntegrationTime_s": 6.08
+            "IntegrationTime_s": 4.6368
         },
         "fowler_2": {
             "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
-            "SC_Resets1": 1,
+            "SC_Resets1": 261,
             "SC_Resets2": 1,
-            "SC_DropFrames1": 0,
+            "SC_DropFrames1": 1,
             "SC_DropFrames2": 16,
             "SC_DropFrames3": 0,
             "SC_ReadFrames": 2,
             "SC_Groups": 2,
             "SC_Integrations": "SET_BY_SCHEDULER",
             "FramesPerIntegration": 21,
-            "IntegrationTime_s": 6.72
+            "IntegrationTime_s": 5.10048
         },
         "fowler_3": {
             "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
-            "SC_Resets1": 1,
+            "SC_Resets1": 261,
             "SC_Resets2": 1,
-            "SC_DropFrames1": 0,
+            "SC_DropFrames1": 1,
             "SC_DropFrames2": 16,
             "SC_DropFrames3": 0,
             "SC_ReadFrames": 3,
             "SC_Groups": 2,
             "SC_Integrations": "SET_BY_SCHEDULER",
             "FramesPerIntegration": 23,
-            "IntegrationTime_s": 7.36
+            "IntegrationTime_s": 5.56416
         },
         "fowler_4": {
             "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
-            "SC_Resets1": 1,
+            "SC_Resets1": 261,
             "SC_Resets2": 1,
-            "SC_DropFrames1": 0,
+            "SC_DropFrames1": 1,
             "SC_DropFrames2": 16,
             "SC_DropFrames3": 0,
             "SC_ReadFrames": 4,
             "SC_Groups": 2,
             "SC_Integrations": "SET_BY_SCHEDULER",
             "FramesPerIntegration": 25,
-            "IntegrationTime_s": 8.0
+            "IntegrationTime_s": 6.02784
         },
         "samp_4_3": {
             "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
-            "SC_Resets1": 1,
+            "SC_Resets1": 261,
             "SC_Resets2": 1,
-            "SC_DropFrames1": 0,
+            "SC_DropFrames1": 1,
             "SC_DropFrames2": 16,
             "SC_DropFrames3": 0,
             "SC_ReadFrames": 4,
             "SC_Groups": 3,
             "SC_Integrations": "SET_BY_SCHEDULER",
             "FramesPerIntegration": 45,
-            "IntegrationTime_s": 14.4
+            "IntegrationTime_s": 10.66464
         },
         "samp_4_4": {
             "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
-            "SC_Resets1": 1,
+            "SC_Resets1": 261,
             "SC_Resets2": 1,
-            "SC_DropFrames1": 0,
+            "SC_DropFrames1": 1,
             "SC_DropFrames2": 16,
             "SC_DropFrames3": 0,
             "SC_ReadFrames": 4,
             "SC_Groups": 4,
             "SC_Integrations": "SET_BY_SCHEDULER",
-            "FramesPerIntegration": 65,
-            "IntegrationTime_s": 20.8
+            "FramesPerIntegration": 64,
+            "IntegrationTime_s": 15.30144
         },
         "samp_4_5": {
             "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
-            "SC_Resets1": 1,
+            "SC_Resets1": 261,
             "SC_Resets2": 1,
-            "SC_DropFrames1": 0,
+            "SC_DropFrames1": 1,
             "SC_DropFrames2": 16,
             "SC_DropFrames3": 0,
             "SC_ReadFrames": 4,
             "SC_Groups": 5,
             "SC_Integrations": "SET_BY_SCHEDULER",
             "FramesPerIntegration": 85,
-            "IntegrationTime_s": 27.2
+            "IntegrationTime_s": 19.93824
         },
         "samp_4_6": {
             "TargetID": "SET_BY_TARGET_DEFINITION_FILE",
-            "SC_Resets1": 1,
+            "SC_Resets1": 261,
             "SC_Resets2": 1,
-            "SC_DropFrames1": 0,
+            "SC_DropFrames1": 1,
             "SC_DropFrames2": 16,
             "SC_DropFrames3": 0,
             "SC_ReadFrames": 4,
             "SC_Groups": 6,
             "SC_Integrations": "SET_BY_SCHEDULER",
             "FramesPerIntegration": 105,
-            "IntegrationTime_s": 33.6
+            "IntegrationTime_s": 24.57504
         }
     }
 }
