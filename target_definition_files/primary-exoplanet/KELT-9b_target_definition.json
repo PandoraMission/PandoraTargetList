@@ -18,7 +18,7 @@
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
     "StarRoiDetMethod": 1,
-    "numPredefinedStarRois": 1,
+    "numPredefinedStarRois": 9,
     "Planet Name": "KELT-9b",
     "Planet Letter": "b",
     "Period (days)": 1.4811235,
