@@ -11,4 +11,5 @@
 # Column 6: Number of Transits Remaining
 rank,target,priority,transits_req,transits_obs,transits_rem
 0,WASP-69b,0.9,10.0,0.0,10.0
-1,KELT-9b,0.8,10.0,0.0,10.0
+1,HD_209458b,0.8,10.0,0.0,10.0
+2,GJ_9827d,0.7,10.0,0.0,10.0
