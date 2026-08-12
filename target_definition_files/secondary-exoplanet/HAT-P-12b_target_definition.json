@@ -17,8 +17,8 @@
     "logg": 4.544000148773193,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 2,
-    "numPredefinedStarRois": 0,
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
     "Planet Name": "HAT-P-12b",
     "Planet Letter": "b",
     "Period (days)": 3.2130598,
@@ -26,5 +26,44 @@
     "Transit Duration (hrs)": 2.3376,
     "Transit Epoch (BJD_TDB)": 2454419.19556,
     "Transit Epoch Uncertainty (days)": 0.0002,
-    "Obs Window (hrs)": 24
+    "Obs Window (hrs)": 24,
+    "ROI_coord": [
+        [
+            209.38807780450983,
+            43.49317490406819
+        ],
+        [
+            209.34414185318167,
+            43.59674686360022
+        ],
+        [
+            209.2941842947834,
+            43.40988893567597
+        ],
+        [
+            209.35413100116924,
+            43.52580940002312
+        ],
+        [
+            209.31943148531695,
+            43.44789434874975
+        ],
+        [
+            209.38742097968208,
+            43.56226057402548
+        ],
+        [
+            209.27817268193195,
+            43.53993421864637
+        ],
+        [
+            209.25150542931445,
+            43.46436866281823
+        ],
+        [
+            209.41275690279764,
+            43.36853045945188
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
 }

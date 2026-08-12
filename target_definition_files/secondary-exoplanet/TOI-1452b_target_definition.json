@@ -17,8 +17,8 @@
     "logg": 4.9770002365112305,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 2,
-    "numPredefinedStarRois": 0,
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
     "Planet Name": "TOI-1452b",
     "Planet Letter": "b",
     "Period (days)": 11.06201,
@@ -26,5 +26,44 @@
     "Transit Duration (hrs)": 1.7587777,
     "Transit Epoch (BJD_TDB)": 2458691.5321,
     "Transit Epoch Uncertainty (days)": 0.0015,
-    "Obs Window (hrs)": 24
+    "Obs Window (hrs)": 24,
+    "ROI_coord": [
+        [
+            290.1740564580612,
+            73.19488195220416
+        ],
+        [
+            290.1344864947527,
+            73.10904564384653
+        ],
+        [
+            290.0399361259605,
+            73.15081569666812
+        ],
+        [
+            290.4883424534905,
+            73.20997604756285
+        ],
+        [
+            290.5019365989134,
+            73.16090611383707
+        ],
+        [
+            290.2109370842602,
+            73.26477586921135
+        ],
+        [
+            290.6000745105783,
+            73.15561750681108
+        ],
+        [
+            290.21060980597224,
+            73.24731962874408
+        ],
+        [
+            290.1965381116454,
+            73.16461580706026
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
 }

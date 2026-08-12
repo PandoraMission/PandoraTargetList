@@ -17,7 +17,46 @@
     "logg": NaN,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 2,
-    "numPredefinedStarRois": 0,
-    "Program": "TBOSS young-ish M+L dwarfs in Taurus region with ALMA obs"
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
+    "Program": "TBOSS young-ish M+L dwarfs in Taurus region with ALMA obs",
+    "ROI_coord": [
+        [
+            63.69717122739839,
+            26.773837240996368
+        ],
+        [
+            63.684821199736675,
+            26.6552879195391
+        ],
+        [
+            63.62905236997027,
+            26.659899453533104
+        ],
+        [
+            63.5513427769792,
+            26.766492305533014
+        ],
+        [
+            63.73421159265475,
+            26.882804784143527
+        ],
+        [
+            63.691791823439004,
+            26.894828090811103
+        ],
+        [
+            63.7543408850657,
+            26.769991290890967
+        ],
+        [
+            63.78375206893541,
+            26.868685930583613
+        ],
+        [
+            63.69949512690457,
+            26.80289387061387
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
 }

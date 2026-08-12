@@ -17,7 +17,14 @@
     "logg": NaN,
     "VDA Setting": "coadd_50",
     "NIRDA Setting": "samp_4_6",
-    "StarRoiDetMethod": 2,
-    "numPredefinedStarRois": 0,
-    "Program": "TBOSS"
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 1,
+    "Program": "TBOSS",
+    "ROI_coord": [
+        [
+            69.93706070420666,
+            26.03114575846973
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
 }
