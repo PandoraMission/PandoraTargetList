@@ -1360,7 +1360,8 @@ def process_json_files(directories: List[Path],
                       cache_file: Optional[Path] = None,
                       index_file: Optional[Path] = None,
                       rebuild_cache: bool = False,
-                      use_gaia_offline: bool = False) -> pd.DataFrame:
+                      use_gaia_offline: bool = False,
+                      process_all: bool = False) -> pd.DataFrame:
     """
     Process all JSON files in directories and update ROI coordinates.
     
@@ -1390,6 +1391,8 @@ def process_json_files(directories: List[Path],
         Force rebuilding of cache
     use_gaia_offline : bool
         Use offline Gaia catalog by default
+    process_all : bool
+        Process all JSON files with RA/DEC, even without existing ROI_coord
     
     Returns:
     --------
@@ -1421,8 +1424,23 @@ def process_json_files(directories: List[Path],
         for json_file in directory.rglob("*.json"):
             data = load_json_file(json_file)
             
-            if not data or 'ROI_coord' not in data:
+            if not data:
                 continue
+            
+            # Skip if missing required coordinate fields
+            if 'RA' not in data or 'DEC' not in data:
+                continue
+            
+            # Check if we should process this file
+            if not process_all and 'ROI_coord' not in data:
+                # Skip files without ROI_coord unless --process-all is specified
+                continue
+            
+            # If ROI_coord doesn't exist but we're processing all, create it
+            if 'ROI_coord' not in data:
+                data['ROI_coord'] = []
+                data['numPredefinedStarRois'] = 0
+                print(f"\nProcessing NEW target (no existing ROI_coord): {json_file.name}")
             
             files_processed += 1
             
@@ -1504,12 +1522,20 @@ def process_json_files(directories: List[Path],
             data['ROI_coord'] = roi_coords
             data['numPredefinedStarRois'] = len(roi_coords)
             data['ROI_coord_epoch'] = 'J2026.5'
+
+            # Set StarRoiDetMethod to 1 when ROI coordinates are selected
+            # Only update if we actually selected coordinates
+            if len(roi_coords) > 0:
+                data['StarRoiDetMethod'] = 1
             
             # Save if requested
             if save_updates:
                 if save_json_file(json_file, data):
                     files_updated += 1
-                    print(f"  Updated {json_file}")
+                    print(f"  ✓ Updated {json_file}")
+                    print(f"    - ROI_coord: {len(roi_coords)} coordinate pairs")
+                    print(f"    - numPredefinedStarRois: {data['numPredefinedStarRois']}")
+                    print(f"    - StarRoiDetMethod: {data['StarRoiDetMethod']}")
             
             # Create diagnostic plot if requested
             if create_plots:
@@ -1680,6 +1706,9 @@ Examples:
   # Process all JSON files in a directory (dry run, uses cache)
   python roi_updater.py --directory /path/to/targets
   
+  # Process ALL JSON files, even those without existing ROI_coord field
+  python roi_updater.py --directory /path/to/targets --process-all --save
+
   # Process and save updates with diagnostic plots
   python roi_updater.py --directory /path/to/targets --save --plot --plot-dir ./plots
   
@@ -1729,6 +1758,8 @@ Examples:
                        help='Save updates to JSON files (default: dry run)')
     parser.add_argument('--prioritize-json', action='store_true',
                        help='Prioritize other JSON targets in ROI selection')
+    parser.add_argument('--process-all', action='store_true',  # ← ADD THIS
+                       help='Process all JSON files with RA/DEC, even those without existing ROI_coord field')
     parser.add_argument('--output', '-o', type=Path,
                        help='Output CSV file for star information')
     
@@ -1834,7 +1865,8 @@ Examples:
             cache_file=cache_file,
             index_file=index_file,
             rebuild_cache=args.rebuild_cache,
-            use_gaia_offline=args.use_gaia_offline
+            use_gaia_offline=args.use_gaia_offline,
+            process_all=args.process_all
         )
         
         if not combined_df.empty:
