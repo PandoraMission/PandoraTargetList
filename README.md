@@ -1,7 +1,7 @@
 # PandoraTargetList
 
-version 0.2.0
-May 14, 2025
+version 1.1.0
+August 13, 2026
 
 `pandoratargetlist` is the repository containing information about targets to be observed by NASA's Pandora SmallSat mission. Information about individual targets can be found in the `target_definition_files` directory where all of the targets are sorted by their observation category. A tutorial on how to view, edit, and interact with all of the target definition files can be found in the `tutorial.ipynb` notebook in the `docs` directory. To run the use the full functionality of the software to interact with the target definition files, you will need to download and install the `exoscraper` package which can be found [here](https://github.com/PandoraMission/exoscraper).
 
