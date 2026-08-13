@@ -1,3 +1,6 @@
+# 1.1.0
+- Updates to all TDFs for the start of science operations.
+
 # 0.2.2
 - Updates `StarRoiDetMethod` key to new commanding manual syntax.s
 
