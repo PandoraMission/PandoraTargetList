@@ -1,0 +1,95 @@
+{
+    "Time Created": "2026-08-13 19:56:10",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-08-13 19:56:10",
+    "Star Name": "TOI-700",
+    "Primary Target": 0,
+    "RA": 97.09568215459639,
+    "DEC": -65.57859235956221,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -102.6410204224948,
+    "pm_DEC": 161.7479980822285,
+    "Jmag": 9.469,
+    "Gmag": 12.063116466733366,
+    "Bmag": 13.325263705446176,
+    "Teff (K)": 3219.2754,
+    "logg": 4.1777,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "TOI-700c",
+    "Planet Letter": "c",
+    "Period (days)": 16.051137,
+    "Period Uncertainty (days)": 2e-05,
+    "Transit Duration (hrs)": 1.42,
+    "Transit Epoch (BJD_TDB)": 2458821.62181,
+    "Transit Epoch Uncertainty (days)": 0.000415,
+    "Obs Window (hrs)": 24.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "b",
+            "Period (days)": 9.977219,
+            "Period Uncertainty (days)": 3.95e-05,
+            "Transit Duration (hrs)": 2.17,
+            "Transit Epoch (BJD_TDB)": 2458880.0993,
+            "Transit Epoch Uncertainty (days)": 0.0015500000000000002
+        },
+        {
+            "Planet Letter": "d",
+            "Period (days)": 37.42396,
+            "Period Uncertainty (days)": 0.00037,
+            "Transit Duration (hrs)": 3.314,
+            "Transit Epoch (BJD_TDB)": 2458816.9952,
+            "Transit Epoch Uncertainty (days)": 0.0012000000000000001
+        },
+        {
+            "Planet Letter": "e",
+            "Period (days)": 27.80978,
+            "Period Uncertainty (days)": 0.00043000000000000004,
+            "Transit Duration (hrs)": 2.777,
+            "Transit Epoch (BJD_TDB)": 2458964.8112,
+            "Transit Epoch Uncertainty (days)": 0.00515
+        }
+    ],
+    "ROI_coord": [
+        [
+            97.09495838814637,
+            -65.57812079273357
+        ],
+        [
+            97.22662144207663,
+            -65.64446603224947
+        ],
+        [
+            97.21282792698531,
+            -65.56274520899055
+        ],
+        [
+            97.24973582962026,
+            -65.54408051441753
+        ],
+        [
+            97.14418517548674,
+            -65.51473176302528
+        ],
+        [
+            97.40114931848458,
+            -65.57478550039026
+        ],
+        [
+            97.093600650258,
+            -65.47517326857978
+        ],
+        [
+            97.26675958612304,
+            -65.63720138018901
+        ],
+        [
+            97.32630804038317,
+            -65.64044444122851
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
+}
