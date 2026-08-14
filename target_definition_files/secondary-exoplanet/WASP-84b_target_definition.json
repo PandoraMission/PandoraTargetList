@@ -1,0 +1,80 @@
+{
+    "Time Created": "2025-12-22 22:34:10",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-29 22:04:00",
+    "Star Name": "WASP-84",
+    "Primary Target": 0,
+    "RA": 131.10699265672974,
+    "DEC": 1.8598889887490573,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -23.344213829463182,
+    "pm_DEC": -31.569771786351996,
+    "Jmag": 9.346,
+    "Gmag": 10.579236722347122,
+    "Bmag": 11.002601520682077,
+    "Teff (K)": 5283.737,
+    "logg": 4.5579,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "WASP-84b",
+    "Planet Letter": "b",
+    "Period (days)": 8.52349648,
+    "Period Uncertainty (days)": 6e-07,
+    "Transit Duration (hrs)": 2.76,
+    "Transit Epoch (BJD_TDB)": 2457956.71194,
+    "Transit Epoch Uncertainty (days)": 0.00011,
+    "Obs Window (hrs)": 24.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 1.4468849,
+            "Period Uncertainty (days)": 1.9e-06,
+            "Transit Duration (hrs)": 1.111,
+            "Transit Epoch (BJD_TDB)": 2457952.4543,
+            "Transit Epoch Uncertainty (days)": 0.00245
+        }
+    ],
+    "Program": "HJs-with-Friends",
+    "ROI_coord": [
+        [
+            131.10692456241873,
+            1.8597969492610313
+        ],
+        [
+            131.23422420358582,
+            1.8258966409408073
+        ],
+        [
+            131.17970449379985,
+            1.9549871962928667
+        ],
+        [
+            131.1287300059776,
+            1.8359599625122367
+        ],
+        [
+            131.08248931097415,
+            1.8262311098559636
+        ],
+        [
+            131.12907976128366,
+            1.8825919251693966
+        ],
+        [
+            130.9958624036374,
+            1.8014179481276065
+        ],
+        [
+            131.08682516191766,
+            1.772378077371779
+        ],
+        [
+            130.99502962938993,
+            1.8438567863095745
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
+}

@@ -1,0 +1,95 @@
+{
+    "Time Created": "2026-08-14 18:24:52",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-08-14 18:24:52",
+    "Star Name": "TOI-5789",
+    "Primary Target": 0,
+    "RA": 302.77338741249093,
+    "DEC": 16.18976911072543,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -415.0623232890494,
+    "pm_DEC": 398.486934373424,
+    "Jmag": 5.826,
+    "Gmag": 7.113066706310434,
+    "Bmag": 7.536360753917904,
+    "Teff (K)": 5079.116,
+    "logg": 4.4659,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "fowler_4",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "TOI-5789c",
+    "Planet Letter": "c",
+    "Period (days)": 12.927748,
+    "Period Uncertainty (days)": 1.6e-05,
+    "Transit Duration (hrs)": 2.019,
+    "Transit Epoch (BJD_TDB)": 2460151.15868,
+    "Transit Epoch Uncertainty (days)": 0.00049,
+    "Obs Window (hrs)": 24.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "b",
+            "Period (days)": 2.76369,
+            "Period Uncertainty (days)": 0.00096,
+            "Transit Duration (hrs)": 2.105,
+            "Transit Epoch (BJD_TDB)": 2460358.054,
+            "Transit Epoch Uncertainty (days)": 0.062
+        },
+        {
+            "Planet Letter": "d",
+            "Period (days)": 29.65,
+            "Period Uncertainty (days)": 0.12,
+            "Transit Duration (hrs)": 4.6427,
+            "Transit Epoch (BJD_TDB)": 2460347.48,
+            "Transit Epoch Uncertainty (days)": 0.99
+        },
+        {
+            "Planet Letter": "e",
+            "Period (days)": 62.98,
+            "Period Uncertainty (days)": 0.22,
+            "Transit Duration (hrs)": 5.968,
+            "Transit Epoch (BJD_TDB)": 2460359.05,
+            "Transit Epoch Uncertainty (days)": 1.17
+        }
+    ],
+    "ROI_coord": [
+        [
+            302.77212734959005,
+            16.190930868669245
+        ],
+        [
+            302.80656826561426,
+            16.13993652293275
+        ],
+        [
+            302.70312113779295,
+            16.229792778581047
+        ],
+        [
+            302.7389064946144,
+            16.299314315022027
+        ],
+        [
+            302.7333817477269,
+            16.12561798393155
+        ],
+        [
+            302.65619222685115,
+            16.131172010630422
+        ],
+        [
+            302.7220799169133,
+            16.076601987355566
+        ],
+        [
+            302.6613854655395,
+            16.151902340801286
+        ],
+        [
+            302.6970395999837,
+            16.257784788587912
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
+}

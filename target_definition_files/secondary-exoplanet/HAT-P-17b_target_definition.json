@@ -1,0 +1,79 @@
+{
+    "Time Created": "2026-08-14 18:04:12",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-08-14 18:04:12",
+    "Star Name": "HAT-P-17",
+    "Primary Target": 0,
+    "RA": 324.53596511794467,
+    "DEC": 30.48817049888094,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -80.28005705635702,
+    "pm_DEC": -127.03662632025704,
+    "Jmag": 9.017,
+    "Gmag": 10.278541639045693,
+    "Bmag": 10.694602850112899,
+    "Teff (K)": 5286.4,
+    "logg": 4.4742,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "HAT-P-17b",
+    "Planet Letter": "b",
+    "Period (days)": 10.33852,
+    "Period Uncertainty (days)": 9e-06,
+    "Transit Duration (hrs)": 3.994,
+    "Transit Epoch (BJD_TDB)": 2456703.460703,
+    "Transit Epoch Uncertainty (days)": 5e-05,
+    "Obs Window (hrs)": 24.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 5584.0,
+            "Period Uncertainty (days)": 4900.0,
+            "Transit Duration (hrs)": 26.6117,
+            "Transit Epoch (BJD_TDB)": NaN,
+            "Transit Epoch Uncertainty (days)": NaN
+        }
+    ],
+    "ROI_coord": [
+        [
+            324.53569351432986,
+            30.48780013212181
+        ],
+        [
+            324.59374276194416,
+            30.601102961418448
+        ],
+        [
+            324.55135881766745,
+            30.402714420307717
+        ],
+        [
+            324.6387526988558,
+            30.4441860771063
+        ],
+        [
+            324.61773529102027,
+            30.436355084201015
+        ],
+        [
+            324.59126824046416,
+            30.488548044105446
+        ],
+        [
+            324.59156507429293,
+            30.556046035265915
+        ],
+        [
+            324.4515938861476,
+            30.57606175954005
+        ],
+        [
+            324.6846265925093,
+            30.46799169956514
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
+}

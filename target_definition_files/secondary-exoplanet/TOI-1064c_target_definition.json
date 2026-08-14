@@ -1,0 +1,79 @@
+{
+    "Time Created": "2026-08-14 18:10:31",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-08-14 18:10:31",
+    "Star Name": "TOI-1064",
+    "Primary Target": 0,
+    "RA": 296.0039342052506,
+    "DEC": -47.562044535884404,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -3.542770005322984,
+    "pm_DEC": -100.88454276724593,
+    "Jmag": 9.097,
+    "Gmag": 10.6445617091064,
+    "Bmag": 11.207087222240103,
+    "Teff (K)": 4608.6196,
+    "logg": 4.5747,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "TOI-1064c",
+    "Planet Letter": "c",
+    "Period (days)": 12.226574,
+    "Period Uncertainty (days)": 4.45e-05,
+    "Transit Duration (hrs)": 2.37,
+    "Transit Epoch (BJD_TDB)": 2459043.51289,
+    "Transit Epoch Uncertainty (days)": 0.00068,
+    "Obs Window (hrs)": 24.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "b",
+            "Period (days)": 6.443868,
+            "Period Uncertainty (days)": 2.5e-05,
+            "Transit Duration (hrs)": 1.98,
+            "Transit Epoch (BJD_TDB)": 2459036.8534,
+            "Transit Epoch Uncertainty (days)": 0.000565
+        }
+    ],
+    "ROI_coord": [
+        [
+            296.0039188986564,
+            -47.562338657779094
+        ],
+        [
+            296.1087174357057,
+            -47.565295597456036
+        ],
+        [
+            295.93121295725194,
+            -47.53741505170552
+        ],
+        [
+            296.1085067338131,
+            -47.45883045542162
+        ],
+        [
+            296.16448162263106,
+            -47.508966665657915
+        ],
+        [
+            295.9279761160311,
+            -47.58576160698443
+        ],
+        [
+            295.8452468602149,
+            -47.59196129235875
+        ],
+        [
+            296.1636849222552,
+            -47.585107667885985
+        ],
+        [
+            296.06993372662544,
+            -47.670822734915454
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
+}

@@ -1,0 +1,79 @@
+{
+    "Time Created": "2026-08-14 18:19:14",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-08-14 18:19:14",
+    "Star Name": "TOI-421",
+    "Primary Target": 0,
+    "RA": 81.85327727094737,
+    "DEC": -14.276733326472794,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -35.74267223733217,
+    "pm_DEC": 50.38733489301856,
+    "Jmag": 8.547,
+    "Gmag": 9.783353859032784,
+    "Bmag": 10.184568073889416,
+    "Teff (K)": 5410.338,
+    "logg": 4.5279,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "TOI-421c",
+    "Planet Letter": "c",
+    "Period (days)": 16.067541,
+    "Period Uncertainty (days)": 4e-06,
+    "Transit Duration (hrs)": 2.755,
+    "Transit Epoch (BJD_TDB)": 2459195.30741,
+    "Transit Epoch Uncertainty (days)": 0.00018,
+    "Obs Window (hrs)": 24.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "b",
+            "Period (days)": 5.197576,
+            "Period Uncertainty (days)": 5e-06,
+            "Transit Duration (hrs)": 1.09,
+            "Transit Epoch (BJD_TDB)": 2459189.7341,
+            "Transit Epoch Uncertainty (days)": 0.0005
+        }
+    ],
+    "ROI_coord": [
+        [
+            81.85316974489575,
+            -14.276586425671251
+        ],
+        [
+            81.7339352496447,
+            -14.2931807620939
+        ],
+        [
+            81.85597770712667,
+            -14.161999769267032
+        ],
+        [
+            81.96865751342256,
+            -14.250368901426937
+        ],
+        [
+            81.77427847716795,
+            -14.22832036719947
+        ],
+        [
+            81.76707971341814,
+            -14.287486050574584
+        ],
+        [
+            81.94806335101624,
+            -14.327238558407167
+        ],
+        [
+            81.94569850615207,
+            -14.216108595228595
+        ],
+        [
+            81.77335764672794,
+            -14.33424061439352
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
+}
