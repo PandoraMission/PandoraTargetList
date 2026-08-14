@@ -1,0 +1,70 @@
+{
+    "Time Created": "2025-12-30 02:35:34",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-30 22:04:46",
+    "Star Name": "TOI-7149",
+    "Primary Target": 0,
+    "RA": 244.7384645,
+    "DEC": 19.17581334,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -7.6980853,
+    "pm_DEC": 12.88222562,
+    "Jmag": 13.158,
+    "Gmag": 16.1589,
+    "Bmag": 17.764668,
+    "Teff (K)": 3363,
+    "logg": 4.88,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "TOI-7149b",
+    "Planet Letter": "b",
+    "Period (days)": 2.65206166,
+    "Period Uncertainty (days)": 8e-07,
+    "Transit Duration (hrs)": 1.7256,
+    "Transit Epoch (BJD_TDB)": 2459703.6,
+    "Transit Epoch Uncertainty (days)": 0.00029,
+    "Obs Window (hrs)": 4.0,
+    "Program": "GEMS-Targets",
+    "ROI_coord": [
+        [
+            244.73844073834698,
+            19.175850897236213
+        ],
+        [
+            244.6268809069763,
+            19.144471758936934
+        ],
+        [
+            244.78851798789668,
+            19.269662072867593
+        ],
+        [
+            244.84945554619478,
+            19.175250755509722
+        ],
+        [
+            244.7474119680236,
+            19.253448540639745
+        ],
+        [
+            244.67906489151946,
+            19.07737232699266
+        ],
+        [
+            244.69822901763874,
+            19.068712918625614
+        ],
+        [
+            244.79314600638355,
+            19.181388165519476
+        ],
+        [
+            244.71625587464177,
+            19.21376915664619
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
+}

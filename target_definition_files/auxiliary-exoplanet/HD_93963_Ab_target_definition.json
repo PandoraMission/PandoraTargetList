@@ -1,0 +1,80 @@
+{
+    "Time Created": "2025-12-22 22:41:18",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-29 22:04:09",
+    "Star Name": "HD_93963_A",
+    "Primary Target": 0,
+    "RA": 162.77668261827387,
+    "DEC": 25.64106185606295,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -92.83332777267036,
+    "pm_DEC": -22.91109358993501,
+    "Jmag": 8.108,
+    "Gmag": 9.040344548236707,
+    "Bmag": 9.33884761882913,
+    "Teff (K)": 5846.199,
+    "logg": 4.3429,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "HD_93963_Ab",
+    "Planet Letter": "b",
+    "Period (days)": 1.0376109,
+    "Period Uncertainty (days)": 8.5e-06,
+    "Transit Duration (hrs)": 1.8155952,
+    "Transit Epoch (BJD_TDB)": 2459635.926,
+    "Transit Epoch Uncertainty (days)": 0.003,
+    "Obs Window (hrs)": 6.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 3.6451389,
+            "Period Uncertainty (days)": 4.4e-06,
+            "Transit Duration (hrs)": 2.3643117,
+            "Transit Epoch (BJD_TDB)": 2458902.874,
+            "Transit Epoch Uncertainty (days)": 0.00068
+        }
+    ],
+    "Program": "Volcanic-Atmospheres",
+    "ROI_coord": [
+        [
+            162.77638240508082,
+            25.640995060048937
+        ],
+        [
+            162.77706226504597,
+            25.56464147209936
+        ],
+        [
+            162.80947913371,
+            25.56201048067354
+        ],
+        [
+            162.85321913614212,
+            25.705100592448485
+        ],
+        [
+            162.87284571761253,
+            25.551244522645792
+        ],
+        [
+            162.74178778182693,
+            25.766660285155368
+        ],
+        [
+            162.70744009323803,
+            25.615825556290254
+        ],
+        [
+            162.7902045369422,
+            25.73802550245421
+        ],
+        [
+            162.7604545806112,
+            25.704983906508247
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
+}
