@@ -1,0 +1,111 @@
+{
+    "Time Created": "2026-08-13 18:45:49",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-08-13 18:45:49",
+    "Star Name": "HD_110067",
+    "Primary Target": 0,
+    "RA": 189.83921219677796,
+    "DEC": 20.027323185522697,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -81.70285411187632,
+    "pm_DEC": -104.53236113725542,
+    "Jmag": 6.952,
+    "Gmag": 8.184687857398153,
+    "Bmag": 8.584831095407178,
+    "Teff (K)": 5203.3135,
+    "logg": 4.5274,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_4",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "HD_110067b",
+    "Planet Letter": "b",
+    "Period (days)": 9.113678,
+    "Period Uncertainty (days)": 1e-05,
+    "Transit Duration (hrs)": 3.0948,
+    "Transit Epoch (BJD_TDB)": 2459640.15797,
+    "Transit Epoch Uncertainty (days)": 0.00036,
+    "Obs Window (hrs)": 24.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 13.673694,
+            "Period Uncertainty (days)": 2.4e-05,
+            "Transit Duration (hrs)": 3.7044,
+            "Transit Epoch (BJD_TDB)": 2459657.45704,
+            "Transit Epoch Uncertainty (days)": 0.0007
+        },
+        {
+            "Planet Letter": "d",
+            "Period (days)": 20.519617,
+            "Period Uncertainty (days)": 4e-05,
+            "Transit Duration (hrs)": 3.8177,
+            "Transit Epoch (BJD_TDB)": 2459708.20282,
+            "Transit Epoch Uncertainty (days)": 0.0008
+        },
+        {
+            "Planet Letter": "e",
+            "Period (days)": 30.793091,
+            "Period Uncertainty (days)": 1.2e-05,
+            "Transit Duration (hrs)": 4.8636,
+            "Transit Epoch (BJD_TDB)": 2459646.0919,
+            "Transit Epoch Uncertainty (days)": 0.0011
+        },
+        {
+            "Planet Letter": "f",
+            "Period (days)": 41.05854,
+            "Period Uncertainty (days)": 0.0001,
+            "Transit Duration (hrs)": 5.165,
+            "Transit Epoch (BJD_TDB)": 2459641.5763,
+            "Transit Epoch Uncertainty (days)": 0.001
+        },
+        {
+            "Planet Letter": "g",
+            "Period (days)": 54.76992,
+            "Period Uncertainty (days)": 0.0002,
+            "Transit Duration (hrs)": 5.666,
+            "Transit Epoch (BJD_TDB)": 2459656.0921,
+            "Transit Epoch Uncertainty (days)": 0.002
+        }
+    ],
+    "ROI_coord": [
+        [
+            189.83895866712817,
+            20.02701842846782
+        ],
+        [
+            189.9038004850197,
+            19.928947946274523
+        ],
+        [
+            189.82736399671572,
+            20.04565153290038
+        ],
+        [
+            189.84458976103357,
+            19.913634278712003
+        ],
+        [
+            189.8713806043265,
+            20.038078498050204
+        ],
+        [
+            189.88608157794675,
+            20.06610633319821
+        ],
+        [
+            189.796940005454,
+            20.03988601480862
+        ],
+        [
+            189.82231777866787,
+            20.149783295453002
+        ],
+        [
+            189.76948717483975,
+            20.051916040027386
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
+}
