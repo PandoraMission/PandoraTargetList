@@ -1,0 +1,70 @@
+{
+    "Time Created": "2025-12-30 02:35:34",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-30 02:38:11",
+    "Star Name": "LTT_3780",
+    "Primary Target": 0,
+    "RA": 154.64485490553795,
+    "DEC": -11.717835368459564,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -341.5372660862644,
+    "pm_DEC": -247.74725247160802,
+    "Jmag": 9.007,
+    "Gmag": 11.837257,
+    "Bmag": 13.324241,
+    "Teff (K)": 3358,
+    "logg": 4.85,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "LTT_3780b",
+    "Planet Letter": "b",
+    "Period (days)": 0.7683903811,
+    "Period Uncertainty (days)": 9.6e-06,
+    "Transit Duration (hrs)": 0.8,
+    "Transit Epoch (BJD_TDB)": 2459988.468,
+    "Transit Epoch Uncertainty (days)": 0.00104875,
+    "Obs Window (hrs)": 6.0,
+    "Program": "Volcanic-Atmospheres",
+    "ROI_coord": [
+        [
+            154.64383798159818,
+            -11.718557656641622
+        ],
+        [
+            154.76373400405515,
+            -11.722792959916964
+        ],
+        [
+            154.61199384258808,
+            -11.675997044264484
+        ],
+        [
+            154.62499101269523,
+            -11.710131414089581
+        ],
+        [
+            154.6557302428728,
+            -11.774117678125231
+        ],
+        [
+            154.65954827128192,
+            -11.72311644166496
+        ],
+        [
+            154.70896519936002,
+            -11.73889398009867
+        ],
+        [
+            154.61706237000666,
+            -11.762054302883389
+        ],
+        [
+            154.6032077871052,
+            -11.70446654952826
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
+}
