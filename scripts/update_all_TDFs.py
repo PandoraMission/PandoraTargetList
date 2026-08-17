@@ -19,6 +19,7 @@ verbose = True
 
 tdf_path = Path(TARGDEFDIR)
 
+# Looping through each subdirectory to regenerate TDFs contained within
 for subdir_name in subdirs:
     subdir = tdf_path / subdir_name
     if not subdir.is_dir():
@@ -26,10 +27,13 @@ for subdir_name in subdirs:
             print(f"Skipping non-directory: {subdir}")
         continue
 
+    # Cycling through all directories except the general exoplanet one
     if subdir.name != "exoplanet":
         for file in subdir.glob("*_target_definition.json"):
             target_name = file.name.replace("_target_definition.json", "")
             print(f"Running target {target_name}")
+
+            # Regenerate TDF
             Target.from_name(
                 target_name, subdir.name, author="Ben Hord"
             ).make_file()
