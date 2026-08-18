@@ -10,13 +10,13 @@
 # Column 5: Number of Transits Observed
 # Column 6: Number of Transits Remaining
 rank,target,priority,transits_req,transits_obs,transits_rem
-0,WASP-69b,0.9,10.0,0.0,10.0
+0,HD_260655c,0.9,10.0,0.0,10.0
 1,GJ_3470b,0.833333,10,0,10
 2,GJ_436b,0.766667,10,0,10
-3,HAT-P-11b,0.7,10,0,10
+3,TOI-544b,0.7,10,0,10
 4,HD_189733b,0.633333,10,0,10
 5,TOI-1807b,0.566667,10,0,10
 6,TOI-181b,0.5,10,0,10
 7,V1298_Tauc,0.433333,10,0,10
 8,WASP-52b,0.366667,10,0,10
-9,WASP-80b,0.3,10,0,10
+9,WASP-29b,0.3,10,0,10
