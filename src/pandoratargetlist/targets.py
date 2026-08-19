@@ -324,7 +324,7 @@ class Target(object):
                 if "primary" in self.category or "secondary" in self.category:
                     out_dict["Obs Window (hrs)"] = 24.0
                 else:
-                    out_dict["Obs Window (hrs)"] = 6.0
+                    out_dict["Obs Window (hrs)"] = 12.0
             else:
                 out_dict["Obs Window (hrs)"] = obs_window
 
