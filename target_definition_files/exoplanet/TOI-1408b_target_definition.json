@@ -26,7 +26,7 @@
     "Transit Duration (hrs)": 1.65,
     "Transit Epoch (BJD_TDB)": 2458740.8581,
     "Transit Epoch Uncertainty (days)": 0.0002,
-    "Obs Window (hrs)": 5.0,
+    "Obs Window (hrs)": 12.0,
     "Additional Planets": [
         {
             "Planet Letter": "c",

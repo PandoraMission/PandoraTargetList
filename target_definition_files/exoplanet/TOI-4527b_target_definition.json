@@ -26,7 +26,7 @@
     "Transit Duration (hrs)": 0.8028796,
     "Transit Epoch (BJD_TDB)": 2459474.200243,
     "Transit Epoch Uncertainty (days)": 0.00135648,
-    "Obs Window (hrs)": 6.0,
+    "Obs Window (hrs)": 12.0,
     "Program": "Volcanic-Atmospheres",
     "ROI_coord": [
         [
