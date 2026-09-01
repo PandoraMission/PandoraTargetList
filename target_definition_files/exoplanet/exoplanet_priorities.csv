@@ -1,7 +1,7 @@
 # Prioritization file for exoplanet
 # Version: 1.0.0
 # Updated by: Joe P. Renaud
-# Updated on: 2026-08-28 14:39:08
+# Updated on: 2026-09-01 13:14:08
 #
 # Column 1: Rank
 # Column 2: Target Name
@@ -80,3 +80,4 @@ rank,target,priority,transits_req,transits_obs,transits_rem
 67,KELT-11b,0.317391,1.0,0.0,1.0
 68,TOI-700b,0.308696,4.0,0.0,4.0
 69,TOI-700d,0.3,5.0,0.0,5.0
+70,V1298_Taub,0.2888,4.0,0.0,4.0

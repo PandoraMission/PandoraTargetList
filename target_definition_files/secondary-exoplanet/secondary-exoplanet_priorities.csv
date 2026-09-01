@@ -37,4 +37,5 @@ rank,target,priority,transits_req,transits_obs,transits_rem
 24,WASP-84b,0.366667,10.0,0.0,10.0
 25,HAT-P-11b,0.344444,10,0,10
 26,WASP-29b,0.322222,10,0,10
-27,WASP-80b,0.3,10,0,10
+27,V1298_Taub,0.31111,10.0,0.0,10.0
+28,WASP-80b,0.3,10,0,10
