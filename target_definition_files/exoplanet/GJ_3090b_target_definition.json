@@ -1,0 +1,79 @@
+{
+    "Time Created": "2026-09-04 16:39:36",
+    "Version": "1.0.0",
+    "Author": "Joe P. Renaud",
+    "Time Updated": "2026-09-04 16:44:17",
+    "Star Name": "GJ_3090",
+    "Primary Target": 0,
+    "RA": 20.43840559561582,
+    "DEC": -46.71473451693094,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -111.08929387948496,
+    "pm_DEC": -79.95397168145396,
+    "Jmag": 8.168000221252441,
+    "Gmag": 10.556652069091797,
+    "Bmag": 11.669820785522461,
+    "Teff (K)": 3867.75,
+    "logg": 3.0,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "GJ_3090b",
+    "Planet Letter": "b",
+    "Period (days)": 2.85310198,
+    "Period Uncertainty (days)": 8.2e-07,
+    "Transit Duration (hrs)": 1.281,
+    "Transit Epoch (BJD_TDB)": 2458356.15322,
+    "Transit Epoch Uncertainty (days)": 0.00023,
+    "Obs Window (hrs)": 24.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 15.9407,
+            "Period Uncertainty (days)": 0.0058,
+            "Transit Duration (hrs)": 3.7751,
+            "Transit Epoch (BJD_TDB)": 2458350.83,
+            "Transit Epoch Uncertainty (days)": 0.61
+        }
+    ],
+    "ROI_coord": [
+        [
+            20.437933221324556,
+            -46.714967616224214
+        ],
+        [
+            20.311563911194657,
+            -46.727026063794135
+        ],
+        [
+            20.353472840001395,
+            -46.73435332756031
+        ],
+        [
+            20.462006202587627,
+            -46.79489994921026
+        ],
+        [
+            20.50590739858234,
+            -46.728657507810325
+        ],
+        [
+            20.36090711738951,
+            -46.81612081594252
+        ],
+        [
+            20.304655638053465,
+            -46.79864448006783
+        ],
+        [
+            20.281978781287798,
+            -46.71031175794463
+        ],
+        [
+            20.578849746492796,
+            -46.79888377271414
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
+}
