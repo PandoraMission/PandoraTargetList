@@ -1,0 +1,95 @@
+{
+    "Time Created": "2026-09-01 09:11:30",
+    "Version": "1.0.0",
+    "Author": "Joe P. Renaud",
+    "Time Updated": "2026-09-01 09:11:30",
+    "Star Name": "V1298_Tau",
+    "Primary Target": 0,
+    "RA": 61.33165479111945,
+    "DEC": 20.15702955770152,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": 5.412668487909097,
+    "pm_DEC": -16.051627685647595,
+    "Jmag": 8.687,
+    "Gmag": 10.080555805676726,
+    "Bmag": 10.556252207921482,
+    "Teff (K)": 4940.6465,
+    "logg": 4.2265,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "V1298_Taub",
+    "Planet Letter": "b",
+    "Period (days)": 24.140006,
+    "Period Uncertainty (days)": 1.7e-05,
+    "Transit Duration (hrs)": 6.45,
+    "Transit Epoch (BJD_TDB)": 2458298.209601,
+    "Transit Epoch Uncertainty (days)": 0.000585,
+    "Obs Window (hrs)": 24.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 8.249164,
+            "Period Uncertainty (days)": 3e-06,
+            "Transit Duration (hrs)": 4.89,
+            "Transit Epoch (BJD_TDB)": 2458293.341238,
+            "Transit Epoch Uncertainty (days)": 0.00097
+        },
+        {
+            "Planet Letter": "d",
+            "Period (days)": 12.401394,
+            "Period Uncertainty (days)": 9e-06,
+            "Transit Duration (hrs)": 5.57,
+            "Transit Epoch (BJD_TDB)": 2458287.802142,
+            "Transit Epoch Uncertainty (days)": 0.000778
+        },
+        {
+            "Planet Letter": "e",
+            "Period (days)": 48.677714,
+            "Period Uncertainty (days)": 5.3e-05,
+            "Transit Duration (hrs)": 7.56,
+            "Transit Epoch (BJD_TDB)": 2458313.547375,
+            "Transit Epoch Uncertainty (days)": 0.001
+        }
+    ],
+    "ROI_coord_epoch": "J2026.5",
+    "ROI_coord": [
+        [
+            61.33167160094827,
+            20.156982760290663
+        ],
+        [
+            61.30983977754814,
+            20.1391967671514
+        ],
+        [
+            61.35790744736541,
+            20.249083246064057
+        ],
+        [
+            61.29397672437929,
+            20.048917681941738
+        ],
+        [
+            61.41055757148091,
+            20.242697394105154
+        ],
+        [
+            61.360233675502634,
+            20.081718868390386
+        ],
+        [
+            61.393934007035696,
+            20.22932282798742
+        ],
+        [
+            61.327668810810664,
+            20.18850485091436
+        ],
+        [
+            61.30409865354779,
+            20.0664043821697
+        ]
+    ]
+}

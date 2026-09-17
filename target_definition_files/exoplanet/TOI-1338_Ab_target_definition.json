@@ -1,0 +1,79 @@
+{
+    "Time Created": "2026-09-04 16:39:36",
+    "Version": "1.0.0",
+    "Author": "Joe P. Renaud",
+    "Time Updated": "2026-09-04 16:44:17",
+    "Star Name": "TOI-1338_A",
+    "Primary Target": 0,
+    "RA": 92.1330922890729,
+    "DEC": -59.54098041546531,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -12.05726089305404,
+    "pm_DEC": 34.512940921207985,
+    "Jmag": 10.949999809265137,
+    "Gmag": 11.872518539428711,
+    "Bmag": 12.155344009399414,
+    "Teff (K)": 5930.587890625,
+    "logg": 4.231800079345703,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "TOI-1338_Ab",
+    "Planet Letter": "b",
+    "Period (days)": 95.4001,
+    "Period Uncertainty (days)": 0.0062,
+    "Transit Duration (hrs)": 11.6316864,
+    "Transit Epoch (BJD_TDB)": 2459238.21949,
+    "Transit Epoch Uncertainty (days)": 0.0051024,
+    "Obs Window (hrs)": 24.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 215.79,
+            "Period Uncertainty (days)": 0.46,
+            "Transit Duration (hrs)": 8.9971,
+            "Transit Epoch (BJD_TDB)": 2459208.7,
+            "Transit Epoch Uncertainty (days)": 29.1
+        }
+    ],
+    "ROI_coord": [
+        [
+            92.13302294505644,
+            -59.54087979535641
+        ],
+        [
+            92.20023574313664,
+            -59.46542141248897
+        ],
+        [
+            92.05754928115066,
+            -59.585872139430336
+        ],
+        [
+            92.13954122675727,
+            -59.42763868076455
+        ],
+        [
+            92.00342557859467,
+            -59.55655827692872
+        ],
+        [
+            91.97140485350258,
+            -59.44637958545483
+        ],
+        [
+            92.18264631665659,
+            -59.555058753917294
+        ],
+        [
+            92.23900900691784,
+            -59.48994851576787
+        ],
+        [
+            91.88241028281537,
+            -59.55073319666437
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
+}
