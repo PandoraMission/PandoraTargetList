@@ -5,6 +5,7 @@ description = "Maintaining information about Pandora targets"
 authors = ["benhord <drbenhord@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+packages = [{ include = "pandoratargetlist", from = "src" }]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.13"
@@ -13,7 +14,7 @@ pandorasat = ">=0.5.23"
 pandorapsf = ">=0.6.1"
 exoscraper = ">=0.2.1"
 pandoraref = { git = "https://github.com/PandoraMission/pandora-ref.git", rev = "main" }
-astropy = ">=5.0,<7.0"
+astropy = ">=7.0,<8.0"
 
 [tool.poetry.group.dev]
 optional = true
