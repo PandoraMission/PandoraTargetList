@@ -1,0 +1,104 @@
+{
+    "Time Created": "2024-10-18 18:17:08",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2025-12-29 22:04:00",
+    "Star Name": "TOI-2104",
+    "Primary Target": 0,
+    "RA": 151.612215,
+    "DEC": 83.08784,
+    "Coordinate Epoch": "J2015.5",
+    "pm_RA": -88.9167,
+    "pm_DEC": -132.175,
+    "Jmag": 9.252,
+    "Gmag": 10.6423,
+    "Bmag": 11.612,
+    "Teff (K)": 4856.127,
+    "logg": 4.5718,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "TOI-2104d",
+    "Planet Letter": "d",
+    "Period (days)": 3.2723118,
+    "Period Uncertainty (days)": 9.4e-06,
+    "Transit Duration (hrs)": 1.815,
+    "Transit Epoch (BJD_TDB)": 2460336.160755,
+    "Transit Epoch Uncertainty (days)": 0.0031426,
+    "Obs Window (hrs)": 12.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "b",
+            "Period (days)": 5.90437045700144,
+            "Period Uncertainty (days)": 3.4e-05,
+            "Transit Duration (hrs)": 2.627,
+            "Transit Epoch (BJD_TDB)": 2459408.79039182,
+            "Transit Epoch Uncertainty (days)": 0.0018
+        },
+        {
+            "Planet Letter": "c",
+            "Period (days)": 1.9803146,
+            "Period Uncertainty (days)": 7.3e-06,
+            "Transit Duration (hrs)": 1.66,
+            "Transit Epoch (BJD_TDB)": 2460336.943627,
+            "Transit Epoch Uncertainty (days)": 0.0040579
+        },
+        {
+            "Planet Letter": "e",
+            "Period (days)": 9.56110995932098,
+            "Period Uncertainty (days)": 8.353699e-05,
+            "Transit Duration (hrs)": 3.013,
+            "Transit Epoch (BJD_TDB)": 2458687.794321,
+            "Transit Epoch Uncertainty (days)": 0.00436233
+        },
+        {
+            "Planet Letter": "f",
+            "Period (days)": 15.1808746,
+            "Period Uncertainty (days)": 8.43e-05,
+            "Transit Duration (hrs)": 2.808,
+            "Transit Epoch (BJD_TDB)": 2460335.884786,
+            "Transit Epoch Uncertainty (days)": 0.00602
+        }
+    ],
+    "Program": "Gilbert-Planets",
+    "ROI_coord": [
+        [
+            151.6099584995981,
+            83.0874362899735
+        ],
+        [
+            151.7643806018665,
+            83.14510975333668
+        ],
+        [
+            151.4156480039974,
+            83.15747655436259
+        ],
+        [
+            151.13553718868084,
+            83.09275956080947
+        ],
+        [
+            152.30700286155465,
+            83.02439511645841
+        ],
+        [
+            151.28739687105423,
+            82.99156141656181
+        ],
+        [
+            152.24982049450148,
+            83.11205032910918
+        ],
+        [
+            150.76476923024381,
+            83.03318403121284
+        ],
+        [
+            151.56331615770088,
+            83.18777614480615
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
+}

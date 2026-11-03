@@ -1,0 +1,69 @@
+{
+    "Time Created": "2026-07-14 21:24:24",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-07-14 21:24:24",
+    "Star Name": "WASP-20",
+    "Primary Target": 0,
+    "RA": 5.160562,
+    "DEC": -23.935789,
+    "Coordinate Epoch": "J2015.5",
+    "pm_RA": -1.4,
+    "pm_DEC": -18.3,
+    "Jmag": 9.701,
+    "Gmag": 10.6503,
+    "Bmag": 10.6503,
+    "Teff (K)": 5940,
+    "logg": 4.36,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_3",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "WASP-20b",
+    "Planet Letter": "b",
+    "Period (days)": 4.89964485,
+    "Period Uncertainty (days)": 5.5e-07,
+    "Transit Duration (hrs)": 3.4032,
+    "Transit Epoch (BJD_TDB)": 2458356.56496,
+    "Transit Epoch Uncertainty (days)": 0.00015,
+    "Obs Window (hrs)": 12.0,
+    "ROI_coord": [
+        [
+            5.160557321612545,
+            -23.93584489405078
+        ],
+        [
+            5.187084882211994,
+            -23.934120477756906
+        ],
+        [
+            5.089114655513198,
+            -23.938674663486598
+        ],
+        [
+            5.281461406493693,
+            -23.995436131670576
+        ],
+        [
+            5.192370888151757,
+            -23.996790663872574
+        ],
+        [
+            5.027441285445318,
+            -23.940440999219216
+        ],
+        [
+            5.254471636699109,
+            -23.889451249538865
+        ],
+        [
+            5.080444938243726,
+            -23.954906046726915
+        ],
+        [
+            5.184180331889384,
+            -23.825854980673846
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
+}
