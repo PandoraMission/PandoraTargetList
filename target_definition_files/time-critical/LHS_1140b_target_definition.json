@@ -1,0 +1,79 @@
+{
+    "Time Created": "2026-07-10 21:35:18",
+    "Version": "1.0.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-07-10 21:35:18",
+    "Star Name": "LHS_1140",
+    "Primary Target": 0,
+    "RA": 11.248632,
+    "DEC": -15.274109,
+    "Coordinate Epoch": "J2015.5",
+    "pm_RA": 317.585,
+    "pm_DEC": -596.617,
+    "Jmag": 9.612001,
+    "Gmag": 12.6706,
+    "Bmag": 12.6706,
+    "Teff (K)": 3096,
+    "logg": 5.041,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "LHS_1140b",
+    "Planet Letter": "b",
+    "Period (days)": 24.73723,
+    "Period Uncertainty (days)": 2e-05,
+    "Transit Duration (hrs)": 2.15,
+    "Transit Epoch (BJD_TDB)": 2458399.93,
+    "Transit Epoch Uncertainty (days)": 0.0003,
+    "Obs Window (hrs)": 12.0,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 3.77794,
+            "Period Uncertainty (days)": 2e-06,
+            "Transit Duration (hrs)": 1.13,
+            "Transit Epoch (BJD_TDB)": 2458389.2939,
+            "Transit Epoch Uncertainty (days)": 0.0002
+        }
+    ],
+    "ROI_coord": [
+        [
+            11.249637533619895,
+            -15.275931257126093
+        ],
+        [
+            11.178265577397756,
+            -15.386606173915016
+        ],
+        [
+            11.26265852856647,
+            -15.312630342171586
+        ],
+        [
+            11.26781875937317,
+            -15.205613833532833
+        ],
+        [
+            11.243349511205194,
+            -15.382775847297665
+        ],
+        [
+            11.152281330548588,
+            -15.196442822317898
+        ],
+        [
+            11.303817226230226,
+            -15.216218959916178
+        ],
+        [
+            11.21852016838537,
+            -15.3716719734297
+        ],
+        [
+            11.364604509947318,
+            -15.209478786493076
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
+}
