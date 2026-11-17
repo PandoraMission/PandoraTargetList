@@ -1,7 +1,7 @@
 # Prioritization file for exoplanet
 # Version: 1.1.0
-# Updated by: Ben Hord
-# Updated on: 2026-09-17 16:03:30
+# Updated by: Joe Renaud
+# Updated on: 2026-11-17 18:25:07
 #
 # Column 1: Rank
 # Column 2: Target Name
@@ -85,4 +85,6 @@ rank,target,priority,transits_req,transits_obs,transits_rem
 72,TOI-2104c,0.308821,1.0,0.0,1.0
 73,TOI-2104d,0.308820,1.0,0.0,1.0
 74,TOI-2104e,0.308819,1.0,0.0,1.0
-75,TOI-2104f,0.3,1.0,0.0,1.0
+75,TOI-2104f,0.308818,1.0,0.0,1.0
+76,TOI-1670c,0.308817,4.0,0.0,4.0
+77,WASP-76b,0.3,4.0,0.0,4.0
