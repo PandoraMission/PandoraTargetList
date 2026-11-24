@@ -4,6 +4,7 @@ scripts/roi_plots/
 scripts/pandora_targets_cache_index.json
 scripts/pandora_targets_cache.csv
 scripts/roi_stars_info.csv
+target_definition_files/new_targs/
 
 # Mac things
 .DS_Store
