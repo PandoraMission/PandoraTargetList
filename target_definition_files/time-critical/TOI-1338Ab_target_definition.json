@@ -1,0 +1,79 @@
+{
+    "Time Created": "2026-11-24 21:24:22",
+    "Version": "1.1.0",
+    "Author": "Ben Hord",
+    "Time Updated": "2026-11-24 21:24:22",
+    "Star Name": "TOI-1338A",
+    "Primary Target": 0,
+    "RA": 92.1330922891,
+    "DEC": -59.5409804155,
+    "Coordinate Epoch": "J2016.0",
+    "pm_RA": -12.0573,
+    "pm_DEC": 34.5129,
+    "Jmag": 10.95,
+    "Gmag": 11.8725,
+    "Bmag": 12.1553,
+    "Teff (K)": 5931,
+    "logg": 4.232,
+    "VDA Setting": "coadd_50",
+    "NIRDA Setting": "samp_4_6",
+    "StarRoiDetMethod": 1,
+    "numPredefinedStarRois": 9,
+    "Planet Name": "TOI-1338Ab",
+    "Planet Letter": "b",
+    "Period (days)": 95.174,
+    "Period Uncertainty (days)": 0.035,
+    "Transit Duration (hrs)": 11.631,
+    "Transit Epoch (BJD_TDB)": 2459238.21949,
+    "Transit Epoch Uncertainty (days)": 0.0051024,
+    "Obs Window (hrs)": 24,
+    "Additional Planets": [
+        {
+            "Planet Letter": "c",
+            "Period (days)": 215.5,
+            "Period Uncertainty (days)": 3.3,
+            "Transit Duration (hrs)": NaN,
+            "Transit Epoch (BJD_TDB)": 2459208.7,
+            "Transit Epoch Uncertainty (days)": 29.1
+        }
+    ],
+    "ROI_coord": [
+        [
+            92.13302294485862,
+            -59.5408797955104
+        ],
+        [
+            92.20023574313664,
+            -59.46542141248897
+        ],
+        [
+            92.05754928115066,
+            -59.585872139430336
+        ],
+        [
+            92.13954122675727,
+            -59.42763868076454
+        ],
+        [
+            92.00342557859467,
+            -59.55655827692872
+        ],
+        [
+            91.97140485350255,
+            -59.44637958545483
+        ],
+        [
+            92.18264631665659,
+            -59.555058753917294
+        ],
+        [
+            92.23900900691784,
+            -59.48994851576787
+        ],
+        [
+            91.88241028281537,
+            -59.55073319666437
+        ]
+    ],
+    "ROI_coord_epoch": "J2026.5"
+}

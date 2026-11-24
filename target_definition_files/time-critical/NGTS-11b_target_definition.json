@@ -26,7 +26,7 @@
     "Transit Duration (hrs)": 3.59,
     "Transit Epoch (BJD_TDB)": 2458390.7043,
     "Transit Epoch Uncertainty (days)": 0.0016,
-    "Obs Window (hrs)": 18.0,
+    "Obs Window (hrs)": 12.0,
     "ROI_coord": [
         [
             23.521484705441132,
